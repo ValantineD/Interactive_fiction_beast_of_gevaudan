@@ -1,0 +1,1931 @@
+:: StoryTitle
+Beast Of Gévaudan
+
+
+:: StoryData
+{
+  "ifid": "9C9EE357-2083-494A-B8C6-45905DDAB74D",
+  "format": "SugarCube",
+  "format-version": "2.37.3",
+  "start": "Welcome",
+  "tag-colors": {
+    "Intro": "yellow",
+    "menu": "purple",
+    "blacksmith": "red",
+    "Doctor": "blue"
+  },
+  "zoom": 1
+}
+
+
+:: CHAPTER1 {"position":"675,450","size":"100,100"}
+<span class="typed-text"><<type 120ms>>!CHAPTER 1<</type>></span>
+
+
+[[Next|wood1]]
+
+<<if $stress is undefined>>
+  <<set $stress = 0>>
+<</if>>
+
+
+:: Character Stats [menu] {"position":"25,150","size":"100,100"}
+!WHO ARE YOU?
+
+Your name is $mc , your nickname is $nickname, You go by ?they and ?them, You come from $origin
+
+Your skin is $skin with a $undertone understone and you are $height , Your hair is $lenght, $texture and $fur , you have $chest , your eyes are $eyes and you wear $clothes clothes.
+
+You work as a $job
+
+Your dominant personality is: $dominantPersonality 
+<<if $quiet > $funny and $quiet > $angry and $quiet > $kind>>    <<set $dominantPersonality to "quiet">><<elseif $funny > $quiet and $funny > $angry and $funny > $kind>>    <<set $dominantPersonality to "funny">><<elseif $angry > $quiet and $angry > $funny and $angry > $kind>>    <<set $dominantPersonality  to "angry">><<elseif $kind > $quiet and $kind > $funny and $kind > $angry>>    <<set $dominantPersonality to "kind" >> <<else>> <<set $dominantPersonality to "No clear dominant trait yet.">> <</if>>
+
+you are $money with your money.
+
+<<if $stress == 0>> Your stress level is extremely high.
+<<elseif $stress >= 3>>Your stress level is high.
+<<else>>Your stress level is manageable.<</if>>
+
+You are 
+quiet $quiet 
+angry $angry 
+kind $kind 
+funny $funny
+
+You wish you could be honest with who you are and what you feel. you can help but wish you could show your true form to your friend.
+You know that if you were honest, you would be hated, vilified, and hunted down, better to lie, even if it is lonely sometimes
+
+<<link 'Change your pronouns.'>>
+    <<pronouns>>
+<</link>>
+(If you do change your pronouns mid story, you need to quit the character stat menu and re-enter it for it to update)
+
+<<link "Return to Story">>
+	<<goto $return>>
+<</link>>
+
+
+:: Codex [menu] {"position":"25,275","size":"100,100"}
+[LOCKED]
+
+<<link "Return to Story">>
+	<<goto $return>>
+<</link>>
+
+
+:: EndPrologue [Intro] {"position":"675,325","size":"100,100"}
+	After that the king doesn't want to touch the wolf, with a curt movement of his head, one of his servants, the one who accompanied him to see the beast Mx. Antoine slayed, moved around to stay in front of the beast's face and lifted one of its lips to show a range of large and sharp teeth.
+
+	The king nods to himself mostly, he will not admit it but he is impressed by it.
+He can't help but wonder if the Monster that slayed a 100 was more impressive before it met its own doom. 
+	Nevertheless, his examination is done now, and with barely a glance at the beast again, the king turns around and leaves.
+At least the journalistic uprising about the Beast of Gevaudan will be behind them all.
+	Finally, put it to rest.
+
+[[CHAPTER1]] 
+
+
+:: FurNext [Intro] {"position":"550,325","size":"100,100"}
+<<if $fur == "ginger" || $fur == "blonde">>
+The skin looks torn, burnt and scarred in many places, as if someone stabbed the beast multiple times and tried to sew the skin back together, the fur missing in many places. The "wolf" doesnt really look intimidating anymore, it's dirty, muddy and bloody.
+<<else>>
+	The $fur fur is dirty, bloodied and lost its shiny effect making the wolf almost look like a scrawny street dog. He pokes the beast and almost recoils as the beast emits an horrible decomposition smell.
+<</if>>
+[[Next|EndPrologue]] 
+
+
+:: JobFinal {"position":"4775,450","size":"100,100"}
+<<set $money = "">>
+“How much do we owe you?”
+
+You know the Boulet are far from rich. And while they need the money, so do you.
+
+[[Nothing, they gave you lamb a month ago and that was free, so at this point you'd feel bad for taking their money.|JobFinalGen]]
+[[Well, you do need to buy some new clothes, so...|JobFinalRat]]
+<<if $job == "doctor">>[[While they are not wealthy, you do know they can pay you at least for the Poulstice.|JobFinalModerate]] <</if>><<if $job == "blacksmith">>
+[[While they are not wealthy, you do know they can pay you at least for the new lock.|JobFinalModerate]]
+<</if>>
+
+
+:: JobFinalGen {"position":"4900,325","size":"100,100"}
+“Nothing, really”
+
+“What ? No $mc we can't accept this. At least if you do not want some coin would you take some food at the very least”
+
+Well, you can't really say no to delicious food now can you?
+
+[[Next.|Tavern1]]
+
+<<set $money to "generous">>
+
+
+:: JobFinalModerate {"position":"4900,575","size":"100,100"}
+ A couple of coin should suffice”
+
+“Are you sure? I could give you more”
+
+“No, no, it's fine”
+
+[[Next.|Tavern1]]
+
+<< set $money to "moderate">>
+
+
+:: JobFinalRat {"position":"4900,450","size":"100,100"}
+ “A small pouch shoud be fine”
+
+“Of course, thank you dear”
+
+Well with that much money, you should say goodbye to those awful morning clothes for good.
+
+[[Next.|Tavern1]]
+
+<< set $money to "rat">>
+
+
+:: List of variables {"position":"400,100","size":"100,100"}
+ $mc
+ $nickname
+ 
+ <<if $hasNickname and $nickname != "">>
+    $nickname
+<<else>>
+    $characterName
+<</if>>
+ 
+?they 
+?them
+?their
+?herself
+?man
+?title
+<<verb "is" "are">>
+<<verb "has" "have">>
+<<verb "goes" "go">>
+
+lou_r romance
+lou_f friendship
+alexis_r
+alexis_f
+hyacinthe_r
+hyacinthe_f
+camille_r
+camille_f
+
+$origin 
+$length - hair lenght
+$texture - hair texture
+$fur - hair/fur color
+$skin - ivory, rosy, tan, brown, black, ebony
+    
+$undertone - warm, neutra, cool
+
+$height -
+ $chest - boobies or pecs
+$clothes masc or fem clothes
+$eyes color
+
+$stress level, 0 super stressed 10 chilling
+
+$job blacksmith or doctor
+
+personality: $quiet $angry $funny $kind  $dominantPersonality 
+
+$drink of choice: vinasse or tea
+
+how are you with $money: "altruist" "rat" "normal"
+
+$honest you want to tell the truth about yourself
+$hide you dont wanna tell
+
+$gold amount of money u have
+
+$grandma
+
+$honest variable that start at 0 
+
+CHAPTER 1
+
+$bathwarm: bool did u take the warm bath or not
+$stresspath: 1 - calm 2- stressed 3- stressed but ok
+$tellher 
+
+
+
+
+
+:: Map [menu] {"position":"175,275","size":"100,100"}
+[LOCKED]
+
+<<link "Return to Story">>
+	<<goto $return>>
+<</link>>
+
+
+:: Name {"position":"2325,450","size":"100,100"}
+One Last thing, Tell me Wolkin, what is your name?
+[[Amaranthe|nickname][$mc to "Amaranthe"]]
+[[Candide|nickname][$mc to "Candide"]]
+[[Sasha|nickname][$mc to "Sasha"]]
+[[Placide|nickname][$mc to "Placide"]]
+
+Or, insert your name: <<set $mc to " ">>
+<<textbox "$mc" " ">>
+
+[[Next|nickname]]
+
+
+:: Prologue [Intro] {"position":"425,325","size":"100,100"}
+<span class="typed-text"><<type 120ms>>!PROLOGUE<</type>></span>
+<span class="typed-text"><<type 60ms>>\''September 1766, Palace of Versailles
+2 years later''<</type>></span>
+
+
+	After almost 2 years of entertainment, the king is almost mournful to hear the beast has been slayed.
+
+	He knows very well that after the end of the war, the people had been twitchy. A common enemy always helped unite people. That and scandals. There have been a few scandals of course, but nothing worth paying attention to. Or at the very least nothing quite as interesting and as mysterious as a murderous beast which made his subjects bleed for almost 2 years. Really the hunt of the Beast of Gevaudan had been the most fun he’s had in ages. It almost made him consider joining the effort, almost. 
+
+	As he stares at the stuffed Beast, he’s glad he didn't join. It's just a wolf. Sure, it is a bigger wolf than he’s ever seen. His royal servant told him the beast weighed 84 Kilograms. Still the king feels overjoyed by that kill, especially one made by his very own officer. But, that beast killed many and for about two years no one was able to put it down. Of course it was no match for his porte-arquebusier
+
+	The king scrunches his noses in disgust as he inspects the beast.
+
+//What is the color of your fur and your hair Wolfkin?//
+[[White|FurNext][$fur to "white"]]
+[[Black|FurNext][$fur to "black"]]
+[[Brown|FurNext][$fur to "brown"]]
+[[Grey|FurNext][$fur to "grey"]]
+[[Red|FurNext][$fur to "ginger"]]
+[[Yellow|FurNext][$fur to "blonde"]]
+
+
+
+
+:: Relationships [menu] {"position":"175,150","size":"100,100"}
+[LOCKED]
+
+!Louisette "Lou" Valet
+//the Inn Keeper//
+
+Friendship: $lou_f
+Romance: $lou_r
+
+!Camille Antoine, 
+//the King's Hunter//
+
+You haven't met this person yet.
+Friendship: $camille_f
+Romance: $camille_r
+
+!Alexis Chastel, 
+//the Forest Warden//
+
+You haven't met this person yet.
+Friendship: $alexis_f
+Romance: $alexis_r
+
+!Hyacinthe, 
+//the Bard//
+
+You haven't met this person yet.
+Friendship: $hyacinthe_f
+Romance: $hyacinthe_r
+
+<<link "Return to Story">>
+	<<goto $return>>
+<</link>>
+
+
+:: Shit is right. {"position":"6375,450","size":"100,100"}
+<span class="typed-text"><<type 120ms>>End of Chapter 1<</type>></span>
+thank you for playing!!!!
+hopefully chapter 2 will take less time than the first chapter
+
+
+:: StoryMenu [menu] {"position":"100,25","size":"100,100"}
+[[Character Stats]]
+[[Relationships]] 
+[[Codex]] 
+[[Map]] 
+
+
+:: Tavern1 {"position":"5025,450","size":"100,100"}
+Perhaps it is because you worked, or perhaps it is because you've had a rough night, but a huge part of you needs to see Lou. Before you even realize, your feet are heading to the Inn.
+
+The Inn, La Lune Rousse, is, quite honestly the only part of town that makes it interesting, it's in the middle of the village, the village being a road? traveling? Sur la route?? Usually
+Usually people go to have a drink once or twice a week, most people who go there are travelers who need a shelter for the night on their way to the next town.
+Lou is the owner. Her aunt and uncle used to own the place with Lou only helping, but since they moved town they left the inn to Lou, who took over the establishment splendidly.
+
+And while she rarely has time off, you often go meet her there to hang out. She always tries to make time for you.
+Besides, she does give you sweet prices, being your closest friend and all.
+
+When you enter, there's a few regulars there, you recognise the younglings Damien, Josephine and Louis who are as usual, drinking in the corner. There's old Charles, who after taking care of the fields, goes for one drink before heading home to his husband.
+
+However your looks go straight to Lou, she's not prepping any meal, it's too early for any of that yet, but she is making drinks and serving folks.
+She looks incredibly put together for someone who works at the inn, her curly ginger hair is tied into a loose bun, She smiles when she sees you, almost dazzling as always. She's always been one of those people that have the brightest smile. The smile falls on her face when she sees the state you're in. She's always been quite observant.
+
+You head straight to “your” table. It doesn't really belong to you, but it's in the corner with your back against the wall, it allows you to spot everyone who comes in. Besides, it's a bit secluded so you quite enjoy that.
+
+After serving Charles, she heads straight to your table and sit down in front of you.
+
+“What's wrong?”
+
+[[Grunt non-comically|tavern2quiet][$quiet += 1]]
+[[For some reason this question makes you angry.|tavern2angry][$angry += 1]]
+[[Be Honest.|tavern2kind][$kind += 1]]
+[[Banter back.|tavern2funny][$funny += 1]]
+
+
+:: Welcome {"position":"425,450","size":"100,100"}
+!Welcome to the Land of the Beast, Wolfkin.
+
+''DISCLAIMER:''
+	//While this story is based and inspired by France in the XVIII, you might notice there are some drastic changes. Indeed, Races, gender and sexuality will not be main core subjects simply because.... I don't want to write about them. So you will see that most people do not bat an eye at those topics. But doing so changes the setting immensely because sadly France is founded at the core by Imperialism, Colonialism, Misogyny, Homophobia and Transphobia.
+	I cannot fathom for the life of me writing a story where Misogyny, homophobia, racism, transphobia are not only the rules but expected at every corner. 
+While i will explore some of these themes, it will be done so in subtext and methaphor.//
+
+NOTE: This is a work in progress, i will add content warning and anything might change this is my version 1.01 which looks like shit but this will be changed <3
+
+	For about 2 years a mysterious creature - often described as wolf like- kills women, men and children alike, leaving behind remnant of corpses half eaten.
+Many people take arms in hope of killing the beast. To this day the mystery remains. Is it a wolf, hyena, a werewolf, a wizard or even just a human murderer? Between folklore, myth and crytid, the Beast of Gevaudan still eludes all.
+	Only one person knows for certain who is behind those attrocious murders.
+	//You.//
+	Why?
+	''Because you are the Beast of Gevaudan.''
+
+
+Before we start, Your character has a disability, please choose which one:
+
+	''Colorblind.'' The most common disability among werewolves. Red and Greens are difficult to distinguish, while you see predominantly in shades of Blue and Yellow.
+Is that the disability you have?
+	''Hard of Hearing.'' (under construction - sorry!)
+	''Selective Mutism'' (under construction - sorry!)
+    
+[[Prologue]] 
+
+<<if $stress is undefined>>
+  <<set $stress = 0>>
+<</if>>
+<<set $kind = 0>>
+<<set $angry = 0>>
+<<set $funny = 0>>
+<<set $quiet = 0>>
+<<set $dominantPersonality = null>>
+
+
+:: WoodCalm {"position":"925,575","size":"100,100"}
+<<set $stress +=  3>>
+
+	At this point, waking up bloodied and naked in the middle of X (forest name) is your new normal. And while the situation is weird, you know you probably just killed some rabbit or maybe a deer if you were hungry. One thing is sure, the wolf does not take unnecessary risks. You've been tracking your habits and the wolf seems content to just hunt in the forest. 
+
+[[At least for now.|wood2]]
+
+
+:: WoodPanic {"position":"925,450","size":"100,100"}
+<<set $stress =  0>>
+
+No matter how many times it happens this shit is still terrifying. Losing control, memory gaps, not knowing what you did. What you killed. It scares you. How many times can you escape (unescape? Clean not hurt) this situation without anyone noticing a stranger butt naked in X (name of the forest)?
+
+//Oh gods, you're full on panicking now aren't you?// 
+
+[[Get a hold on yourself.|wood2]]
+
+
+:: WoodRepressed {"position":"925,325","size":"100,100"}
+<<set $stress +=  1>>
+
+Okay, Calm Down. You inspire and expire slowly, trying to calm down your heart. Yes this whole situation is less than ideal but, you can do this, you close your eyes and try to focus on breathing. You feel your senses expand. you focus on your hearing. The forest of x is loud, but not uncomfortable, you hear a herd of deers running farther away, you hear a small bird making its nest. But no humans. 
+That is a good sign. 
+
+[[You feel yourself relax..|wood2]]
+
+
+:: bath2 {"position":"1675,450","size":"100,100"}
+	As you begin to scrub yourself to clean the dried mud and blood on your body, you rack your mind attempting to remember any fleeting memory from the last night. You remember feeling dull pain behind your eyes and a sharp one at the base of your skull as if the wolf was pushing to be released. 
+	You remember the utter joy and relief of running right after you transformed. After that your memory becomes more fragmented.
+And you remember …. //What do you remember?// 
+	Pain, fear and //hunger//. 
+	So much hunger.
+
+	The water turns grim, brownish red.
+
+	You hear the loud ring of a rifle shot. The echo of whimpers. Sounds of impacts. Cries of pups.
+
+	//Make it Stop.//
+
+	You smelled blood and felt deep rooted pain within you. You felt hunger. You felt Anger  and more than anything you felt fear. Father is gone, Mother still doesn't move. Home isn’t home anymore, even then it felt wrong, rotten.
+
+[[ENOUGH.|bath3]] 
+
+
+
+:: bath3 {"position":"1800,450","size":"100,100"}
+	You're not sure what made them come back. Memories forgotten for more than decades. But something triggered them. The door opened, and you can't quite close it. Frustrating enough it's also when the wolf started to manifest itself.
+But the pain they bring back almost always cuts you at the core. They leave you with a ragged breath and tears stuck at the corner of your eyes.
+
+BALD ? LENGH choice
+
+<<if $stress >= 4>>
+You breathe. And calm down.
+<<elseif $stress >= 2>>
+You let yourself cry.
+<<else>>
+You laugh. and laugh. Until you cant breathe anymore. You sound broken. This whole situation is so /absurd/. 
+<</if>>
+
+When you get out, its with a towel around
+[[Your hips, showing your pecs|bath4][$chest to "pecs"]]
+[[your torso, hiding your breasts,|bath4][$chest to "breasts"]]
+[[your hips, showing scars underneath your pecs|bath4][$chest to "pecs"]]
+
+
+:: bath3.5 {"position":"1850,575","size":"100,100"}
+hair lenght ? bald?? 
+
+
+:: bath4 {"position":"1925,450","size":"100,100"}
+    You’ve been scrubbing yourself for at least a good hour, if not two. Still even physically clean you still feel dirty, as you pick on your nails, trying to get the dirt and dried blood from underneath.
+
+	You put on clothes then go look for grandma's mirror. You need to make sure you don't look like you woke up naked in the middle of the forest this morning.
+//Do you look as awful as you feel?//
+
+You look disheveled. Your <<cycle "$eyes" autoselect>>
+	<<option "grey">>
+	<<option "brown">>
+	<<option "black">>
+    <<option "green">>
+    <<option "blue">>
+    <<option "heterochromia">>
+<</cycle>> eyes are haunted, as if you've seen a ghost. And maybe you did, but you don't really remember. There's dark rings beneath your eyes. your $fur <<cycle "$texture" autoselect>>
+	<<option "curly">>
+	<<option "straight">>
+	<<option "wavy">>
+    <<option "coily">>
+<</cycle>> hair looks dishevelled. Your <<cycle "$undertone" autoselect>>
+	<<option "warm">>
+	<<option "neutral">>
+	<<option "cool">>
+<</cycle>> <<cycle "$skin" autoselect>>
+	<<option "ivory">>
+	<<option "rosy">>
+	<<option "tan">>
+    <<option "brown">>
+    <<option "black">>
+    <<option "ebony">>
+<</cycle>> skin, looks duller. But no smell of blood anymore. It just looks like you badly slept.
+
+If warm bath, you look... fine. Bit of a wild look in your eyes and anyone knowing you would immediately know something is wrong but that list is short anyway. For most people you look fine, which is exactly what you want. Can't really have people finding you cagey if you just ate their pets. 
+
+You're wearing:
+[[Short tunic and some pants|bath5][$clothes to "masculine"]]
+[[A robe|bath5][$clothes to "feminine"]]
+
+
+
+:: bath5 {"position":"2050,450","size":"100,100"}
+Even though they're from your closet, it's been quite a while since you had money to buy clothes that you really liked. Nevertheless they're way better than those in the forest so you're not gonna complain.
+Maybe one day when you're more in control you'll buy clothe you really feel comfortable with.
+    
+//Wolfkin, tell me, from where do you hail?//
+[[From around here.|origin_marseille]]
+[[From the North of Frankia|origin_breton]]
+[[From Across the Sea in the South East.|origin_middle_east]]
+[[From the Deep South, across the sea.|origin_africa]]
+[[From the Far East|origin_east_asia]]
+
+
+:: blacksmith [blacksmith] {"position":"3000,525","size":"100,100"}
+	There is not much you remember about your parents. Most of it you were just a cub and the rest you tried to erase. But you'll never quite forget the almost unbearable heat of the forge when you visited your mother's workplace. The heat was almost unbearable and so was the diverse iron smells. Still you remember feeling safe there. 
+	You remember how happy she looked when she was crafting things. So different from the last memories you have of her. Maybe that's why you picked it up. To be closer to them.
+	Your Grandma, $grandma always said it's important to be well rounded in your knowledge, so you picked up a bit of everything. Edge tool making, locksmithing, tinsmith, sheet metal work and even gunsmith.
+	You're far from being a prodigy but you're good enough for the locals and that's good enough for you. For now at least.
+You didn't expect it to become quite so popular but it seemed the place was in dire need of a blacksmith.
+
+
+Is that the job that you have ?
+
+[[Yes.|blacksmith1]]
+[[No.|job2]]
+
+
+:: blacksmith1 [blacksmith] {"position":"3125,525","size":"100,100"}
+<<set $job to "blacksmith">>
+Business has been quiet for a few days. Luckily for you, you were feeling a bit drowsy with the full moon coming up.
+You take one last look at the mirror making sure you look at least presentable, and then go reach for the door.
+
+As you open, you see;
+
+[[Next.|blacksmith2]]
+
+
+:: blacksmith11 [blacksmith] {"position":"4375,525","size":"100,100"}
+(( écrire l'intro passage black smith avec le loquet))
+
+[[Next.|blacksmith12]]
+
+
+:: blacksmith12 [blacksmith] {"position":"4500,525","size":"100,100"}
+faire comme docteur avec des variables en mode liste de choses
+
+Quick fix or expensive one
+
+[[Next.|blacksmith13]]
+
+
+:: blacksmith13 [blacksmith] {"position":"4625,525","size":"100,100"}
+conclusion locket
+
+“Thank you, $mc ”
+
+[[“Of course”|JobFinal]]
+
+
+:: blacksmith2 [blacksmith] {"position":"3250,525","size":"100,100"}
+An older man, Augustin Boulet, white skin, auburn hair with a few hints of white hair, a full beard and bushy brows. Under a stern look in his eye. He’s a shepherd of sheep, and he and his family are your closest neighbors. You often see their sheep in the field right next to your house, sometimes even in your garden. Not that you mind since they take care of the grass.
+
+As he sees you he straightens up a little. 
+[[He's not alone though.t.|blacksmith3]]
+
+
+:: blacksmith3 {"position":"3375,525","size":"100,100"}
+	You see the eldest of the Boulet twins. Élise. She's no more than 15 winters. Tall, with the thick brows of her father, crooked nose of her mother but gentle smile that is all of her own . Usually she's found helping out her mother, she made you quite a few tart in the past few years. The first few one were a bit atrocious but she, thankfully, quickly got better. You're pretty sure she's been arboring some sort of crush on you. Which to be totally honest, you cannot fathom why. Still, because of it she seems to have gotten a genuine interest in the culinary art. 
+ 	Lou is fond of her, so you suspect that soon enough she'll get a proper job at the inn.  
+She's considered by the entire village as the eldest because of how responsible she is. Although you personally rarely see that side of her because of her ridiculous crush on you.
+  
+[[Next.|blacksmith4]]
+
+
+:: blacksmith4 [blacksmith] {"position":"3500,525","size":"100,100"}
+“The lock holding the sheep broke, you mind taking a look at it?”
+
+
+He eyes you at the corner of his eyes, he looks fidgety. You can help but cock your head asking a silent question. 
+He sniffs, and wipes his palms against his pants. “Sorry, You look like you slept badly.”
+He’s always been awkward. At first you thought it was because you were a stranger in a small town but after years of knowing the man you know he just prefers the company of his sheep to humans. You can’t really blame him there.
+
+[[Next.|blacksmith5]]
+
+
+:: blacksmith5 [blacksmith] {"position":"3625,525","size":"100,100"}
+"Are you okay ?" The youngling asks
+
+You catch her looking at you, observing you. It's a little unsettling if you have to be honest. She must see how wild you look right now, but you see her turning her head back at the road. Whatever she saw, she's way too polite to comment on it. You exhale. 
+
+
+false choice; +personality
+
+He nods, seemingly not wanting to continue this conversation farther. 
+And while Augustin seems done with the conversation, you perk up again when Elise mentions.
+
+"I baked you a pie!"
+
+[[Raise eyebrow but don't say anything.|blacksmith6][$quiet += 1]]
+[["Again?"|blacksmith6][$angry += 1]]
+[[Thank her warmly.|blacksmith6][$kind += 1]]
+[[Tease her about it.|blacksmith6][$funny += 1]]
+
+
+:: blacksmith6 {"position":"3750,525","size":"100,100"}
+	You see her cheeks flush and can't help but sigh internally. You’ve been pretty clear to her before, and you wonder what it will take to make this child stop having these feelings. She will grow out of it. 
+You need to distract her or she will become clingy.
+
+[["How's your mother?"|blacksmith7]]
+
+
+
+:: blacksmith7 [blacksmith] {"position":"3875,525","size":"100,100"}
+"Oh! Well" She seems surprised by your questions. "Mother is good, (little one) got sick and she's taking care of her."
+
+
+
+[ hear Anne-Mary hums. "I'm more worried about Jeanne" 
+
+"Jeanne? Please mother, we all know she probably found some berries in the woods and is too busy eating them rather than actually working." She says, rolling her eyes.
+
+"Elise." You hear her mother say her name, ever so calmly which, to your surprise, seems to calm down the vitriol the youngling had for her sister.
+
+"Why? What happened to Jeanne?" You ask, and you can see Elise thank you silently for taking the attention off of her.
+
+"Oh, well she went on a walk with our dog yesterday morning, but neither came back."
+
+It is not unusual. Jeanne, while being a very sweet child, always had her head in the clouds. You often found her napping next to a tree, or simply taking care of the animals lost in time. She almost befriended a badger once, before it scratched her hand, which you bandaged.
+
+"Im sure she is fine, like your daughter said, she probably simply lost track of time"
+
+"Of course" you hear the mother reply, although her smile doesn't quite reach her eyes "I'm probably just worrying over nothing."]]conv with dad instead
+
+[[Next.|job8]]
+
+
+:: blacksmith9 [blacksmith] {"position":"4250,525","size":"100,100"}
+((You see Augustin Boulet. He seems to be focusing on repairing one of the gates that hold the ships. From a glance, you're not sure he's succeeding at fixing it. He seems to notice you as he looks up from what he's doing.
+
+You wave, and he nods, not one to talk.))
+
+Describe Anne Marie? 
+shes probably upstairs and wave at the window and ask how MC is
+
+(("Can I offer you anything, Physician?")) girl ask it rather than anne marie. or maybe she ask through the window
+
+A tea	
+No thank you
+Just a water 	
+
+[[Next.|blacksmith11]]
+
+
+:: bowels [Doctor] {"position":"4775,225","size":"100,100"}
+<<set $bowels = true>>
+You put your hand on her stomach, tapping lightly on it with the other one. The noise is normal which tells you her guts are not tight. Considering she doesn't seem to be in deep pain, they have not perforated either. 
+
+[[That's good.|doctor12]]
+
+
+
+
+:: breathing [Doctor] {"position":"4525,225","size":"100,100"}
+You lift her, she's sleepy and while she's a bit of a dead weight at the moment, she's still small enough that she's not too heavy for you.
+You put your ears on her back listening to her attentively. Not that you need it being a werewolf but you’ve always done so in the pretense of people..
+Her breathing is slow and a bit ragged.
+It seems that her illness is mostly pulmonary, as her lungs are taken by the illness.
+
+[[That's not good.|doctor12]]
+
+<<set $breathing = true>>
+
+
+:: coldbath {"position":"1550,375","size":"100,100"}
+<<set $stress += 1>>
+<<set $warmbath = false >>
+The day following the transformation always feels tough on your body; your whole body aches, you feel pain in your joints and muscles and the pain seems so deep that for a moment you think your actual bones hurt.
+
+Perhaps it is to punish yourself a little. You know the aching will not be soothed by the freezing water of the mountain. Or perhaps it is simply to wake yourself up, after all you did spend a truly awful night.
+It doesn't matter the reason, you think to yourself as you sink into the cold water, which makes you gasp. It's…. colder than expected.
+
+[[Next|bath2]] 
+
+
+:: doctor [Doctor] {"position":"3000,375","size":"100,100"}
+	You always had a knack for helping people. Your grandma used to show you diverse plants that live in the forest and how to use them. Your prized possession that you acquired before arriving there, is an anatomy book that you know by heart now.
+It's always been easy as a werewolf to spot people who were sick, mostly because they had this scent to them. The spare room that you built in your house became your studies where you examined people when they came to you. 
+When you first arrived in Tierce-lieux you were surprised by how welcoming everyone was, even more so when they learned that you could help heal them. Even neighbors from other villages came knocking at your door. 
+	Your Grandma, $grandma always said it's important to be well rounded in your knowledge, so you picked up a bit of everything. Medicinal tonical, herbs, poultice, and even surgery once. You're far from being a prodigy but you're good enough for the locals and that's good enough for you. For now at least.
+	And while you do consider yourself a physician you know that you technically don't have the proper title, as one is required to pass a fancy expensive exam in the Capital, and to be quite fair you've never cared about it that much.
+You didn't expect to become quite so popular but it seemed the place was in dire need of a doctor.
+
+
+Is that the job you have?
+
+[[Yes.|doctor1]]
+[[No.|job2]]
+
+
+:: doctor1 [Doctor] {"position":"3125,375","size":"100,100"}
+<<set $job to "doctor">> 
+Business has been quiet for a few days. Luckily for you, you were feeling a bit drowsy with the full moon coming up.
+You take one last look at the mirror making sure you look at least presentable, and then go reach for the door.
+
+As you open, you see;
+
+[[Next.|doctor2]]
+
+
+:: doctor11 [Doctor] {"position":"4375,375","size":"100,100"}
+"Can I offer you anything, Physician?"
+
+" <<cycle "$drinkboulet" autoselect>>
+	<<option "Water would be nice.">>
+	<<option "Some Tea would be nice.">>
+	<<option "I'm good, thanks.">>
+<</cycle>> "
+
+"I'll take care of it" says Elise, apparently happy to take care of your needs, you sigh.
+
+"Please follow me then"
+
+You follow Anne-Marie up the stairs to one of the rooms directly on the right and you see the youngest of the Boulet Family. Marie was born 5 summers ago. You remember that day because you were there helping birthing her too.
+It was the first time you helped birthing a child and you'll always remember that moment fondly when you finally had the tiny little enfant all red and still slick in your arms.
+
+Marie is still young, but she's the youngest child of the village, and by far the favorite. Everyone is completely smitten by her, and truth be told, so are you. Her laugh is probably one of the happiest sounds you've heard and it never fails to make everyone smile.
+
+She is sick. Red, feverish.
+You push down the worry.
+You start to grab your equipment out of your bag. You don't think she is contagious but you can't never be too safe. You grab your mask full of incense and herbs to help kill any bacteria.
+
+"How long has she been like this ?" You ask
+
+"She's been bed ridden since yesterday morning, the fever came last night"
+
+You get closer to the kid and start the examination
+
+[[Next.|doctor12]]
+
+<<set $eyes to false>>
+<<set $forehead to false>>
+<<set $throat to false>>
+<<set $ears to false>>
+<<set $breathing to false>>
+<<set $hands_feet to false>>
+<<set $bowels to false>>
+
+
+
+:: doctor12 [Doctor] {"position":"4500,375","size":"100,100"}
+
+You get closer to the kid and start the examination
+
+<<if not $eyes>>[[Check her eyes.|eyes]]<</if>> <<if $eyes>><span style="color:gray;">Check her eyes (done)</span><</if>>
+<<if not $forehead>>[[Check her forehead.|forehead]]<</if>><<if $forehead>><span style="color:gray;">Check her forehead (done)</span><</if>>
+<<if not $throat>>[[Check her throat.|throat]]<</if>><<if $throat>><span style="color:gray;">Check her throat (done)</span><</if>>
+<<if not $ears>>[[Check her ears.|ears]]<</if>><<if $ears>><span style="color:gray;">Check her ears (done)</span><</if>>
+<<if not $breathing>>[[Check her breathing.|breathing]]<</if>><<if $breathing>><span style="color:gray;">Check her breathing (done)</span><</if>>
+<<if not $hands_feet>>[[Check her hands and feet.|hands_feet]]<</if>><<if $hands_feet>><span style="color:gray;">Check her hands and feet (done)</span><</if>>
+<<if not $bowels>>[[Check her bowels.|bowels]]<</if>><<if $bowels>><span style="color:gray;">Check her bowels (done)</span><</if>>
+
+<<if $eyes and $forehead and $throat and $ears and $breathing and $hands_feet and $bowels>>Okay, she should be fine, better to let her mother know.
+[[Next.|doctor13]]
+<</if>>
+
+
+:: doctor13 [Doctor] {"position":"4625,375","size":"100,100"}
+“She will be fine. She needs rest.”
+
+You hear Anne-Marie exhale slowly as you turn towards her.
+
+“The illness has taken root in her lungs” You say as you rummage through your bag, for breathing-Poultice which you take out and hand to her 
+“Apply this to her back and torso twice her day it should help her breathe better. After that I'm afraid only time will tell.”
+
+Maybe bloodletting would work better, but you've never been a fan of the practice, Human blood tends to leave you with a queer feeling. You always thought it was due to being a werewolf, but $grandma was totally fine with it.
+
+Anne-Marie inspect you for a second, seemingly looking to see if you tell the truth, but then relax slightly
+
+“Thank you, $mc ”
+
+[[“Of course”|JobFinal]]
+
+
+:: doctor2 [Doctor] {"position":"3250,375","size":"100,100"}
+“I'm sorry to bother you dear, I was wondering if we could get your assistance if you’re free.”
+
+An older woman, Anne-Marie Boulet, crooked nose, olive skin, dark hair that has grayed out, crows feet nested at the corner of her eyes, marking a life lived with joy. She's the wife of a shepherd of sheep, the Boulet family are your closest neighbors. You often see their sheep in the field right next to your house, sometimes even in your garden. Not that you mind since they take care of the grass.
+
+Anne-Marie smiles gently at you and you notice she has a hand over someone else's shoulder.
+
+[[Next.|doctor3]]
+
+
+:: doctor3 {"position":"3375,375","size":"100,100"}
+	You see the eldest of the Boulet twins. Élise. She's no more than 15 winters. Tall, with the thick brows of her father, crooked nose of her mother but gentle smile that is all of her own . Usually she's found helping out her mother, she made you quite a few tart in the past few years. The first few one were a bit atrocious but she, thankfully, quickly got better. You're pretty sure she's been arboring some sort of crush on you. Which to be totally honest, you cannot fathom why. Still, because of it she seems to have gotten a genuine interest in the culinary art. 
+ 	Lou is fond of her, so you suspect that soon enough she'll get a proper job at the inn.  
+She's considered by the entire village as the eldest because of how responsible she is. Although you personally rarely see that side of her because of her ridiculous crush on you.
+  
+[[Next.|doctor4]]
+
+
+:: doctor4 [Doctor] {"position":"3500,375","size":"100,100"}
+"daughter sick"
+
+[[Next.|doctor5]]
+
+
+:: doctor5 [Doctor] {"position":"3625,375","size":"100,100"}
+"Are you okay ?" The youngling asks
+
+You catch her looking at you, observing you. It's a little unsettling if you have to be honest. She must see how wild you look right now, but you see her turning her head back at the road. Whatever she saw, she's way too polite to comment on it. You exhale. 
+
+
+false choice; +personality
+
+He nods, seemingly not wanting to continue this conversation farther. 
+And while Anne-Marie seems done with the conversation, you perk up again when Elise mentions.
+
+"I baked you a pie!"
+
+[[Raise eyebrow but don't say anything.|doctor6][$quiet += 1]]
+[["Again?"|doctor6][$angry += 1]]
+[[Thank her warmly.|doctor6][$kind += 1]]
+[[Tease her about it.|doctor6][$funny += 1]]
+
+
+
+:: doctor6 {"position":"3750,375","size":"100,100"}
+	You see her cheeks flush and can't help but sigh internally. You’ve been pretty clear to her before, and you wonder what it will take to make this child stop having these feelings. She will grow out of it. 
+You need to distract her or she will become clingy.
+
+[["How's your father?"|doctor7]]
+
+
+:: doctor7 [Doctor] {"position":"3875,375","size":"100,100"}
+"Oh! Well" She seems surprised by your questions. "Father is good, the lock holding the sheeps broke a few nights ago and he's trying to fix it I think."
+
+You hear Anne-Mary hums. "I'm more worried about Jeanne" 
+
+"Jeanne? Please mother, we all know she probably found some berries in the woods and is too busy eating them rather than actually working." She says, rolling her eyes.
+
+"Elise." You hear her mother say her name, ever so calmly which, to your surprise, seems to calm down the vitriol the youngling had for her sister.
+
+"Why? What happened to Jeanne?" You ask, and you can see Elise thank you silently for taking the attention off of her.
+
+"Oh, well she went on a walk with our dog yesterday morning, but neither came back."
+
+It is not unusual. Jeanne, while being a very sweet child, always had her head in the clouds. You often found her napping next to a tree, or simply taking care of the animals lost in time. She almost befriended a badger once, before it scratched her hand, which you bandaged.
+
+"Im sure she is fine, like your daughter said, she probably simply lost track of time"
+
+"Of course" you hear the mother reply, although her smile doesn't quite reach her eyes "I'm probably just worrying over nothing."
+
+[[Next.|doctor8]]
+
+
+:: doctor8 {"position":"4000,375","size":"100,100"}
+Thankfully you don't have to think of an answer as you arrive at the Boulet's House. It's nothing extravagant, just a two stories house, made with grayish white stones and black slates for roofs. There is a barn close enough for the sheep.
+
+[[Next.|doctor9]]
+
+
+:: doctor9 [Doctor] {"position":"4125,375","size":"100,100"}
+You see Augustin Boulet. He seems to be focusing on repairing one of the gates that hold the ships. From a glance, you're not sure he's succeeding at fixing it. He seems to notice you as he looks up from what he's doing.
+
+You wave, and he nods, not one to talk.
+
+[[Next.|job10]]
+
+
+:: ears [Doctor] {"position":"4400,225","size":"100,100"}
+Her ears are mostly clean, there is no redness.
+
+[[At least it is not infected.|doctor12]]
+
+<<set $ears = true>>
+
+
+:: eyes [Doctor] {"position":"4025,225","size":"100,100"}
+You grab one of the candles that is on the tabletop next to her bed. With one hand you go to open her eyes slightly, and watch her reaction to the light.
+Eyes are responsive as you open a lid of the candle next to you to make more light.
+
+[[That's good.|doctor12]]
+
+<<set $eyes = true>>
+
+
+
+:: forehead [Doctor] {"position":"4150,225","size":"100,100"}
+She's hot to the touch, but not dangerously so.
+You believe it will pass. Although you need to make sure she stays hydrated. You'll need someone to keep their eyes on her though, in case it gets worse. You'd have to cool her down quickly if that's the case.
+
+[[You'd rather not fancy a trip to the river.|doctor12]]
+
+<<set $forehead = true>>
+
+
+
+:: hands_feet [Doctor] {"position":"4650,225","size":"100,100"}
+You check her hands and feet and they seem normal, no cuts or wounds, not that you expected to see one but you never know.
+
+[[ At least everything is the right color.|doctor12]]
+
+<<set $hands_feet = true>>
+
+
+:: home1 {"position":"1425,450","size":"100,100"}
+	Finally you manage to reach your destination. 
+	//Home,// you think tenderly.
+	It's nothing too big, just a small cabin, away from the center village, on the edge of the woods. You’ve built it with the help of the villagers.
+	At first you thought the villager took pity on you, but now that you know them, they were simply their usual self; kind. Which came at a surprise at first. Honestly when you first moved to Tierce-Lieux, a few years back, you expected them to be like in any village; to be distrustful, finding new comers untrustworthy. They were the opposite; very welcoming, helping you on the very first day, bringing you dinner, fresh vegetables and baked goods. Even blankets and fresh clothes, which was quite needed as it was the middle of winter. Old Martin helped you with the roof, Germain with the windows, and Louise with the furniture.
+
+	So despite what happened last night, it's with a smile that you reach your home. Thankfully you always keep a backup key of the back door for situations like these. 	You examine the back garden, which you do not take care of -you mentally note- and reach for one of the plants Lou gave you “for good luck”. The plant is named Elbert, you’re not sure why, Lou was very insistent, and mentioned that Elbert would keep you company when she wasn’t here. It’s a small potted Apple tree. ??
+	Easily enough with a little bit of digging you find the key in the soil of the plant. You also should probably water it, you think as you take out one of the bugs feeding on the leaves. Lou would certainly have your head if she knew that Elbert was not watered enough.
+	Absently scratching your legs. 
+
+	With the key in hand, you reach the door and quickly enough you enter and close behind you. 
+	//Finally//
+	Home is how you left it, although a bit messier because you genuinely forgot last night was the full moon which means you had to leave in a bit of a hurry. Well nonetheless you can now get out of those awful clothes.
+
+[[You draw a warm bath.|warmbath]] 
+[[You draw a cold bath.|coldbath]] 
+
+
+
+:: job1 {"position":"2725,450","size":"100,100"}
+<<set $quiet = 0>> <<set $angry = 0>> <<set $kind = 0>> <<set $funny = 0>>You turn from the mirror as you hear knocking at the door. 
+
+“Do you think ?they <<verb "is" "are">> here ?  ?Title ! Please we need your help. $mc are you here?”
+
+[[Be silent|job2][$quiet += 1]]
+[[Grumble something|job2][$angry += 1]]
+[["Give me a minute!"|job2][$kind += 1]]
+[[Be sarcastic|job2][$funny += 1]]
+
+
+
+
+:: job10 {"position":"4250,375","size":"100,100"}
+You've never really entered the Boulets household before. All of them feeling well enough to come directly to your house in their time of need.  [Change this to blacksmith]
+
+The house smells of fresh bread. And olive. The second one, you suspect, is the family's soap, as all of them carry this fragrance. 
+There is a hint of sheep though. If you didn't know before, you'd knew by smell that this is a family of shepherds.
+ 
+[[Next.|doctor11]]
+
+
+:: job2 {"position":"2850,450","size":"100,100"}
+//Actually we forgot one more thing, wolkin.//
+What is it that you //do// ?
+
+[[You are a Blacksmith.|blacksmith]]
+[[You are a Doctor.|doctor]]
+
+
+:: job8 {"position":"4000,525","size":"100,100"}
+Thankfully you don't have to think of an answer as you arrive at the Boulet's House. It's nothing extravagant, just a two stories house, made with grayish white stones and black slates for roofs. There is a barn close enough for the sheep.
+
+[[Next.|job9]]
+
+
+:: job9 {"position":"4125,525","size":"100,100"}
+You've never really entered the Boulets household before. All of them feeling well enough to come directly to your house in their time of need.  [Change this to blacksmith]
+
+The house smells of fresh bread. And olive. The second one, you suspect, is the family's soap, as all of them carry this fragrance. 
+There is a hint of sheep though. If you didn't know before, you'd knew by smell that this is a family of shepherds.
+ 
+[[Next.|blacksmith9]]
+
+
+:: namevalidation {"position":"2475,375","size":"100,100"}
+Your name is $mc and you use ?they and ?them
+<<if $nickname == $mc>> You have no nickname.
+<<else>> Your nickname is $nickname.
+<<endif>>
+Is that correct? 
+
+[[No.|Name]]
+[[Yes.|job1]]
+
+
+:: nickname {"position":"2450,525","size":"100,100"}
+<<set $nickname = "">>
+Does $mc get shortened sometimes?
+
+[[Yes|nickname2]]
+[[No|pronouns1][$nickname = $mc]]
+
+
+
+:: nickname2 {"position":"2500,650","size":"100,100"}
+Insert your nickname:
+<<set $nickname to " ">>
+<<textbox "$nickname" " ">>
+
+[[Next.|pronouns1]]
+
+
+:: origin_africa {"position":"2050,575","size":"100,100"}
+
+ You traveled a lot, You were born in Africa, the Deep-South across many lands and seas. You grew up with your parents until your grandma adopted you. She passed away a few years ago, hence why you decided to move here after her death. Staying behind was too painful and brought back too many memories. You needed a new beginning. The long travel by Sea certainly helped with that.
+
+Is that right?
+
+[[Yes|Name]]
+[[No|bath5]]
+
+<<set $origin to "africa">>
+<<set $grandma to "Ugogo">>
+
+
+:: origin_breton {"position":"2175,575","size":"100,100"}
+You traveled a bit. You were born in the North of França, in Brittany to be more exact. You grew up with your parents until your grandma adopted you. She passed away a few years ago, hence why you decided to move here after her death. Staying behind was too painful and brought back too many memories. You needed a new beginning.
+
+Is that right?
+
+[[Yes|Name]]
+[[No|bath5]]
+
+<<set $origin to "breton">>
+<<set $grandma to "Menina">>
+
+
+:: origin_east_asia {"position":"2175,325","size":"100,100"}
+You traveled a lot, You were born in Asia, in the Far East across many lands and seas. You grew up with your parents until your grandma adopted you. She passed away a few years ago, hence why you decided to move here after her death. Staying behind was too painful and brought back too many memories. You needed a new beginning. The long travel by Sea certainly helped with that.
+
+Is that right?
+
+[[Yes|Name]]
+[[No|bath5]]
+
+<<set $origin to "asia">>
+<<set $grandma to "NaiNai">>
+
+
+:: origin_marseille {"position":"2050,325","size":"100,100"}
+You weren’t born far, Born in the South of França, in Provence to be more exact. You grew up with your parents until your grandma adopted you. She passed away a few years ago, hence why you decided to move here after her death. Staying behind was too painful and brought back too many memories. You needed a new beginning.
+
+Is that right?
+
+[[Yes|Name]]
+[[No|bath5]]
+
+<<set $origin to "marseille">>
+<<set $grandma to "manou">>
+
+
+:: origin_middle_east {"position":"2175,450","size":"100,100"}
+You traveled a lot, You were born in the Middle-East, South-East across the sea. You grew up with your parents until your grandma adopted you. She passed away a few years ago, hence why you decided to move here after her death. Staying behind was too painful and brought back too many memories. You needed a new beginning. The long travel by Sea certainly helped with that.
+
+Is that right?
+
+[[Yes|Name]]
+[[No|bath5]]
+
+<<set $origin to "mid_east">>
+<<set $grandma to "Anane">>
+
+
+:: pronouns1 {"position":"2575,525","size":"100,100"}
+What pronouns do you use?
+
+<<link 'Configure your pronouns.'>>
+    <<pronouns>>
+<</link>>
+(you can always change them in the Character Stats)
+
+[[Next.|namevalidation]]
+
+
+:: tavern2angry {"position":"5225,375","size":"100,100"}
+You heave a sigh, the vulnerability twists something in your stomach and makes you angry.
+
+“What do you think?” You bark.
+
+You see Lou's face fall a little, and you already regret your words. You know she can sense you're not feeling well, asking this sort of question feels useless and makes you angry, short tempered.
+You don't want to talk, it's not about trust, as far as trust goes, Lou is the one person alive you trust most in the world. You mostly, don't want to talk about it even if you created an elaborate lie
+But you do know, she's asking this out of concern for you.
+
+
+She doesn't Insist on her question though, knowing you will get angry again. And although you can sense her curiosity, she leaves you time to lead the next conversation.
+Its only been a few years, but it feels like she knows you better than you know yourself sometimes, well, except for the “I turn into a wolf once a month” part.
+
+[[Next.|tavern3]]
+
+
+:: tavern2funny {"position":"5100,325","size":"100,100"}
+“What ? Not even a Hello, how are you doing my friend, what a beautiful day we're having.”
+
+She crosses her arms, leaning back on her chair.
+
+“Oh sorry, Hello [name], what a beautiful day we're having, I can see you're not doing well so spill the beans, smartass”
+
+“That's awful customer service, Ser”
+
+“Only with you my friend, only with you.” She says as she sits down to the chair in front of you shes already sat down mf
+
+“What ? And here I thought I was your favorite customer”
+
+“With all the free drinks and food you steal from me? Please! Charles is by far my favorite customer” She replies, eyes full of mirth.
+
+
+You make a fake offended gasp before you both chuckle.
+It's always been like that with Lou, like a mirror the banter and the teasing flow easily between the two of you ever since the first day. Perhaps that's why you were so keen on being close friends with her. Not only do you like her company but she also has a way to soothe the wolf within you. The pillar of solitude that never seems to leave your chest always feels a little less heavy when you're with her.
+
+She doesn't Insist on her question though, knowing you will probably deflect with humor or with something else. And although you can sense her curiosity, she leaves you time to lead the next conversation.
+It's only been a few years, but it feels like she knows you better than you know yourself sometimes, well, except for the “I turn into a wolf once a month” part.
+
+[[Next.|tavern3]]
+
+
+:: tavern2kind {"position":"5225,525","size":"100,100"}
+"bad night" blabla
+
+honest +1
+
+[[Next.|tavern3]]
+
+
+:: tavern2quiet {"position":"5100,575","size":"100,100"}
+You grumble, not feeling comfortable answering at the moment, and Lou easily catches on.
+It's always been like that with Lou, like opposite and two sides of the same coin. She talks and you listen ever since the first day. Perhaps that's why you were so keen on being close friends with her. Not only do you like her company but she also has a way to soothe the wolf within you. The pillar of solitude that never seems to leave your chest always feels a little less heavy when you're with her.
+
+She doesn't insist on her question though, knowing you won't answer anyway. And although you can sense her curiosity, she leaves you time and space to talk about if you so wish.
+It's only been a few years, but it feels like she knows you better than you know yourself sometimes, well, except for the “I turn into a wolf once a month” part.
+
+[[Next.|tavern3]]
+
+
+:: tavern3 {"position":"5375,450","size":"100,100"}
+<<cycle "$tellher" autoselect>>
+	<<option "You want to tell her but you can't">>
+	<<option "You're too scared to even think about this conversation.">>
+<</cycle>> 
+You love her, she is your friend, the only person you have now, and you wish you could tell her this part of yourself, to finally be seen wholly but you're terrified of the possibility.
+$grandma always warned you about telling who you are, what you are to others. People see werewolves are creatures of the devil, to be killed at best and tortured at worst. The idea that she knows about this side of yourself and that she rejects you. You don't think you could handle it, not after losing your grandma.
+You're in this limbo of craving kinship of wanting, nay, needing to be known for who you are, but terrified of letting people too close and for them to reject or abandon you again.
+<<set $honest = 0>>
+[[Next.|tavern4]]
+
+
+:: tavern4 {"position":"5500,450","size":"100,100"}
+<<if $tellher == "You want to tell her but you can't">><<set $honest += 5>> <</if>> You don't want to just reject her outright, at least no more than you already did, so the only thing left to talk about is something else entirely.
+
+“Heard anything since the last time I came?”
+
+“So.... Heard anything interesting since the last time I visited you?”
+
+“You wanna know about somethin' I've heard?”
+
+You see the Mirth in her eyes, as a conspiratory smile splits her face as she leans towards you and speaks softer so no one can spy on your conversation. If your hearing wasn't as sharp, you probably wouldn't be able to pick up what she's even saying.
+
+“Oh I've heard plenty! You Know of Lison, from X ? You know the one who only wears those atrocious green dresses ? Rumor has it she's been spending an awful lot of time with Tristan the traveling merchant.”
+
+“Wasn't she promised to Sylvain the Tanner?”
+
+“Indeed! But apparently there's been a fight between Sylvain and Tristan. I've heard that Tristan even called the Bailiff to the fight.”
+
+“The Bailiff?”
+
+“Yeah! You know how scrawny Tristan is compared to Sylvain, and Even though he tries to act tough, he probably knew this was a fight he couldn't win. So he called the Bailiff to make sure this wouldn't turn into a fistfight.”
+
+“That's...”
+
+“Cowardly? Yeah, a bit. I wonder what Lison sees in Tristan… Probably money.”
+
+“So what did Sylvain do then ?”
+
+“Well apparently he even tried to woo her back with a poem and flowers, but I don't think it worked.”
+
+“That doesn't surprise me coming from Tristan honestly”
+
+  [[“Poor Sod”|tavern5]]
+  [[You Nod without saying a word.|tavern5][$quiet += 1]]
+
+
+:: tavern5 {"position":"5625,450","size":"100,100"}
+<<set $drink to " ">>
+“Poor Sod” You say, absently scratching a wine stain on the wood table.
+
+You nod, not saying a word, absently scratching a wine stain on the wood table.
+
+You hear two strangers enter the Inn, and you watch as Lou looks behind her back before rising from her seat. Duty calls.
+
+“What do you want to drink? Same as usual?”
+
+Alcohol makes you queasy. It's a werewolf thing that you know for sure, cause grandma used to tell you wild tales of your mom drinking alcohol and being terribly sick afterwards. The only other food that makes werewolf sick is a rare delicacy you've never seen in France so far; chocolate.
+
+[[You drink alcohol, like your mother, you're trying to build a resistance to it.|tavern6][$drink to "vinasse"]]
+[[You don't drink alcohol, so you usually have an infusion.|tavern6][$drink to "tea"]]
+[[You usually drink alcohol, but you’ll have an infusion for once.|tavern6][$drink to "vinasse"]]
+[[You usually drink herbal tea, but after the night you had you’ll have some alcohol.|tavern6][$drink to "tea"]]
+
+
+
+
+:: tavern6 {"position":"5750,450","size":"100,100"}
+<<set $lou_r = 0>> <<set $lou_f = 5>>
+“Got it” She winks before heading and welcoming the travelers.
+
+You don't mind people watching while Lou tends to the Inn. You do realize now it's been a while since you've last seen the bard, you note as other regulars enter the Inn to drink and play dice.
+You try to listen to what people are saying but after the rumors Lou shared, it really pales in comparison. So instead you chose to look at Lou while she works.
+
+She's chatting away with the travelers, you get new folks quite often being a small village on a main road. She's all smile and green eyes, her freckles almost glistening in the firelight.
+
+ADD FATHER COMING IN THE INN
+
+<<if setup.gender.pronouns().noun == "man">>
+  <span style="color:gray;">You've been in love with her for a while now.</span>
+<<else>>
+  <<link "You've been in love with her for a while now">>
+  <<set $lou_r += 3>>
+    <<goto "tavern7">>
+  <</link>>
+<</if>>
+<<link "You love her like a friend, a sister.">>
+  <<goto "tavern7">>
+<</link>>
+
+
+
+:: tavern7 {"position":"5875,450","size":"100,100"}
+You don't know how you could have survived without her. When your grandma died, you were all alone, and there's no worse fate for a werewolf, to be utterly alone. Werewolves are social creatures, they need a pack; a tight-knit group of people may be friends, lovers or family.
+Without it, well, there is a reason solitary werewolves are cautionary tales. The emptiness becomes too much to bear and most become too angry to be safe around. Like a wounded beast really.
+
+That's probably why you value your friendship with Lou so much. You were definitely not a fun person to be around when she met you. You lost your grandma, your only tether, and then you moved to a small village in the middle of Gévaudan, so really nowhere. You were a bit of a misanthrope at that time and while everyone treated you with kindness in the village, Lou was the only one who really stuck around.
+
+But when the grief started to recede, she was still there, and you had a renewed appreciation for her steady presence through it all.
+
+<<if $lou_r == 3>>You're not sure when the feeling changed from friends to something more on your part, but you do know you've felt like this for a while. But still you get this fluttering feeling in your stomach whenever she smiles at you, this urge to keep her close and happy and safe. You wish you could help her like she helped you. But she seems very in control of her life compared to you.
+You almost kissed her once. And you could swear she was leaning in too, but honestly you could have imagined that, you must have. You know Lou. If she likes someone she goes for it. She is not one to dance around matters of the heart.
+You were both outside, stargazing in front of your house. You talked about everything and nothing. The moonlight was softly lighting up her face, making her freckles stand out even more. Her cheeks, nose and lips were slightly more pink than usual, it was a cold night.
+Her sea-green eyes seemed to almost glow in the moonlight. She seemed so at ease, calmer than when she is working. She turned to look at you and you remember every detail of her face that you wanted to carve directly into your memory. Her lips slightly parted and you could not take your gaze off lips.
+The moment stretched longer than what is acceptable between friends, and then an owl screamed and broke the spell. You definitely felt your cheeks heat up and, while your color vision at night is not great, you could swear she was blushing. But then again, maybe that's wishful thinking on your part.
+<</if>>
+You see Lou coming back with your drink, a glass of [choice], before she settles back in her chair.
+
+  [[Next.|tavern8]]
+
+
+:: tavern8 {"position":"6000,450","size":"100,100"}
+"At least she has someone you know. Or options."
+
+“What?”
+
+“Lison”
+
+“Where are you going with this?”
+
+"Look - I just." she sigh. 
+
+next that looks like dialogue: first check based on personality: that essentially is like "What is it?" "
+
+<<if $lou_r == 3>>
+[["What is it?"|tavern9lour][$kind +=1]]
+[["What?"|tavern9lour][$angry +=1]]
+[[Look at her with a questioning look.|tavern9lour][$quiet +=1]]
+[["Penny for your thoughts?"|tavern9lour][$funny +=1]]
+<<else>>
+[["What is it?"|tavern9louf][$kind +=1]]
+[["What?"|tavern9louf][$angry +=1]]
+[[Look at her with a questioning look.|tavern9louf][$quiet +=1]]
+[["Penny for your thoughts?"|tavern9louf][$funny +=1]]
+<</if>>
+
+
+
+
+:: tavern9louf {"position":"6125,350","size":"100,100"}
+"can i complain? "
+
+<<link '"Always."' "tavern9">>
+    <<set $kind += 1>>
+    <<set $lou_f += 2>>
+<</link>>
+<<link "Yes." "tavern9">>
+    <<set $quiet += 1>>
+    <<set $lou_f += 1>>
+<</link>>
+<<link "No. you joke." "tavern9">>
+    <<set $funny += 1>>
+    <<set $lou_f += 1>>
+<</link>>
+<<link "No. You're not in the mood" "tavern9">>
+    <<set $angry += 1>>
+    <<set $lou_f -= 1>>
+<</link>>
+
+“pfff you suck im gonna complain anyway.”
+“Do you know how hard it is to find a woman who likes other women in this village?”
+
+choice: You do know, because you are only attracted to women
+You do know because while you like men, you also like women.
+You’re not sure, because you only like men anyway.
+
+“Do you know how many there is!? 1 ! Im the only one here! What’s a girl supposed to do? send a pigeon to the nearest city with a map to the Inn? Ugh I hate this, i just want to be loved” 
+
+“I love you too. “
+
+“Thanks at least i have you… Even if you (personality) “
+
+  [[Next.|tavernfinal]]
+
+
+:: tavern9lour {"position":"6125,550","size":"100,100"}
+"Ill always be there for you, you know that right?" if RLOU
+
+
+<<link '"Always."' "tavern9">>
+    <<set $kind += 1>>
+    <<set $lou_f += 2>>
+<</link>>
+<<link "Yes." "tavern9">>
+    <<set $quiet += 1>>
+    <<set $lou_f += 1>>
+<</link>>
+<<link "No. you joke." "tavern9">>
+    <<set $funny += 1>>
+    <<set $lou_f += 1>>
+<</link>>
+<<link "No. You're not in the mood" "tavern9">>
+    <<set $angry += 1>>
+    <<set $lou_f -= 1>>
+<</link>>
+
+You hear commotion outside, but the way Lou smiles at you, like it's a secret between the two of you, you keep your focus on her.  
+
+  [[Until it becomes overwhelming.|tavernfinal]]
+
+
+:: tavernfinal {"position":"6250,450","size":"100,100"}
+You try to peer outside trying to decipher what's wrong. If you were a wolf right now your ears would definitely be twitching.
+
+"My girl my sweet girl—"
+
+“What's going on?” ask Lou, but she's already rising from her seat to open the door of her inn.
+
+Outside you see none other than Augustin Boulet, in the middle of the street, looking distressed and devastated as he's holding in his arms something buddle up in a thick blanket, you only see a bloody tiny arm coming out of the blanket.
+You share a glance with Lou who looks equally alarmed.
+The other villagers are trying to either get a look at what's happening or trying to calm down Augustin but he is frantic.
+
+'Augustin my friend, you must calm—"
+
+"No ! You dont understand my Jeanne, my sweet little girl, she's been attacked!"
+
+The realization comes to you like fire thrown on oil. Last night you killed something, you remember the blood on your body, caked underneath your nails and the iron taste in your mouth. You see flashes of human flesh being torn apart. Of teeth sinking into the soft flesh of the neck.
+You did /this/.
+You killed her. You killed Jeanne Boulet.
+
+//Shit//
+
+[[Shit is right.]]
+
+
+
+:: throat [Doctor] {"position":"4275,225","size":"100,100"}
+There is some light swelling around the throat. 
+She is infected then.
+
+[[You only need to guess where.|doctor12]]
+
+<<set $throat = true>>
+
+
+:: warmbath {"position":"1550,525","size":"100,100"}
+<<set $stress += 3>>
+<<set $warmbath = true >>
+The day following the transformation always feels tough on your body; your whole body aches, you feel pain in your joints and muscles and the pain seems so deep that for a moment you think your actual bones hurt.
+Perhaps, you think, the warm water will soothe you. 
+
+Now the key to that stratagem you play is to be methodical, cover your back.
+As soon as you finish turning the stove(???)  on to warm the water.
+You turn to clean the rest of your house.
+You grab back the clothes from the day before you took off in a hurry, you grab a broom and start taking out the dried mud you brought home this morning. It also helps you organize your thoughts. 
+The house looks much cleaner once the water is ready. 
+
+And as you lay in the warm water you can't help but sigh. This does feel good.
+
+[[Next|bath2]] 
+
+
+:: wood1 {"position":"800,450","size":"100,100"}
+<span class="typed-text"><<type 60ms>>\''June 1764, County of Gévaudan
+Present Day''<</type>></span>
+
+//Shit.//
+
+	That's your first thought as you wake up, partially naked and bloody in the middle of the forest. You still feel the ache of the transformation in your muscles and joints. The iron taste of blood on your tongue. there’s a light ringing in your ears. Your vision is still sharp.  Your senses are still heightened, as they often are around the full moon. 
+
+	Now here's the thing: this isn't the first time this has happened. You've been having "episodes" like these for a few months now. Waking up in the forest, with remnants of clothes — and sometimes none — the carcass of the latest animal you killed, with little or even no memory of the event of the night before.
+
+You feel:
+[[Calm|WoodCalm]]
+[[Completely Panicked|WoodPanic]]
+[[Stressed but you will remain calm|WoodRepressed]]
+
+
+
+:: wood2 {"position":"1050,450","size":"100,100"}
+At the very least you know more or less where you are, the stash tree shouldn't be too far.
+
+You try to keep an eye out to see if you can find the body of whatever you killed but beside the blood on yourself you don't smell any blood around the area. well, maybe you ate and then went on the run?
+You still have no idea how wolves – and werewolves work honestly.
+
+You wish your grandma was here
+
+After walking for a few minutes you find the stash tree, the one where you always leave a few clothes in, for situations just like these. 
+
+The tree is an old beech tree, who, sadly, seemed to have died from illness a few years prior, but is still standing tall. A fox lead you to it. The damned creature kept stealing your clothes, and when you managed to hunt it down it was hiding in the tree. Now your first thought was to leave it alone but the fox actually peed on your clothes too. And maybe it was because you were having a bad night, but you fought the damn fox. It obviously lost but not before biting your wrist and leaving a nasty scar. It does come back from time to time, but you’re pretty sure it’s to annoy you, as sometimes you still find your clothes reeking of piss.
+
+It is quite annoying how many clothes you've torn in the past few months.
+True you became better at stitching clothes — at least the one salvageable — but its still nothing great. In the past few weeks you bought so many clothes it's beginning to cost a small fortune if you have to be honest. So you had to buy less expensive clothes, and sometimes even clothes that don’t fit you at all. Your hand reaches out into the Center of the hollow tree, hoping - because it happened once - that those awful tiny insects didn’t decide on a whim to feast on your clothes.
+
+You take out a grayish shirt and some earth toned pants. Nothing too fancy, and to be honest nothing really comfortable. And while they both have holes here and there, they seem mostly okay as you inspect them. You sniff them just for good measure, but no fox piss. That’s good. 
+
+You put them on.
+
+//What is your height wolfkin?//
+[[Very Small (Below 1m55)|woodclothes][$height to "very small"]]
+[[Small (1m55 -1m60)|woodclothes][$height to "small"]]
+[[Average (1m60-1m70)|woodclothes][$height to "average"]]
+[[Tall (1m75-1m85)|woodclothes][$height to "tall"]]
+[[Very Tall (above 1m85)|woodclothes][$height to "very tall"]]
+
+<<unset $addedStressHere>>
+
+
+:: woodclothes {"position":"1175,450","size":"100,100"}
+<<if $height == "very small">>
+	The shirt is way too big for your petite frame, the sleeves are so long that if you’re just  standing there, they almost reach below your knees. It looks like you’re wearing a robe. You feel like a child again, wearing your parent’s clothes. The fabric of the pants is itchy and covered in unknown stains. 
+    But the outfit does the job, so you cant really complain about that. You can't help but feel a little worried at the prospect of walking barefoot and naked in the snow this winter, but maybe by then, you'll be a normal werewolf, in control of its form.
+<<elseif $height == "small">>
+	The shirt is too big for your frame, its sleeves slightly longer, reaching the tip of your fingertips.  and the fabric of the pants is itchy and covered in unknown stains. But it does the job, so you can't really complain. You can't help but feel a little worried at the prospect of walking barefoot and naked in the snow this winter, but maybe by then, you'll be a normal werewolf, in control of its form.
+<<elseif $height == "tall">>
+	The shirt is too small for your frame, its sleeves slightly shorter, reaching a bit before your wrists. The base of the shirt is also a bit short, pretty sure that if you raised both arms it would reach your navel. The fabric of the pants is itchy and covered in unknown stains.
+ But it does the job, so you can't really complain. You can't help but feel a little worried at the prospect of walking barefoot and naked in the snow this winter, but maybe by then, you'll be a normal werewolf, in control of its form.
+<<elseif $height == "very tall">>
+	The shirt is way too small for your frame, its sleeves reaching the middle of your forearm, the base of your shirt at your belly button. You feel constricted, and you’re pretty sure that if you do any sudden movement the shirt will burst open. You must look ridiculous. You try to tug at the helm to make sure it's not too tight around your neck. The fabric of the pants is itchy too. 
+    For a split second you almost want to take it all off but you can't risk having anyone see you naked, muddy and bloody running through the woods. You exhale. It's uncomfortable, sure but it does the job, so you can't really complain. You can't help but feel a little worried at the prospect of walking barefoot and naked in the snow this winter, but maybe by then, you'll be a normal werewolf, in control of its form.
+<<else>>
+	The shirt is fine for your frame but the fabric of the pants is itchy and covered in unknown stains. But it does the job, so you can't really complain. You can't help but feel a little worried at the prospect of walking barefoot and naked in the snow this winter, but maybe by then, you'll be a normal werewolf, in control of its form.
+<<endif>>
+
+[[Next|woodend]] 
+
+
+:: woodend {"position":"1300,450","size":"100,100"}
+
+	Walk back home but try to walk on places to avoid making footprints, MC is worried about being caught, maybe hype up the anxiety here
+idk at this point ok
+
+[[Next|home1]] 
+
+
+:: StoryScript [script]
+prerender['setReturn'] = function () {
+	if (!tags().includes('menu')) {
+		State.variables['return'] = State.passage;
+	}
+};
+
+Config.history.maxStates = 1;
+
+
+(function () {
+    'use strict';
+    // v1.1.0; by Chapel, for SugarCube 2 (>= v2.29.0)
+
+    if (!Template || !Template.add || typeof Template.add !== 'function') {
+        alert('Warning, this version of SugarCube does not include the Template API. Please upgrade to v2.29.0 or higher.');
+        return;
+    }
+
+    // CONFIGURATION
+
+    var config = {
+        name : 'gender',
+        showSetting : true,
+        label : 'Gender',
+        desc : '',
+        storyVar : '%%gender',
+        default : 'female' // female, male, or other
+    };
+
+    // DATA
+
+    // the point-replace id
+    var settingID = '#setting-control-' + config.name;
+
+    // preset pornoun map
+var genderMap = {
+    subjective : ['she', 'he', 'they'],
+    objective : ['her', 'him', 'them'],
+    possessive : ['hers', 'his', 'theirs'],
+    determiner : ['her', 'his', 'their'],
+    reflexive : ['herself', 'himself', 'themself'],
+    noun : ['woman', 'man', 'person'],
+    title : ['Madame', 'Monsieur', 'Menestre']
+};
+
+
+    // INTERNAL FUNCTIONS
+
+    // custom dialog function
+    function createDialog (name, element, classes) {
+        var reopen = false;
+        if (Dialog.isOpen() && $('#ui-dialog-body').hasClass('settings')) {
+            reopen = true;
+        }
+        Dialog.close();
+        Dialog.setup(name, (reopen) ? classes + ' reopen' : classes);
+        Dialog.append(element);
+        Dialog.open();
+    }
+
+    function genderForm () { // create a form for users to configure their pronouns
+        var $wrapper = $(document.createElement('div'));
+
+        function createInput (label, name, def) { // create text inputs
+            return $(document.createElement('label'))
+                .append(label)
+                .css('display', 'block')
+                .append($(document.createElement('input'))
+                    .attr({
+                        type : 'text',
+                        name : name
+                    })
+                    .css({
+                        float : 'right',
+                        'margin-left' : '0.2em'
+                    })
+                    .val(def)
+                );
+        }
+
+        function createDropdown (label, name, list) { // create dropdowns
+            var $select = $(document.createElement('select'))
+                .attr('name', name)
+                .css('float', 'right');
+            list.forEach( function (opt, idx) {
+                console.log(idx);
+                $(document.createElement('option'))
+                    .attr('value', String(idx))
+                    .append(opt)
+                    .appendTo($select);
+            });
+            return $(document.createElement('label')).css('display', 'block').append(label, $select);
+        }
+
+        var $inputs = Object.keys(genderMap).map( function (key) {
+            // create an input for each type of pronoun
+            var idx = 2;
+            if (config.default === 'male') {
+                idx = 1;
+            } else if (config.default === 'female') {
+                idx = 0;
+            }
+            var sv = State.variables;
+            var def = genderMap[key][idx];
+            if (sv[config.storyVar] && sv[config.storyVar][key]) {
+                def = sv[config.storyVar][key];
+            }
+            return createInput(key.toUpperFirst() + ': ', 'gender-' + key, def);
+        });
+
+        var $presets = createDropdown('Presets: ', 'gender-preset', ['She/Her', 'He/Him', 'They/Them'])
+            .on('change', function () {
+                // auto-fill text inputs when the preset is changed
+                var value = Number($(this).find('select').val());
+                if (!Number.isNaN(value)) {
+                    $inputs.forEach( function ($input) {
+                        var $text = $input.find('input');
+                        var type = $text.attr('name').split('-')[1];
+                        $text.val(genderMap[type][value]);
+                    });
+                }
+            });
+
+        var $select = $presets.find('select');
+        if (!State.variables[config.storyVar]) {
+            // set defaults
+            if (config.default === 'male') {
+                $select.val('1');
+            } else if (config.default === 'female') {
+                $select.val('0');
+            } else {
+                $select.val('2');
+            }
+        } else {
+            $select.val(''); // custom config, no preset
+        }
+        
+        var $confirm = $(document.createElement('button'))
+            .wiki('Confirm')
+            .addClass('gender-confirm')
+            .ariaClick({ label : 'Confirm pronoun selection.' }, function () {
+                // this button saves the pronoun config settings
+                var sv = State.variables;
+                sv[config.storyVar] = {};
+                $inputs.forEach( function ($input) {
+                    var $text = $input.find('input');
+                    var type = $text.attr('name').split('-')[1];
+                    sv[config.storyVar][type] = $text.val().trim().toLowerCase();
+                });
+                // reopen the settings modal or close the modal
+                if ($('#ui-dialog-body').hasClass('reopen')) {
+                    UI.settings();
+                }
+                Dialog.close();
+            });
+
+        var $form = (function () {
+            // add some line breaks to the generated form
+            var $els = [$presets, '<br>'];
+            $inputs.forEach( function ($input) {
+                $els.push($input);
+                $els.push('<br>');
+            });
+            $els.push($confirm);
+            return $els;
+        }());
+
+        return $wrapper.append($form);
+
+    }
+
+    // CORE FUNCTIONS
+
+    function handleGender () {
+        // this function opens the custom modal
+        createDialog('Customize Gender', genderForm(), 'custom-gender');
+    }
+
+    function getFromPreset (n) {
+        // default
+        if (typeof n !== "number" || Number.isNaN(n) || n > 2 || n < 0) {
+            n = 0;
+        }
+        var ret = {};
+        Object.keys(genderMap).forEach( function (key) {
+            ret[key] = genderMap[key][n];
+        });
+        return ret;
+    }
+
+    function getGender () {
+        // get the player's gender (custom or grab the default)
+        // custom
+        if (State.variables[config.storyVar] && State.variables[config.storyVar].subjective) {
+            return State.variables[config.storyVar];
+        }
+        // default
+        return getFromPreset(config.default === 'male' ? 1 : 0);
+    }
+
+    function setPreset (gender) {
+        var pn;
+        switch (gender) {
+            case 'female':
+                pn = getFromPreset(0);
+                break;
+            case 'male':
+                pn = getFromPreset(1);
+                break;
+            default:
+                pn = getFromPreset(2);
+        }
+        State.variables[config.storyVar] = clone(pn);
+        return pn;
+    }
+
+    function setPronouns (obj) {
+        if (typeof obj !== 'object') {
+            return;
+        }
+        State.variables[config.storyVar] = setPreset(config.default === 'male' ? 1 : 0);
+        return Object.assign(State.variables[config.storyVar], obj);
+    }
+
+    // SETTINGS API
+
+    if (config.showSetting) {
+        Setting.addToggle(config.name, {
+            label : config.label,
+            desc : (config.desc && typeof config.desc === 'string' && config.desc.trim()) ? 
+                config.desc.trim() : undefined
+        });
+
+        $(document).on(':dialogopen :dialogopened', function () {
+            if ($('#ui-dialog-body').hasClass('settings')) {
+                $(settingID).parent('div').empty().append( $(document.createElement('button'))
+                    .append('Configure...')
+                    .ariaClick( function () {
+                        handleGender();
+                    })
+                );
+            }
+        });
+    }
+
+    // singular endings
+    var replaceWith_are = /^is$/i; // is
+    var replaceWith_were = /^was$/i; // was
+    var replaceWith_have = /^has$/i; // has
+    var replaceWith_o = /oes$/i; // does, goes
+    var replaceWith_ie = /^[dl]ies$/i; // dies
+    var replaceWith_y = /ies$/i; // dries
+    var remove_es = /sses$/i; // posesses
+    var remove_es2 = /hes$/i; // catches
+    var remove_s = /s$/i; // surpises, plays
+    // the above are tested in order; if none apply, return singular form (e.g: ran -> ran)
+
+    // test for 'they' pronoun
+    var hasThey = /they/i;
+
+    function makePlural (singular) {
+        if (!singular || typeof singular !== 'string') {
+            return singular;
+        }
+        singular = singular.trim();
+        if (replaceWith_are.test(singular)) {
+            return singular.replace(replaceWith_are, 'are');
+        }
+        if (replaceWith_were.test(singular)) {
+            return singular.replace(replaceWith_were, 'were');
+        }
+        if (replaceWith_have.test(singular)) {
+            return singular.replace(replaceWith_have, 'have');
+        }
+        if (replaceWith_o.test(singular)) {
+            return singular.replace(replaceWith_o, 'o');
+        }
+        if (replaceWith_ie.test(singular)) {
+            // need to use replaceWith_y regex here.
+            return singular.replace(replaceWith_y, 'ie');
+        }
+        if (replaceWith_y.test(singular)) {
+            return singular.replace(replaceWith_y, 'y');
+        }
+        if (remove_es.test(singular)) {
+            return singular.replace(remove_es, 'ss');
+        }
+        if (remove_es2.test(singular)) {
+            return singular.replace(remove_es2, 'h');
+        }
+        if (remove_s.test(singular)) {
+            return singular.replace(remove_s, '');
+        }
+        return singular;
+    }
+
+    function _getPronounsArePlural () {
+        return hasThey.test(getGender().subjective.trim());
+    }
+
+    // usage: pluralize('dries', null, true) -> dry; pluralize('supresses', 'supress') -> supresses
+    function pluralize (singular, plural, forcePlural) {
+        if (!forcePlural) {
+            return singular;
+        }
+        if (plural && typeof plural === 'string') {
+            return plural;
+        }
+        return makePlural(singular);
+    }
+
+    // TEMPLATES
+
+    function isUpper (name, string) {
+        // is name is uppercase, return uppercased string
+        if (name.first() === name.first().toUpperCase()) {
+            return string.toUpperFirst();
+        }
+        return string;
+    }
+    
+    Template.add(['he', 'she', 'they', 'He', 'She', 'They'], function () {
+        return isUpper(this.name, getGender().subjective);
+    });
+    Template.add(['him', 'her', 'them', 'Him', 'Her', 'Them'], function () {
+        return isUpper(this.name, getGender().objective);
+    });
+    Template.add(['his', 'hers', 'theirs', 'His', 'Hers', 'Theirs'], function () {
+        return isUpper(this.name, getGender().possessive);
+    });
+    Template.add(['his_', 'her_', 'their', 'His_', 'Her_', 'Their'], function () {
+        return isUpper(this.name, getGender().determiner);
+    });
+    Template.add(['himself', 'herself', 'themself', 'Himself', 'Herself', 'Themself'], function () {
+        return isUpper(this.name, getGender().reflexive);
+    });
+    Template.add(['man', 'woman', 'person', 'Man', 'Woman', 'Person'], function () {
+        return isUpper(this.name, getGender().noun);
+    });
+    Template.add(['he-s', 'she-s', 'they-re', 'He-s', 'She-s', 'They-re'], function () {
+        return isUpper(this.name, getGender().subjective + pluralize("&apos;s", "&apos;re", _getPronounsArePlural()));
+    });
+	Template.add(['madame', 'monsieur', 'menestre', 'Madame', 'Monsieur', 'Menestre', 'title', 'Title'], function () {
+    return isUpper(this.name, getGender().title);
+});
+
+
+    // MACRO
+
+    // `<<pronouns>>` -> opens the modal for pronoun configuration, probably best paired with a link
+    Macro.add('pronouns', {
+        skipArgs : true,
+        handler : function () {
+            handleGender();
+        }
+    });
+
+    // <<verb singular [plural] [makePlural]>>
+    Macro.add('verb', {
+        handler: function () {
+            var pl = _getPronounsArePlural();
+
+            if (this.args.length < 1) {
+                return this.error('Please pass at least a singular third person pronoun to this macro.');
+            }
+
+            if (this.args.includes('plural')) {
+                pl = true;
+            }
+
+            this.output.append(pluralize(String(this.args[0]), (this.args[1]) ? String(this.args[1]) : null, !!pl));
+        }
+    });
+
+    // JAVASCRIPT API
+
+    setup.gender = {
+        // get the pronoun object; `setup.gender.pronouns().subjective` -> get `he`, `she`, etc
+        pronouns : getGender,
+        // set pronouns from presets or manually
+        setPronouns : function (presetOrObj) {
+            if (typeof presetOrObj === 'string') {
+                return setPreset(presetOrObj);
+            }
+            if (typeof presetOrObj === 'object') {
+                return setPronouns(presetOrObj);
+            }
+        },
+        // open the pronoun config modal from JS; `setup.gender.dialog()`
+        dialog : handleGender,
+        // pluralizer function
+        pluralize : makePlural
+    };
+
+    window.gender = window.gender || setup.gender;
+
+}());
+
+UIBar.refresh();
+
+
+:: StoryStylesheet [stylesheet]
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap');
+
+.typed-text {
+    font-family: 'Caveat', cursive;
+    font-size: 2.0em;
+}
+
+a {
+    color: #FFD070;
+}
+
+a:hover {
+    color: #9E8715;
+    text-decoration: underline;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-size: 125%;
+    background-color: transparent;
+    border: none;
+}
+
+/* Default gradient */
+html {
+    background: linear-gradient(to bottom, #8B0000, #000000);
+    min-height: 100vh;
+}
+
+/* === DISPLAY SETTINGS === */
+
+/* Color schemes */
+html.color-default {
+    background: linear-gradient(to bottom, #8B0000, #000000);
+}
+
+html.color-blackwhite {
+    background: white;
+}
+
+html.color-blackwhite body {
+    color: black;
+}
+
+html.color-blackwhite a {
+    color: #0066cc;
+}
+
+html.color-blackwhite a:hover {
+    color: #003366;
+}
+
+/* Font styles */
+body.font-caveat {
+    font-family: 'Caveat', cursive;
+}
+
+body.font-calibri {
+    font-family: Calibri, Arial, sans-serif;
+}
+
+body.font-caveat .typed-text {
+    font-family: 'Caveat', cursive;
+}
+
+body.font-calibri .typed-text {
+    font-family: Calibri, Arial, sans-serif;
+}
+
+/* Font sizes */
+body.size-small {
+    font-size: 100%;
+}
+
+body.size-medium {
+    font-size: 125%;
+}
+
+body.size-large {
+    font-size: 150%;
+}
+
+#passages {
+    background-color: transparent;
+    border: none;
+}
+
+.passage {
+    background-color: transparent;
+}
