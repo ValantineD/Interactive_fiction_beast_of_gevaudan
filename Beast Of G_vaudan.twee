@@ -30,7 +30,7 @@ Beast Of Gévaudan
 
 
 :: Character Stats [menu] {"position":"25,150","size":"100,100"}
-!WHO ARE YOU?
+<span class="typed-text">WHO ARE YOU?</span>
 
 Your name is $mc , your nickname is $nickname, You go by ?they and ?them, You come from $origin
 
@@ -75,7 +75,7 @@ You know that if you were honest, you would be hated, vilified, and hunted down,
 
 
 :: EndPrologue [Intro] {"position":"675,325","size":"100,100"}
-	After that the king doesn't want to touch the wolf, with a curt movement of his head, one of his servants, the one who accompanied him to see the beast Mx. Antoine slayed, moved around to stay in front of the beast's face and lifted one of its lips to show a range of large and sharp teeth.
+After that the king doesn't want to touch the wolf, with a curt movement of his head, one of his servants, the one who accompanied him to see the beast Mx. Antoine slayed, moved around to stay in front of the beast's face and lifted one of its lips to show a range of large and sharp teeth.
 
 	The king nods to himself mostly, he will not admit it but he is impressed by it.
 He can't help but wonder if the Monster that slayed a 100 was more impressive before it met its own doom. 
@@ -83,7 +83,7 @@ He can't help but wonder if the Monster that slayed a 100 was more impressive be
 At least the journalistic uprising about the Beast of Gevaudan will be behind them all.
 	Finally, put it to rest.
 
-[[CHAPTER1]] 
+[[CHAPTER1]]
 
 
 :: FurNext [Intro] {"position":"550,325","size":"100,100"}
@@ -92,7 +92,7 @@ The skin looks torn, burnt and scarred in many places, as if someone stabbed the
 <<else>>
 	The $fur fur is dirty, bloodied and lost its shiny effect making the wolf almost look like a scrawny street dog. He pokes the beast and almost recoils as the beast emits an horrible decomposition smell.
 <</if>>
-[[Next|EndPrologue]] 
+[[Next|EndPrologue]]
 
 
 :: JobFinal {"position":"4775,450","size":"100,100"}
@@ -121,7 +121,7 @@ Well, you can't really say no to delicious food now can you?
 
 
 :: JobFinalModerate {"position":"4900,575","size":"100,100"}
- A couple of coin should suffice”
+A couple of coin should suffice”
 
 “Are you sure? I could give you more”
 
@@ -133,7 +133,7 @@ Well, you can't really say no to delicious food now can you?
 
 
 :: JobFinalRat {"position":"4900,450","size":"100,100"}
- “A small pouch shoud be fine”
+“A small pouch shoud be fine”
 
 “Of course, thank you dear”
 
@@ -145,7 +145,7 @@ Well with that much money, you should say goodbye to those awful morning clothes
 
 
 :: List of variables {"position":"400,100","size":"100,100"}
- $mc
+$mc
  $nickname
  
  <<if $hasNickname and $nickname != "">>
@@ -209,10 +209,7 @@ CHAPTER 1
 
 $bathwarm: bool did u take the warm bath or not
 $stresspath: 1 - calm 2- stressed 3- stressed but ok
-$tellher 
-
-
-
+$tellher
 
 
 :: Map [menu] {"position":"175,275","size":"100,100"}
@@ -257,8 +254,6 @@ Or, insert your name: <<set $mc to " ">>
 [[Grey|FurNext][$fur to "grey"]]
 [[Red|FurNext][$fur to "ginger"]]
 [[Yellow|FurNext][$fur to "blonde"]]
-
-
 
 
 :: Relationships [menu] {"position":"175,150","size":"100,100"}
@@ -306,7 +301,7 @@ hopefully chapter 2 will take less time than the first chapter
 [[Character Stats]]
 [[Relationships]] 
 [[Codex]] 
-[[Map]] 
+[[Map]]
 
 
 :: Tavern1 {"position":"5025,450","size":"100,100"}
@@ -401,7 +396,7 @@ That is a good sign.
 
 
 :: bath2 {"position":"1675,450","size":"100,100"}
-	As you begin to scrub yourself to clean the dried mud and blood on your body, you rack your mind attempting to remember any fleeting memory from the last night. You remember feeling dull pain behind your eyes and a sharp one at the base of your skull as if the wolf was pushing to be released. 
+As you begin to scrub yourself to clean the dried mud and blood on your body, you rack your mind attempting to remember any fleeting memory from the last night. You remember feeling dull pain behind your eyes and a sharp one at the base of your skull as if the wolf was pushing to be released. 
 	You remember the utter joy and relief of running right after you transformed. After that your memory becomes more fragmented.
 And you remember …. //What do you remember?// 
 	Pain, fear and //hunger//. 
@@ -415,12 +410,11 @@ And you remember …. //What do you remember?//
 
 	You smelled blood and felt deep rooted pain within you. You felt hunger. You felt Anger  and more than anything you felt fear. Father is gone, Mother still doesn't move. Home isn’t home anymore, even then it felt wrong, rotten.
 
-[[ENOUGH.|bath3]] 
-
+[[ENOUGH.|bath3]]
 
 
 :: bath3 {"position":"1800,450","size":"100,100"}
-	You're not sure what made them come back. Memories forgotten for more than decades. But something triggered them. The door opened, and you can't quite close it. Frustrating enough it's also when the wolf started to manifest itself.
+You're not sure what made them come back. Memories forgotten for more than decades. But something triggered them. The door opened, and you can't quite close it. Frustrating enough it's also when the wolf started to manifest itself.
 But the pain they bring back almost always cuts you at the core. They leave you with a ragged breath and tears stuck at the corner of your eyes.
 
 BALD ? LENGH choice
@@ -440,11 +434,11 @@ When you get out, its with a towel around
 
 
 :: bath3.5 {"position":"1850,575","size":"100,100"}
-hair lenght ? bald?? 
+hair lenght ? bald??
 
 
 :: bath4 {"position":"1925,450","size":"100,100"}
-    You’ve been scrubbing yourself for at least a good hour, if not two. Still even physically clean you still feel dirty, as you pick on your nails, trying to get the dirt and dried blood from underneath.
+You’ve been scrubbing yourself for at least a good hour, if not two. Still even physically clean you still feel dirty, as you pick on your nails, trying to get the dirt and dried blood from underneath.
 
 	You put on clothes then go look for grandma's mirror. You need to make sure you don't look like you woke up naked in the middle of the forest this morning.
 //Do you look as awful as you feel?//
@@ -481,7 +475,6 @@ You're wearing:
 [[A robe|bath5][$clothes to "feminine"]]
 
 
-
 :: bath5 {"position":"2050,450","size":"100,100"}
 Even though they're from your closet, it's been quite a while since you had money to buy clothes that you really liked. Nevertheless they're way better than those in the forest so you're not gonna complain.
 Maybe one day when you're more in control you'll buy clothe you really feel comfortable with.
@@ -495,7 +488,7 @@ Maybe one day when you're more in control you'll buy clothe you really feel comf
 
 
 :: blacksmith [blacksmith] {"position":"3000,525","size":"100,100"}
-	There is not much you remember about your parents. Most of it you were just a cub and the rest you tried to erase. But you'll never quite forget the almost unbearable heat of the forge when you visited your mother's workplace. The heat was almost unbearable and so was the diverse iron smells. Still you remember feeling safe there. 
+There is not much you remember about your parents. Most of it you were just a cub and the rest you tried to erase. But you'll never quite forget the almost unbearable heat of the forge when you visited your mother's workplace. The heat was almost unbearable and so was the diverse iron smells. Still you remember feeling safe there. 
 	You remember how happy she looked when she was crafting things. So different from the last memories you have of her. Maybe that's why you picked it up. To be closer to them.
 	Your Grandma, $grandma always said it's important to be well rounded in your knowledge, so you picked up a bit of everything. Edge tool making, locksmithing, tinsmith, sheet metal work and even gunsmith.
 	You're far from being a prodigy but you're good enough for the locals and that's good enough for you. For now at least.
@@ -548,7 +541,7 @@ As he sees you he straightens up a little.
 
 
 :: blacksmith3 {"position":"3375,525","size":"100,100"}
-	You see the eldest of the Boulet twins. Élise. She's no more than 15 winters. Tall, with the thick brows of her father, crooked nose of her mother but gentle smile that is all of her own . Usually she's found helping out her mother, she made you quite a few tart in the past few years. The first few one were a bit atrocious but she, thankfully, quickly got better. You're pretty sure she's been arboring some sort of crush on you. Which to be totally honest, you cannot fathom why. Still, because of it she seems to have gotten a genuine interest in the culinary art. 
+You see the eldest of the Boulet twins. Élise. She's no more than 15 winters. Tall, with the thick brows of her father, crooked nose of her mother but gentle smile that is all of her own . Usually she's found helping out her mother, she made you quite a few tart in the past few years. The first few one were a bit atrocious but she, thankfully, quickly got better. You're pretty sure she's been arboring some sort of crush on you. Which to be totally honest, you cannot fathom why. Still, because of it she seems to have gotten a genuine interest in the culinary art. 
  	Lou is fond of her, so you suspect that soon enough she'll get a proper job at the inn.  
 She's considered by the entire village as the eldest because of how responsible she is. Although you personally rarely see that side of her because of her ridiculous crush on you.
   
@@ -586,11 +579,10 @@ And while Augustin seems done with the conversation, you perk up again when Elis
 
 
 :: blacksmith6 {"position":"3750,525","size":"100,100"}
-	You see her cheeks flush and can't help but sigh internally. You’ve been pretty clear to her before, and you wonder what it will take to make this child stop having these feelings. She will grow out of it. 
+You see her cheeks flush and can't help but sigh internally. You’ve been pretty clear to her before, and you wonder what it will take to make this child stop having these feelings. She will grow out of it. 
 You need to distract her or she will become clingy.
 
 [["How's your mother?"|blacksmith7]]
-
 
 
 :: blacksmith7 [blacksmith] {"position":"3875,525","size":"100,100"}
@@ -641,8 +633,6 @@ You put your hand on her stomach, tapping lightly on it with the other one. The 
 [[That's good.|doctor12]]
 
 
-
-
 :: breathing [Doctor] {"position":"4525,225","size":"100,100"}
 You lift her, she's sleepy and while she's a bit of a dead weight at the moment, she's still small enough that she's not too heavy for you.
 You put your ears on her back listening to her attentively. Not that you need it being a werewolf but you’ve always done so in the pretense of people..
@@ -662,11 +652,11 @@ The day following the transformation always feels tough on your body; your whole
 Perhaps it is to punish yourself a little. You know the aching will not be soothed by the freezing water of the mountain. Or perhaps it is simply to wake yourself up, after all you did spend a truly awful night.
 It doesn't matter the reason, you think to yourself as you sink into the cold water, which makes you gasp. It's…. colder than expected.
 
-[[Next|bath2]] 
+[[Next|bath2]]
 
 
 :: doctor [Doctor] {"position":"3000,375","size":"100,100"}
-	You always had a knack for helping people. Your grandma used to show you diverse plants that live in the forest and how to use them. Your prized possession that you acquired before arriving there, is an anatomy book that you know by heart now.
+You always had a knack for helping people. Your grandma used to show you diverse plants that live in the forest and how to use them. Your prized possession that you acquired before arriving there, is an anatomy book that you know by heart now.
 It's always been easy as a werewolf to spot people who were sick, mostly because they had this scent to them. The spare room that you built in your house became your studies where you examined people when they came to you. 
 When you first arrived in Tierce-lieux you were surprised by how welcoming everyone was, even more so when they learned that you could help heal them. Even neighbors from other villages came knocking at your door. 
 	Your Grandma, $grandma always said it's important to be well rounded in your knowledge, so you picked up a bit of everything. Medicinal tonical, herbs, poultice, and even surgery once. You're far from being a prodigy but you're good enough for the locals and that's good enough for you. For now at least.
@@ -729,9 +719,7 @@ You get closer to the kid and start the examination
 <<set $bowels to false>>
 
 
-
 :: doctor12 [Doctor] {"position":"4500,375","size":"100,100"}
-
 You get closer to the kid and start the examination
 
 <<if not $eyes>>[[Check her eyes.|eyes]]<</if>> <<if $eyes>><span style="color:gray;">Check her eyes (done)</span><</if>>
@@ -775,7 +763,7 @@ Anne-Marie smiles gently at you and you notice she has a hand over someone else'
 
 
 :: doctor3 {"position":"3375,375","size":"100,100"}
-	You see the eldest of the Boulet twins. Élise. She's no more than 15 winters. Tall, with the thick brows of her father, crooked nose of her mother but gentle smile that is all of her own . Usually she's found helping out her mother, she made you quite a few tart in the past few years. The first few one were a bit atrocious but she, thankfully, quickly got better. You're pretty sure she's been arboring some sort of crush on you. Which to be totally honest, you cannot fathom why. Still, because of it she seems to have gotten a genuine interest in the culinary art. 
+You see the eldest of the Boulet twins. Élise. She's no more than 15 winters. Tall, with the thick brows of her father, crooked nose of her mother but gentle smile that is all of her own . Usually she's found helping out her mother, she made you quite a few tart in the past few years. The first few one were a bit atrocious but she, thankfully, quickly got better. You're pretty sure she's been arboring some sort of crush on you. Which to be totally honest, you cannot fathom why. Still, because of it she seems to have gotten a genuine interest in the culinary art. 
  	Lou is fond of her, so you suspect that soon enough she'll get a proper job at the inn.  
 She's considered by the entire village as the eldest because of how responsible she is. Although you personally rarely see that side of her because of her ridiculous crush on you.
   
@@ -807,9 +795,8 @@ And while Anne-Marie seems done with the conversation, you perk up again when El
 [[Tease her about it.|doctor6][$funny += 1]]
 
 
-
 :: doctor6 {"position":"3750,375","size":"100,100"}
-	You see her cheeks flush and can't help but sigh internally. You’ve been pretty clear to her before, and you wonder what it will take to make this child stop having these feelings. She will grow out of it. 
+You see her cheeks flush and can't help but sigh internally. You’ve been pretty clear to her before, and you wonder what it will take to make this child stop having these feelings. She will grow out of it. 
 You need to distract her or she will become clingy.
 
 [["How's your father?"|doctor7]]
@@ -868,7 +855,6 @@ Eyes are responsive as you open a lid of the candle next to you to make more lig
 <<set $eyes = true>>
 
 
-
 :: forehead [Doctor] {"position":"4150,225","size":"100,100"}
 She's hot to the touch, but not dangerously so.
 You believe it will pass. Although you need to make sure she stays hydrated. You'll need someone to keep their eyes on her though, in case it gets worse. You'd have to cool her down quickly if that's the case.
@@ -876,7 +862,6 @@ You believe it will pass. Although you need to make sure she stays hydrated. You
 [[You'd rather not fancy a trip to the river.|doctor12]]
 
 <<set $forehead = true>>
-
 
 
 :: hands_feet [Doctor] {"position":"4650,225","size":"100,100"}
@@ -888,7 +873,7 @@ You check her hands and feet and they seem normal, no cuts or wounds, not that y
 
 
 :: home1 {"position":"1425,450","size":"100,100"}
-	Finally you manage to reach your destination. 
+Finally you manage to reach your destination. 
 	//Home,// you think tenderly.
 	It's nothing too big, just a small cabin, away from the center village, on the edge of the woods. You’ve built it with the help of the villagers.
 	At first you thought the villager took pity on you, but now that you know them, they were simply their usual self; kind. Which came at a surprise at first. Honestly when you first moved to Tierce-Lieux, a few years back, you expected them to be like in any village; to be distrustful, finding new comers untrustworthy. They were the opposite; very welcoming, helping you on the very first day, bringing you dinner, fresh vegetables and baked goods. Even blankets and fresh clothes, which was quite needed as it was the middle of winter. Old Martin helped you with the roof, Germain with the windows, and Louise with the furniture.
@@ -902,8 +887,7 @@ You check her hands and feet and they seem normal, no cuts or wounds, not that y
 	Home is how you left it, although a bit messier because you genuinely forgot last night was the full moon which means you had to leave in a bit of a hurry. Well nonetheless you can now get out of those awful clothes.
 
 [[You draw a warm bath.|warmbath]] 
-[[You draw a cold bath.|coldbath]] 
-
+[[You draw a cold bath.|coldbath]]
 
 
 :: job1 {"position":"2725,450","size":"100,100"}
@@ -915,8 +899,6 @@ You check her hands and feet and they seem normal, no cuts or wounds, not that y
 [[Grumble something|job2][$angry += 1]]
 [["Give me a minute!"|job2][$kind += 1]]
 [[Be sarcastic|job2][$funny += 1]]
-
-
 
 
 :: job10 {"position":"4250,375","size":"100,100"}
@@ -970,7 +952,6 @@ Does $mc get shortened sometimes?
 [[No|pronouns1][$nickname = $mc]]
 
 
-
 :: nickname2 {"position":"2500,650","size":"100,100"}
 Insert your nickname:
 <<set $nickname to " ">>
@@ -980,8 +961,7 @@ Insert your nickname:
 
 
 :: origin_africa {"position":"2050,575","size":"100,100"}
-
- You traveled a lot, You were born in Africa, the Deep-South across many lands and seas. You grew up with your parents until your grandma adopted you. She passed away a few years ago, hence why you decided to move here after her death. Staying behind was too painful and brought back too many memories. You needed a new beginning. The long travel by Sea certainly helped with that.
+You traveled a lot, You were born in Africa, the Deep-South across many lands and seas. You grew up with your parents until your grandma adopted you. She passed away a few years ago, hence why you decided to move here after her death. Staying behind was too painful and brought back too many memories. You needed a new beginning. The long travel by Sea certainly helped with that.
 
 Is that right?
 
@@ -1175,8 +1155,6 @@ Alcohol makes you queasy. It's a werewolf thing that you know for sure, cause gr
 [[You usually drink herbal tea, but after the night you had you’ll have some alcohol.|tavern6][$drink to "tea"]]
 
 
-
-
 :: tavern6 {"position":"5750,450","size":"100,100"}
 <<set $lou_r = 0>> <<set $lou_f = 5>>
 “Got it” She winks before heading and welcoming the travelers.
@@ -1199,7 +1177,6 @@ ADD FATHER COMING IN THE INN
 <<link "You love her like a friend, a sister.">>
   <<goto "tavern7">>
 <</link>>
-
 
 
 :: tavern7 {"position":"5875,450","size":"100,100"}
@@ -1245,8 +1222,6 @@ next that looks like dialogue: first check based on personality: that essentiall
 [[Look at her with a questioning look.|tavern9louf][$quiet +=1]]
 [["Penny for your thoughts?"|tavern9louf][$funny +=1]]
 <</if>>
-
-
 
 
 :: tavern9louf {"position":"6125,350","size":"100,100"}
@@ -1335,7 +1310,6 @@ You killed her. You killed Jeanne Boulet.
 [[Shit is right.]]
 
 
-
 :: throat [Doctor] {"position":"4275,225","size":"100,100"}
 There is some light swelling around the throat. 
 She is infected then.
@@ -1359,7 +1333,7 @@ The house looks much cleaner once the water is ready.
 
 And as you lay in the warm water you can't help but sigh. This does feel good.
 
-[[Next|bath2]] 
+[[Next|bath2]]
 
 
 :: wood1 {"position":"800,450","size":"100,100"}
@@ -1376,7 +1350,6 @@ You feel:
 [[Calm|WoodCalm]]
 [[Completely Panicked|WoodPanic]]
 [[Stressed but you will remain calm|WoodRepressed]]
-
 
 
 :: wood2 {"position":"1050,450","size":"100,100"}
@@ -1424,15 +1397,14 @@ You put them on.
 	The shirt is fine for your frame but the fabric of the pants is itchy and covered in unknown stains. But it does the job, so you can't really complain. You can't help but feel a little worried at the prospect of walking barefoot and naked in the snow this winter, but maybe by then, you'll be a normal werewolf, in control of its form.
 <<endif>>
 
-[[Next|woodend]] 
+[[Next|woodend]]
 
 
 :: woodend {"position":"1300,450","size":"100,100"}
-
-	Walk back home but try to walk on places to avoid making footprints, MC is worried about being caught, maybe hype up the anxiety here
+Walk back home but try to walk on places to avoid making footprints, MC is worried about being caught, maybe hype up the anxiety here
 idk at this point ok
 
-[[Next|home1]] 
+[[Next|home1]]
 
 
 :: StoryScript [script]
@@ -1836,6 +1808,9 @@ var genderMap = {
 
 UIBar.refresh();
 
+Setting.addToggle('testSetting', {
+    label: 'Test Setting'
+});
 
 :: StoryStylesheet [stylesheet]
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap');
