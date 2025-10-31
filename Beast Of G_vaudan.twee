@@ -257,30 +257,29 @@ Or, insert your name: <<set $mc to " ">>
 
 
 :: Relationships [menu] {"position":"175,150","size":"100,100"}
-[LOCKED]
+<span class="typed-text">Louisette "Lou" Valet,
+//the Inn Keeper//</span>
 
-!Louisette "Lou" Valet
-//the Inn Keeper//
 
 Friendship: $lou_f
 Romance: $lou_r
 
-!Camille Antoine, 
-//the King's Hunter//
+<span class="typed-text">Camille Antoine, 
+the King's Hunter</span>
 
 You haven't met this person yet.
 Friendship: $camille_f
 Romance: $camille_r
 
-!Alexis Chastel, 
-//the Forest Warden//
+<span class="typed-text">Alexis Chastel, 
+the Forest Warden</span>
 
 You haven't met this person yet.
 Friendship: $alexis_f
 Romance: $alexis_r
 
-!Hyacinthe, 
-//the Bard//
+<span class="typed-text">Hyacinthe, 
+the Bard</span>
 
 You haven't met this person yet.
 Friendship: $hyacinthe_f
@@ -332,7 +331,7 @@ After serving Charles, she heads straight to your table and sit down in front of
 
 
 :: Welcome {"position":"425,450","size":"100,100"}
-!Welcome to the Land of the Beast, Wolfkin.
+<span class="typed-text"><<type 90ms>>Welcome to the Land of the Beast, Wolfkin.<</type>></span>
 
 ''DISCLAIMER:''
 	//While this story is based and inspired by France in the XVIII, you might notice there are some drastic changes. Indeed, Races, gender and sexuality will not be main core subjects simply because.... I don't want to write about them. So you will see that most people do not bat an eye at those topics. But doing so changes the setting immensely because sadly France is founded at the core by Imperialism, Colonialism, Misogyny, Homophobia and Transphobia.
@@ -1416,9 +1415,108 @@ prerender['setReturn'] = function () {
 
 Config.history.maxStates = 1;
 
+(function () {
+    'use strict';
+
+    // --- THEME CONFIG ---
+    var settingThemeNames = ["(none)", "Bright Lights", "Charcoal", "Midnight", "Tinsel City"];
+
+    var settingThemeHandler = function () {
+        var $html = $("html");
+
+        // Remove existing theme classes
+        $html.removeClass("theme-bright-lights theme-charcoal theme-midnight theme-tinsel-city");
+
+        // Apply the selected theme
+        switch (settings.theme) {
+            case "Bright Lights":
+                $html.addClass("theme-bright-lights");
+                break;
+            case "Charcoal":
+                $html.addClass("theme-charcoal");
+                break;
+            case "Midnight":
+                $html.addClass("theme-midnight");
+                break;
+            case "Tinsel City":
+                $html.addClass("theme-tinsel-city");
+                break;
+        }
+    };
+
+    Setting.addList("theme", {
+        label    : "Choose a theme.",
+        list     : settingThemeNames,
+        onInit   : settingThemeHandler,
+        onChange : settingThemeHandler
+    });
+
+    // --- FONT CONFIG ---
+var settingFontNames = ["Default", "Fraunces", "Pangolin", "OpenDyslexic"];
+
+var settingFontHandler = function () {
+    var $body = $("body");
+    // remove old font classes
+    //$body.removeClass("font-fraunces font-pangolin font-opendyslexic");
+	// document.querySelector("html").classList
+    switch (settings.font) {
+        case "Fraunces":
+            //$("body").style.fontFamily = "Fraunces"; // Option A
+        	document.body.style.fontFamily = 'Fraunces';
+        	break;
+        case "Pangolin":
+       		document.body.style.fontFamily = 'Pangolin'; // Option A
+       		break;
+        case "OpenDyslexic":
+            document.body.style.fontFamily = 'OpenDyslexic'; // Option 
+        	break;
+        default:
+        	document.body.style.fontFamily = 'Calibri Arial sans-serif';
+            // Default (Calibri) -> no class needed
+            break;
+    }
+};
+
+
+Setting.addList("font", {
+    label    : "Change the font.",
+    list     : settingFontNames,
+    onInit   : settingFontHandler,
+    onChange : settingFontHandler
+});
+
+    // --- FONT SIZE CONFIG ---
+    var settingFontSizeNames = ["Default", "Medium", "Large"];
+
+    var settingFontSizeHandler = function () {
+        var $html = $("html");
+        $html.removeClass("fontsize-medium fontsize-large");
+
+        switch (settings.fontsize) {
+            case "Medium":
+                $html.addClass("fontsize-medium");
+                break;
+            case "Large":
+                $html.addClass("fontsize-large");
+                break;
+        }
+    };
+
+    Setting.addList("fontsize", {
+        label    : "Change the font size.",
+        list     : settingFontSizeNames,
+        onInit   : settingFontSizeHandler,
+        onChange : settingFontSizeHandler
+    });
+
+})();
+
 
 (function () {
     'use strict';
+  
+
+  
     // v1.1.0; by Chapel, for SugarCube 2 (>= v2.29.0)
 
     if (!Template || !Template.add || typeof Template.add !== 'function') {
@@ -1808,20 +1906,37 @@ var genderMap = {
 
 UIBar.refresh();
 
-Setting.addToggle('testSetting', {
-    label: 'Test Setting'
-});
 
 :: StoryStylesheet [stylesheet]
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap');
+/* =============================
+   1. IMPORTS DE FONTS
+============================= */
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Fraunces:opsz,wght@9..144,400;9..144,700&family=Pangolin&display=swap');
+@import url('https://cdn.jsdelivr.net/gh/antijingoist/open-dyslexic@master/stylesheet.css');
 
-.typed-text {
-    font-family: 'Caveat', cursive;
-    font-size: 2.0em;
+/* =============================
+   2. RESET / STYLES DE BASE
+============================= */
+body {
+    margin: 0;
+    font-family: Calibri, Arial, sans-serif; /* default font */ 
+    font-size: 125%;
+    color: white;
+    background: linear-gradient(to bottom, #8B0000, #000000);
 }
 
+#passages,
+.passage {
+    background-color: transparent;
+    border: none;
+}
+
+/* =============================
+   3. LIENS
+============================= */
 a {
     color: #FFD070;
+    text-decoration: none;
 }
 
 a:hover {
@@ -1829,23 +1944,9 @@ a:hover {
     text-decoration: underline;
 }
 
-body {
-    background-color: black;
-    color: white;
-    font-size: 125%;
-    background-color: transparent;
-    border: none;
-}
-
-/* Default gradient */
-html {
-    background: linear-gradient(to bottom, #8B0000, #000000);
-    min-height: 100vh;
-}
-
-/* === DISPLAY SETTINGS === */
-
-/* Color schemes */
+/* =============================
+   4. THEMES DE COULEURS
+============================= */
 html.color-default {
     background: linear-gradient(to bottom, #8B0000, #000000);
 }
@@ -1866,41 +1967,56 @@ html.color-blackwhite a:hover {
     color: #003366;
 }
 
-/* Font styles */
-body.font-caveat {
-    font-family: 'Caveat', cursive;
+
+/* =============================
+   6. TAILLES DE TEXTE
+============================= */
+body.size-small { font-size: 100%; }
+body.size-medium { font-size: 125%; }
+body.size-large { font-size: 150%; }
+
+html.fontsize-medium { font-size: 1.1em; }
+html.fontsize-large { font-size: 1.25em; }
+
+/* =============================
+   7. TYPED TEXT (titles)
+============================= */
+.typed-text {
+    font-family: 'Caveat', cursive !important;
+    font-size: 2em;
 }
 
-body.font-calibri {
-    font-family: Calibri, Arial, sans-serif;
+/* =============================
+   8. THEMES (passages)
+============================= */
+html.theme-bright-lights body {
+    background-color: #000000;
+    background-attachment: fixed;
+    background-repeat: repeat;
 }
 
-body.font-caveat .typed-text {
-    font-family: 'Caveat', cursive;
+html.theme-bright-lights .passage {
+    line-height: 1.0;
+    font-size: 21px;
+    text-align: justify;
+    transition: opacity 400ms ease-in;
+    background-color: rgba(47, 79, 79, 0.5);
+    border-radius: 25px;
+    padding: 25px;
 }
 
-body.font-calibri .typed-text {
-    font-family: Calibri, Arial, sans-serif;
+html.theme-charcoal body {
+    background-color: #000000;
+    background-attachment: fixed;
+    background-repeat: repeat;
 }
 
-/* Font sizes */
-body.size-small {
-    font-size: 100%;
-}
-
-body.size-medium {
-    font-size: 125%;
-}
-
-body.size-large {
-    font-size: 150%;
-}
-
-#passages {
-    background-color: transparent;
-    border: none;
-}
-
-.passage {
-    background-color: transparent;
+html.theme-charcoal .passage {
+    line-height: 1.0;
+    font-size: 30px;
+    text-align: justify;
+    transition: opacity 400ms ease-in;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 25px;
+    padding: 25px;
 }
