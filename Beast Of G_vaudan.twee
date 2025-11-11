@@ -20,9 +20,11 @@ Beast Of Gévaudan
 
 :: CHAPTER1 {"position":"675,450","size":"100,100"}
 <span class="typed-text"><<type 120ms>>!CHAPTER 1<</type>></span>
-
+<img src="https://raw.githubusercontent.com/ValantineD/Interactive_fiction_beast_of_gevaudan/refs/heads/main/pics/chap1.jpg">
+Made by Julie Vidal
 
 [[Next|wood1]]
+
 
 <<if $stress is undefined>>
   <<set $stress = 0>>
@@ -257,30 +259,26 @@ Or, insert your name: <<set $mc to " ">>
 
 
 :: Relationships [menu] {"position":"175,150","size":"100,100"}
-<span class="typed-text">Louisette "Lou" Valet,
-//the Inn Keeper//</span>
-
+<span class="typed-text">Louisette "Lou" Valet, //the Inn Keeper//</span>
+<img src="https://raw.githubusercontent.com/ValantineD/Interactive_fiction_beast_of_gevaudan/refs/heads/main/pics/9hzli7V6.jpg">
 
 Friendship: $lou_f
 Romance: $lou_r
 
-<span class="typed-text">Camille Antoine, 
-the King's Hunter</span>
-
+<span class="typed-text">Camille Antoine, the King's Hunter</span>
+<img src="https://raw.githubusercontent.com/ValantineD/Interactive_fiction_beast_of_gevaudan/refs/heads/main/pics/WSjnDLmW.jpg">
 You haven't met this person yet.
 Friendship: $camille_f
 Romance: $camille_r
 
-<span class="typed-text">Alexis Chastel, 
-the Forest Warden</span>
-
+<span class="typed-text">Alexis Chastel, the Forest Warden</span>
+<img src="https://raw.githubusercontent.com/ValantineD/Interactive_fiction_beast_of_gevaudan/refs/heads/main/pics/TtUbE65G.jpg">
 You haven't met this person yet.
 Friendship: $alexis_f
 Romance: $alexis_r
 
-<span class="typed-text">Hyacinthe, 
-the Bard</span>
-
+<span class="typed-text">Hyacinthe, the Bard</span>
+<img src="https://raw.githubusercontent.com/ValantineD/Interactive_fiction_beast_of_gevaudan/refs/heads/main/pics/download20251102205229.png">
 You haven't met this person yet.
 Friendship: $hyacinthe_f
 Romance: $hyacinthe_r
@@ -294,6 +292,11 @@ Romance: $hyacinthe_r
 <span class="typed-text"><<type 120ms>>End of Chapter 1<</type>></span>
 thank you for playing!!!!
 hopefully chapter 2 will take less time than the first chapter
+
+
+:: StoryCaption [menu] {"position":"550,100","size":"100,100"}
+<div id="title-image"><img src="https://raw.githubusercontent.com/ValantineD/Interactive_fiction_beast_of_gevaudan/refs/heads/main/pics/bog_emblem_final.png" alt="Beast Logo">
+</div>
 
 
 :: StoryMenu [menu] {"position":"100,25","size":"100,100"}
@@ -442,7 +445,7 @@ You’ve been scrubbing yourself for at least a good hour, if not two. Still eve
 	You put on clothes then go look for grandma's mirror. You need to make sure you don't look like you woke up naked in the middle of the forest this morning.
 //Do you look as awful as you feel?//
 
-You look disheveled. Your <<cycle "$eyes" autoselect>>
+You look tired. Your <<cycle "$eyes" autoselect>>
 	<<option "grey">>
 	<<option "brown">>
 	<<option "black">>
@@ -872,8 +875,8 @@ You check her hands and feet and they seem normal, no cuts or wounds, not that y
 
 
 :: home1 {"position":"1425,450","size":"100,100"}
-Finally you manage to reach your destination. 
 	//Home,// you think tenderly.
+    
 	It's nothing too big, just a small cabin, away from the center village, on the edge of the woods. You’ve built it with the help of the villagers.
 	At first you thought the villager took pity on you, but now that you know them, they were simply their usual self; kind. Which came at a surprise at first. Honestly when you first moved to Tierce-Lieux, a few years back, you expected them to be like in any village; to be distrustful, finding new comers untrustworthy. They were the opposite; very welcoming, helping you on the very first day, bringing you dinner, fresh vegetables and baked goods. Even blankets and fresh clothes, which was quite needed as it was the middle of winter. Old Martin helped you with the roof, Germain with the windows, and Louise with the furniture.
 
@@ -882,7 +885,9 @@ Finally you manage to reach your destination.
 	Absently scratching your legs. 
 
 	With the key in hand, you reach the door and quickly enough you enter and close behind you. 
+    
 	//Finally//
+    
 	Home is how you left it, although a bit messier because you genuinely forgot last night was the full moon which means you had to leave in a bit of a hurry. Well nonetheless you can now get out of those awful clothes.
 
 [[You draw a warm bath.|warmbath]] 
@@ -932,7 +937,7 @@ There is a hint of sheep though. If you didn't know before, you'd knew by smell 
 [[Next.|blacksmith9]]
 
 
-:: namevalidation {"position":"2475,375","size":"100,100"}
+:: namevalidation {"position":"2525,325","size":"100,100"}
 Your name is $mc and you use ?they and ?them
 <<if $nickname == $mc>> You have no nickname.
 <<else>> Your nickname is $nickname.
@@ -943,7 +948,7 @@ Is that correct?
 [[Yes.|job1]]
 
 
-:: nickname {"position":"2450,525","size":"100,100"}
+:: nickname {"position":"2400,575","size":"100,100"}
 <<set $nickname = "">>
 Does $mc get shortened sometimes?
 
@@ -951,7 +956,7 @@ Does $mc get shortened sometimes?
 [[No|pronouns1][$nickname = $mc]]
 
 
-:: nickname2 {"position":"2500,650","size":"100,100"}
+:: nickname2 {"position":"2550,650","size":"100,100"}
 Insert your nickname:
 <<set $nickname to " ">>
 <<textbox "$nickname" " ">>
@@ -1019,7 +1024,7 @@ Is that right?
 <<set $grandma to "Anane">>
 
 
-:: pronouns1 {"position":"2575,525","size":"100,100"}
+:: pronouns1 {"position":"2550,475","size":"100,100"}
 What pronouns do you use?
 
 <<link 'Configure your pronouns.'>>
@@ -1400,10 +1405,19 @@ You put them on.
 
 
 :: woodend {"position":"1300,450","size":"100,100"}
-Walk back home but try to walk on places to avoid making footprints, MC is worried about being caught, maybe hype up the anxiety here
-idk at this point ok
+The sun is not quite high in the sky yet, you see the early morning sunrise slicing through the canopy scattering this almost pinkish color across the forest floor.
+The earth is soft beneath your feet, and with the strong petrichor smell you figure smth smht morning dew ?
+You try to walk on stones, roots and solid ground rather than the soft earth. testing each step before putting your weight down, trying not to sink, trying not to leave a mark that will betray you to anyone looking.
 
-[[Next|home1]]
+You hear a sound above and feel your heart leap into your chest, before realising it is just a squirrel darting across branches.
+You catch a glimmer of the river through the trees. You only need to follow it to reach the village.
+
+You skirt the muddier banks, stepping where the soil is firmer, Your soles sting from hidden stones and thorns, but there’s no other way.
+You’re hyper alert to every sound and smell around you, every rustle, every snap of twigs sends your pulse racing. 
+The forest hums and shifts around you, alive and watchful, oblivious to your struggle, while you try to weave your way silently towards the faint promise of safety at the edge of the trees.
+
+
+[[Finally, you manage to reach your destination. |home1]]
 
 
 :: StoryScript [script]
@@ -1961,31 +1975,38 @@ body {
     font-family: Calibri, Arial, sans-serif; /* default font */ 
     font-size: 125%;
     color: white;
-    background: linear-gradient(to bottom, #8B0000, #000000), url('H:/bog/bog_emblem_final_black.png');
-    background-attachment: fixed, fixed; /* This is the key fix */
-    background-position: center, bottom 20px right 20px; /* Position gradient and image */
-    background-repeat: no-repeat, no-repeat;
-    background-size: cover, 300px; /* Adjust 300px to your desired image size */
+    background: linear-gradient(to bottom, #8B0000, #000000);
+    background-attachment: fixed;
     min-height: 100vh;
     position: relative;
     z-index: 0;
 }
 
-/* Add pseudo-element for opacity control */
-body::before {
-    content: '';
+body::after {
+    content: "";
     position: fixed;
-    bottom: 20px;
-    right: 20px;
-    width: 300px; /* Match the size above */
-    height: 300px; /* Adjust based on your image's aspect ratio */
-    background-image: url('H:/bog/bog_emblem_final_black.png');
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: bottom right;
-    opacity: 0.3; /* Adjust opacity here (0.0 to 1.0) */
-    pointer-events: none; /* Allows clicking through the image */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* true centering */
+    width: 80vmin; /* responsive size based on viewport — about 80% of the smaller dimension */
+    height: 80vmin;
+    background: url("https://raw.githubusercontent.com/ValantineD/Interactive_fiction_beast_of_gevaudan/main/pics/bog_emblem_final_black.png")
+        center center / contain no-repeat;
+    opacity: 0.1; /* adjust between 0.05 and 0.3 */
+    pointer-events: none;
     z-index: -1;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto; /* centers the image */
+}
+
+h1, h2, h3 {
+    margin-top: 0;
+    margin-bottom: 0px;
 }
 
 
@@ -1995,9 +2016,9 @@ body::before {
     border: none;
 }
 
-/* =============================
-   3. LIENS
-============================= */
+
+
+/* 3. LIENS */
 a {
     color: #FFD070;
     text-decoration: none;
@@ -2009,9 +2030,8 @@ a:hover {
 }
 
 
-/* =============================
-   . TAILLES DE TEXTE
-============================= */
+/* TAILLES DE TEXTE */
+
 body.size-small { font-size: 100%; }
 body.size-medium { font-size: 125%; }
 body.size-large { font-size: 150%; }
@@ -2019,12 +2039,11 @@ body.size-large { font-size: 150%; }
 html.fontsize-medium { font-size: 1.1em; }
 html.fontsize-large { font-size: 1.25em; }
 
-/* =============================
-   7. TYPED TEXT (titles)
-============================= */
+/* TYPED TEXT - TITLES */
 .typed-text {
     font-family: 'Caveat', cursive !important;
     font-size: 2em;
+    margin-bottom: 0;
 }
 
 /* THEME: Bright White */
@@ -2038,29 +2057,95 @@ html.theme-bright-white a {
 html.theme-bright-white a:hover {
     color: #003366;
 }
+html.theme-bright-white body::after {
+    display: none;
+}
+html.theme-bright-white body {
+    color: #1a1a1a; /* Nearly black for better readability */
+    background: linear-gradient(to bottom, #fffef7, #f5f5dc);
+    background-attachment: fixed;
+}
+html.theme-bright-white a {
+    color: #8B0000; /* Dark red to tie into your main theme */
+}
+html.theme-bright-white a:hover {
+    color: #DC143C; /* Brighter red on hover */
+}
+html.theme-bright-white body::after {
+    opacity: 0.08; /* Subtle emblem visibility */
+}
+html.theme-bright-white #ui-bar {
+    background-color: #e8e8d0;
+    border-right: 2px solid #d4d4b8;
+}
+html.theme-bright-white #ui-bar a,
+html.theme-bright-white #ui-bar button {
+    color: #1a1a1a;
+}
+html.theme-bright-white #ui-bar a:hover,
+html.theme-bright-white #ui-bar button:hover {
+    color: #8B0000;
+    background-color: rgba(139, 0, 0, 0.05);
+}
 
 /* THEME: Dark Black */
+
+html.theme-dark-black body::after {
+    display: none;
+}
+
 html.theme-dark-black body {
-    color: white;
-    background: black;
+    color: #f4e5c2; /* Soft yellowish cream */
+    background: linear-gradient(to bottom, #0a1628, #000000);
+    background-attachment: fixed;
 }
 html.theme-dark-black a {
-    color: #66b3ff;
+    color: #FFD700; /* Gold/yellow */
 }
 html.theme-dark-black a:hover {
-    color: #3399ff;
+    color: #FFF44F; /* Brighter yellow */
+}
+html.theme-dark-black #ui-bar {
+    background-color: #162438;
+    border-right: 2px solid #1e3a5f;
+}
+html.theme-dark-black #ui-bar a,
+html.theme-dark-black #ui-bar button {
+    color: #f4d03f;
+}
+html.theme-dark-black #ui-bar a:hover,
+html.theme-dark-black #ui-bar button:hover {
+    color: #ffeb3b;
+    background-color: rgba(244, 208, 63, 0.1);
 }
 
 /* THEME: Warm Yellow */
 html.theme-warm-yellow body {
-    color: #2b1d0e;
-    background: linear-gradient(to bottom, #FFA500, #FFD700, #FF6347);
+    color: #2b1d0e; /* Dark brown/black text for readability */
+    background: linear-gradient(to bottom, #FFF085 0%, #FCB454 33%, #FF9B17 66%, #f77436 100%);
+    background-attachment: fixed;
 }
 html.theme-warm-yellow a {
-    color: #8B0000;
+    color: #8B0000; /* Dark red links */
 }
 html.theme-warm-yellow a:hover {
-    color: #DC143C;
+    color: #DC143C; /* Brighter red on hover */
+}
+html.theme-warm-yellow body::after {
+    opacity: 0.08; /* Subtle emblem on bright background */
+}
+html.theme-warm-yellow #ui-bar {
+    background-color: #FCB454; /* Using your second color for sidebar */
+    border-right: 2px solid #FF9B17;
+}
+html.theme-warm-yellow #ui-bar a,
+html.theme-warm-yellow #ui-bar button {
+    color: #2b1d0e; /* Dark text */
+}
+html.theme-warm-yellow #ui-bar a:hover,
+html.theme-warm-yellow #ui-bar button:hover {
+    color: #8B0000;
+    background-color: rgba(139, 0, 0, 0.1);
 }
 
 /* TOGGLEABLE GREY BACKGROUND */
