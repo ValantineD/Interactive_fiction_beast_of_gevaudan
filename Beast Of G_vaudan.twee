@@ -18,6 +18,80 @@ Beast Of Gévaudan
 }
 
 
+:: Alexis {"position":"6700,525","size":"100,100"}
+[You are in a relationship with Alexis, they know you are a werewolf]
+
+
+"So.... where are we going exactly?" You ask, pushing a branch out of the way.
+
+You've been walking through the forest for a while, Alexis is ahead, although they do come closer from time to time to check on your progress.
+They stop ahead, and turn to look at you, a slight smile on their face.
+
+"It's close."
+
+A small ray of sunlight manages to pass through the canopy and hit the side of their hair.
+Making their hazel eyes almost glow in the light.
+They always seem more relaxed when you're in the wilderness, especially when it's just the two of you.
+
+It's funny how things can change with the right person.
+
+"How close?" You ask
+
+They turn to look at you clearly amused. They always manage to resist your puppy eyes but you never fail to try each time nonetheless.
+
+"Close enough"
+
+$grandma was very talkative, and Lou is as well. You faintly wonder if it was a defense mechanism you learned. To surround yourself with chatty folks so you don't hear how overwhelming silence is. How alone you are.
+
+It is one of the thing that always surprised you with Alexis. How comfortable silence could be.
+When your grandma died, silence was all that you could hear and it was overwhelming. Werewolves are not meant to be alone. Not like you were. As much as you like your quiet alone time, loneliness can kill your kind. The suffocating silence was enough to drive you a little crazy with grief.
+You can't help but wonder if the solitude is the reason you turned into a monster.
+You grimace as you push the memory away.
+
+You sniff the air and smel petrichor and wilderness. You think you smell the faint scent of a badger somewhere.
+
+"We're here."
+
+It is a small clearing, with a tiny lovely river going through it, some fallen logs have been assembled as a makeshift campfire, and you see a blanket, with a basket full of ,from what you can smell, food
+
+This is... A picnic. In the woods...? They made you food and prepared the place. And while you still process the gesture you simply ask:
+
+"Why?"
+
+Alexis looked unbothered by the question. They only shrug in answer, "You were in pain." You also hear what's left unsaid; I wanted to do something for you.
+
+Its true, the full moon was a few days ago and the pre-moon syndromes you often feel hits you hard, letting your body aching all over. And while you feel  completely fine now, it is a very nice gesture to remember of past pain.
+
+
+You don't know how long you stayed looking blanking at a picnic table, after all no one ever did anything like that for you. You start to wonder if maybe you've offended them but no, they simply wait for your answer. You get the feeling that if that made you uncomfortable they would clean it out of the way and never mention it again
+
+Its one of the thing you've always loved about Alexis, they give you the time and space to process. But you know them enough now, behind that impassible face of them hides worry now, you can see it in the way the crease of their eyebrows or the way their lips tighten into a straight line.
+So you answer the best way you can with them: with physical touch. You hug them tight. As usual it takes a split second before Alexis hugs you tightly too. They're getting used to being hugged, being loved, the time reaction gets smaller each time. That makes you smile.
+
+
+"Thank you."
+
+"Of course" they simply answer as they kiss your temple
+
+You both sit and Alexis takes out the meals. It's nothing too fancy but it makes you feel happy. A feeling you get to experience more and and more at their side.
+
+And as you sit there, muscles sore but not quite aching, eating an apple badly peeled by Alexis, you feel at peace.
+
+
+[[Back|EndofDemo]] 
+
+
+:: BrokenLocket [blacksmith] {"position":"4475,700","size":"100,100"}
+taking off old locket
+repare the wood, 
+
+There, the gate ready for a new locket.
+
+[[blabla|blacksmith12]]
+
+<<set $blocket = true>>
+
+
 :: CHAPTER1 {"position":"675,450","size":"100,100"}
 <span class="typed-text"><<type 120ms>>!CHAPTER 1<</type>></span>
 <img src="https://raw.githubusercontent.com/ValantineD/Interactive_fiction_beast_of_gevaudan/refs/heads/main/pics/chap1.jpg">
@@ -31,23 +105,75 @@ Made by Julie Vidal
 <</if>>
 
 
+:: Camille {"position":"6575,575","size":"100,100"}
+When Camille invited you to an underground fight you told yourself it was purely to analyse their fighting style. What was it that grandma always said? “Keep your friends close but your enemies closer”.
+After all, how many opportunities do you get to see your greatest adversary up close without the fear of getting shot at. 
+Besides, it's interesting to see the king's hunter, fight without their arquebus.
+Yes you tell yourself, when Camille asked you to accompany you, you said yes purely for strategy purposes.
+
+Gone are the heavy cloaks of the hunters, and the coat of the arquebusier du roy. Instead they stand shirtless with only white pants. 
+The candlelights of the club and the sweat that colle??? Their body almost make their skin glow.
+
+When you saw their adversary, a guy twice their size, step into the circular pit, you thought this was going to be a massacre. 
+Huh, interesting. But no, Camille surprised you. Perhaps you underestimate them. 
+
+punch
+esquive
+quick jabs
+
+the fight club is buzzing with tension, you can smell sweat, blood and alcohol as if they were soaked in the walls themselves.
+Eager eyes glued to the fighters, yelling encouragement to the one they betted on and disapproving noises when they get punched.
+You could easily be overwhelmed in such an environment, it has been too long since you've been stimulated like this, but your own eyes are focused on Camille.
+You no longer hear the crowd or smell the place, its like your entire body is in tune with them and only them.
+
+big guy lunge forward
+slamming hand into shoulder
+
+using big guy thigh as a ledge
+knee to the gut
+
+You see an opening, you see the colossus getting slower on their left side, and from the way Camille circles them like a shark, you know they must see it too, but then you watch as they look up to …. wink at you?
+You feel butterflies in your stomach but not before you feel your stomach drop. the giant takes the opportunity to uppercut them before they can block or dodge. The big guy doesnt give the hunter a chance to recover as they, twice, land powerful blows across their face. You watch Camille stagger before they collapse on the ground. You wait a bit, heart stuck in your throat before the referee announce the fight is over.
+
+You ignore the crowd, feeling your heart squeeze in a painful way, as you rush to their side. They’re spitting blood on the ground, but they’re alive, although they look smaller now, with blood trickling from their mouth, split brow and noises. No longer the powerful, in control hunter, you came to know.
+
+You gently take care of them, wiping the blood away from their face. They purposely avoid your gaze though, even if they sit tall, they look ashamed. 
+
+“I’ve known you more focused”
+
+There is no judgement in your voice, but you see them flinch nonetheless as you stamp the cloth against the arch of their brow. 
+
+“I know.” Their gaze flickers to your eyes and lower before moving away.  “I was distracted. I would like to say it shall not happen again but that would be a lie.“
+
+“You were distracted? By what?” by whom? You stop yourself from asking.
+
+You halt your movement, but your hand doesn't get away from their face.
+they slowly wrap their hand around your wrist, movement slow enough that you can back away at any time. You don’t feel the need to.
+
+“I believe you already know.”
+
+Their eyes look so pretty in this light, deep soulful eyes so dark you could drown in it but oh, so warm. They smile, sitting taller as if they hadn’t lost in front of you. As if their face doesn’t look like they took a beating.
+
+“Perhaps with you at my side, I do not mind losing more often”
+
+[[Back|EndofDemo]] 
+
+
 :: Character Stats [menu] {"position":"25,150","size":"100,100"}
 <span class="typed-text">WHO ARE YOU?</span>
 
-Your name is $mc , your nickname is $nickname, You go by ?they and ?them, You come from $origin
+Your name is $mc , <<if $nickname == $mc >> you have no nickname, <<else>> your nickname is $nickname,<</if>> You go by ?they and ?them, You are $origin and call your grandma $grandma.
 
-Your skin is $skin with a $undertone understone and you are $height , Your hair is $lenght, $texture and $fur , you have $chest , your eyes are $eyes and you wear $clothes clothes.
+Your skin is $skin with a $undertone understone and you are $height , Your hair is $lenght, $texture and $fur , you have $chest<<if $topSurgery == true>> and did a top surgery<</if>>, your eyes are $eyes and you wear $clothes clothes.
 
 You work as a $job
 
 Your dominant personality is: $dominantPersonality 
-<<if $quiet > $funny and $quiet > $angry and $quiet > $kind>>    <<set $dominantPersonality to "quiet">><<elseif $funny > $quiet and $funny > $angry and $funny > $kind>>    <<set $dominantPersonality to "funny">><<elseif $angry > $quiet and $angry > $funny and $angry > $kind>>    <<set $dominantPersonality  to "angry">><<elseif $kind > $quiet and $kind > $funny and $kind > $angry>>    <<set $dominantPersonality to "kind" >> <<else>> <<set $dominantPersonality to "No clear dominant trait yet.">> <</if>>
+<<if $quiet > $funny and $quiet > $angry and $quiet > $kind>> <<set $dominantPersonality to "quiet">><<elseif $funny > $quiet and $funny > $angry and $funny > $kind>><<set $dominantPersonality to "funny">><<elseif $angry > $quiet and $angry > $funny and $angry > $kind>><<set $dominantPersonality  to "angry">><<elseif $kind > $quiet and $kind > $funny and $kind > $angry>><<set $dominantPersonality to "kind" >> <<else>> <<set $dominantPersonality to "No clear dominant trait yet.">><</if>>
 
-you are $money with your money.
+<<if $spendingStyle == "rat">> You've always been stingy with money. Its not your fault really, you never had much and $grandma taught you early to be careful with what you have and what you will need in the future. <<elseif $spendingStyle == "generous">>  You've always been generous with money. $grandma always told you your dad was a generous man, and it seems you've inherited his kindness. What is the point of having things, if not to share them? You've always lived by the words "Take what you need and give what you can." <<elseif $spendingStyle == "normal">> You've always been fairly rounded when it comes to handling money. You give but not to the point of sacrificing your needs. This was how $grandma was, and there is no way you could have turn out differently. <</if>>
 
-<<if $stress == 0>> Your stress level is extremely high.
-<<elseif $stress >= 3>>Your stress level is high.
-<<else>>Your stress level is manageable.<</if>>
+<<if $stress == 0>> Your stress level is extremely high.<<elseif $stress >= 3>>Your stress level is high.<<else>>Your stress level is manageable.<</if>>
 
 You are 
 quiet $quiet 
@@ -55,8 +181,7 @@ angry $angry
 kind $kind 
 funny $funny
 
-You wish you could be honest with who you are and what you feel. you can help but wish you could show your true form to your friend.
-You know that if you were honest, you would be hated, vilified, and hunted down, better to lie, even if it is lonely sometimes
+<<if $tellher == "You want to tell her but you can't">>You wish you could be honest with who you are and what you feel. you can help but wish you could show your true form to your friend.<<elseif $tellher == "You're too scared to even think about this conversation.">> You know that if you were honest, you would be hated, vilified, and hunted down, better to lie, even if it is lonely sometimes <</if>>
 
 <<link 'Change your pronouns.'>>
     <<pronouns>>
@@ -88,6 +213,20 @@ At least the journalistic uprising about the Beast of Gevaudan will be behind th
 [[CHAPTER1]]
 
 
+:: EndofDemo {"position":"6525,450","size":"100,100"}
+<span class="typed-text"><<type 120ms>>End of Chapter 1<</type>></span>
+thank you for playing!!!!
+hopefully chapter 2 will take less time than the first chapter
+
+
+I wrote some snippets of what the romance will be like deep relationship here :
+
+[[Lou]]
+[[Hyacinthe]]
+[[Alexis]]
+[[Camille]]
+
+
 :: FurNext [Intro] {"position":"550,325","size":"100,100"}
 <<if $fur == "ginger" || $fur == "blonde">>
 The skin looks torn, burnt and scarred in many places, as if someone stabbed the beast multiple times and tried to sew the skin back together, the fur missing in many places. The "wolf" doesnt really look intimidating anymore, it's dirty, muddy and bloody.
@@ -97,20 +236,87 @@ The skin looks torn, burnt and scarred in many places, as if someone stabbed the
 [[Next|EndPrologue]]
 
 
-:: JobFinal {"position":"4775,450","size":"100,100"}
-<<set $money = "">>
+:: Hyacinthe {"position":"6575,325","size":"100,100"}
+[You are not “quite” in a relationship with Hyacinthe, but there is heavy attraction on both side]
+
+"I believe I must decline. There is a ball happening at the manor tonight and I shall do my best to avoid it."
+
+"A.... a ball?" You look at Hyacinthe and you can't quite discern whether they're lying or not. "Aren't those suppose to be fun?"
+
+"I found them..... exceptionally boring if I have to be honest."
+
+"Really?" You reply and you can't help but to sound slightly disappointed. 
+
+$grandma always loved dancing. There's fond moments you remember, where you would dance with her and spin her around just to see her smile and hear her laugh. A small part of you always wanted to bring her to one, one day.  Sadly it never happened.
+ It made you curious about what a real ball would be though. To hear musicians and dance without a care in the world.
+
+You take a look at Hyacinthe and they're very pretty. Slightly disheveled. Hair in the wind. With the sunlight gently caressing their face. If you have to be perfectly honest with yourself, you were looking forward to dancing with them too. Not that you’ll admit to their face.
+
+They must feel your gaze because they turn to look at you curiously, their smile seems to lose an edge, not quite as sharp.
+
+"Well people always wanted to dance with me to get something out of me. It was never fun just to be fun. It was" they pause seemingly looking for the proper word. "Dreadful?"
+
+Ah. That makes sense. You're not sure why you didn't think of that before. That makes you feel a bit stupid and inconsiderate.
+
+"Ah yes my apologies" you say "For a second it seemed I lived in a world where balls would just be...Dancing and not people judging each other."
+
+You hear them laugh all too wrong "oh but judging is my favorite part though" 
+
+The mask is back, and in full force, they're all toothy grin and jests.
+
+"You don't say" you can't help but feel a twinge of disappointment at seeing the vulnerability disappear.
+
+"You should see some of the clothes the nobles wear. It's such a sight. Or the way they speak about the most dull subject, my lord." They laugh seemingly lost in memory. "One time I had a lord talk to me for more than three dances about fountains. Something about water ? It was ridiculous."
+
+They look in the distance. In the direction of — what you know to be — the Count's manor. "Shall we go to a ball then?"
+
+"I— excuse me?"
+
+They get close to you, so close you can feel their breath on the shell of your ear as they whisper in your ear.
+
+"Let us go to the ball, you and I."
+
+You feel yourself heat up at the proximity, your heart already thumbing loudly in your chest and you turn to face them. From the smug look on their face and their knowing smirk they know exactly what they did.
+
+"To judges the other nobles? Please, I don’t need a fancy ball to do that" you joke and you expect them to joke back but they look— they look sincere. They look at you softly, adoringly. It makes you tingle. 
+This almost feels too good to be true. You need to look away, to break away from them before they do. "I thought balls were boring" you frown, waiting for the other shoe to drop. You know by now this dance that you both do, one step forward two steps back.
+
+"They are, but I've never tried them with you. Perhaps they'll be more fun than I remember."
+
+You look up to meet their eyes, surely they're making fun of you. You're fully frowning now and you watch as they seem to lose their cool under the weight of your gaze, suddenly they huff and look away. You watch them grimace before you realise, with great satisfaction, that they're embarrassed. 
+How precious.
+
+"I want to dance with you" they admit so softly you almost believe you imagined it.
+
+"Alright" you relent, taking pity on them, "Only if you're sure." It’s weird now, but you start to think you know how their mind works. You ask for them to stay, they flee. You give them an easy exit and they remain. You wonder if your commitment to one another will ever not feel like a shackle to them.
+
+"I am" they beam and grab your hand leading the way. You expect them to drop them once they know you follow but they don't. They lace their fingers with yours.
+
+ "I heard the count has excellent company tonight"
+
+You laugh. That took you by surprise.
+
+"Oh do they now?" 
+
+They smile then, eyes filled with mirth and they look relaxed and you hope — you wish that you will see this expression more often.
+
+
+[[Back|EndofDemo]] 
+
+
+:: JobFinal {"position":"4900,450","size":"100,100"}
+<<set $village = 0>><<set $gold = 0>>
 “How much do we owe you?”
 
 You know the Boulet are far from rich. And while they need the money, so do you.
-
+(This choice will determine the base of your relationship with money!)
 [[Nothing, they gave you lamb a month ago and that was free, so at this point you'd feel bad for taking their money.|JobFinalGen]]
 [[Well, you do need to buy some new clothes, so...|JobFinalRat]]
-<<if $job == "doctor">>[[While they are not wealthy, you do know they can pay you at least for the Poulstice.|JobFinalModerate]] <</if>><<if $job == "blacksmith">>
-[[While they are not wealthy, you do know they can pay you at least for the new lock.|JobFinalModerate]]
+<<if $job == "doctor">>[[While they are not wealthy, you do know they can pay you at least for the Poulstice.|JobFinalModerate]] <</if>><<if $job == "blacksmith">>[[While they are not wealthy, you do know they can pay you at least for the new lock.|JobFinalModerate]]
 <</if>>
 
 
-:: JobFinalGen {"position":"4900,325","size":"100,100"}
+:: JobFinalGen {"position":"5050,325","size":"100,100"}
 “Nothing, really”
 
 “What ? No $mc we can't accept this. At least if you do not want some coin would you take some food at the very least”
@@ -119,11 +325,12 @@ Well, you can't really say no to delicious food now can you?
 
 [[Next.|Tavern1]]
 
-<<set $money to "generous">>
+<<set $spendingStyle to "generous">>
+<<set $village += 5>>
 
 
-:: JobFinalModerate {"position":"4900,575","size":"100,100"}
-A couple of coin should suffice”
+:: JobFinalModerate {"position":"5050,575","size":"100,100"}
+"A couple of coin should suffice”
 
 “Are you sure? I could give you more”
 
@@ -131,10 +338,12 @@ A couple of coin should suffice”
 
 [[Next.|Tavern1]]
 
-<< set $money to "moderate">>
+<<set $spendingStyle to "moderate">>
+<<set $village += 1>>
+<<set $gold += 5>>
 
 
-:: JobFinalRat {"position":"4900,450","size":"100,100"}
+:: JobFinalRat {"position":"5050,450","size":"100,100"}
 “A small pouch shoud be fine”
 
 “Of course, thank you dear”
@@ -143,7 +352,8 @@ Well with that much money, you should say goodbye to those awful morning clothes
 
 [[Next.|Tavern1]]
 
-<< set $money to "rat">>
+<<set $spendingStyle to "rat">>
+<<set $gold += 10>>
 
 
 :: List of variables {"position":"400,100","size":"100,100"}
@@ -185,10 +395,13 @@ $undertone - warm, neutra, cool
 
 $height -
  $chest - boobies or pecs
+ $topSurgery - true /false
 $clothes masc or fem clothes
 $eyes color
 
 $stress level, 0 super stressed 10 chilling
+
+$village 
 
 $job blacksmith or doctor
 
@@ -196,7 +409,7 @@ personality: $quiet $angry $funny $kind  $dominantPersonality
 
 $drink of choice: vinasse or tea
 
-how are you with $money: "altruist" "rat" "normal"
+how are you with $spendingStyle: "altruist" "rat" "normal"
 
 $honest you want to tell the truth about yourself
 $hide you dont wanna tell
@@ -214,6 +427,86 @@ $stresspath: 1 - calm 2- stressed 3- stressed but ok
 $tellher
 
 
+:: Lou {"position":"6700,375","size":"100,100"}
+[You are deep in a relationship with Lou, and she is aware of you being a werewolf]
+
+
+"Is your back sore again?"
+
+It is scary how well Lou reads you after all this time. You haven't seen each other in a week and yet she picked on all the signals. She's been busy prepping for the next festival and you ? Well, you're experiencing some pre moon symptoms. 
+
+The lie is almost at the tip of your tongue before you get a look on Lou's face and close your mouth. You've never quite realised how much you lie about these kinds of things. It's sad really, you used to tell everything to your grandma, but with her death, a part of you got sealed away with her. Hiding. Until now, that is.
+She knows the full moon is in a few days and she knows werewolves tend to get all sorts of symptoms like back pain and sore muscles. Hells, one time you even blocked your neck for three days until the Moon magically healed you up.
+
+She doesn't look at you with pity though, nor with fear, which you expected in the beginning. No, she's looking at you in a way that makes you feel raw, vulnerable. 
+And all too tingly inside. 
+
+You can't help but look away. Her gaze is too difficult to bear, too sharp. You hear her footsteps echo on the wood, and see her get closer to you. You feel her hand on your shoulder. You meet her eyes, curious.
+
+"Come with me, love"
+
+Lou's been pretty busy the past few weeks, mostly preparing for the festival and making sure that the inn will run smoothly. Between her schedule and you feeling the effect of the full moon, you haven't seen her much in the past week.
+As you climb the stairs, you can't help but realise how often she comes at your house and how little you get to her own room. But as you expect her to lead you to her place she turns on a right door, unlock it and open it, and enters leaving the door open for you to follow.
+You've never seen this place before.
+Its a bathtub, a huge wooden bathtub in the middle of a room, with a chest of drawers in the corner and an already lit fireplace. 
+
+"I did not know you had a bathtub" you frown.
+
+She smiles apologetically as she put another log in the fireplace. Which feels entirely unnecessary with how warm this place is compared to the rest of the inn. But you assume she does so to keep herself busy.
+
+"Yes. Back when Auntie was there we used to do a bath service for anyone willing to pay. I was often the one doing it. After she died… Well it became too difficult to do that activity as well"
+She pauses and then gives you a knowing smile, although it feels a little evasive to you. "Still make use of it often. Mostly to indulge in a proper bath."
+
+You hum. It makes sense. Two people working in an inn was probably easier to deal with and to add other services as well.
+You pause though, and can't help the wicked smile that comes on your lips. Mostly because, while you got used to being nude, you can't help but feel slightly awkward in front of her.
+
+"Is this your way of getting me naked?"
+ 
+She laughs and oh, you wish you could hear it again. You adore how her eyes wrinkles when she smiles, the small dimple in her left cheek. How happy and free she looks right now.
+
+"Please," she steps close to you, close enough that you can feel her own breath on your skin, noses almost touching.
+"I can get you naked whenever I want to" she says gently grabbing the front of your shirt and fiddling with the button at the top. She looks down and stops before looking up, silently asking for consent. One you give with a nod.
+
+"Is that a challenge?" You ask, cocking your head on the side. 
+
+"Do you want it to be one?" She grins
+
+Oh, you love how she's looking at you right now. Like for once the roles are reversed.
+ You're the prey, and if she could she would eat you alive. 
+She kisses you gently at the corner of your jaw and begins working on your clothes silently.
+
+Its funny how vulnerable this moment is, and you watches as she, ever so tenderly, helps you get out of your clothes, folding them neatly all the while preparing a bath. She does it like she's done it a million times. And she probably did
+
+As you settle into the bathtub you realise how much you missed this. The gentle comfort of the warm water against your sore muscles. Usually when you get back pain they can get so intense that doing an activity like warming water for yourself feels impossible.
+You can't help the content sigh that escape you, as you close your eyes savouring every instant.
+You feel warm lips against your forehead, and when you open you see Lou's gentle smile.
+
+"I love seeing you like this."
+
+"What, wet and naked?" You ask, a mischievous grin setting easily on your face.
+
+It does get a small laugh out of her, which makes you smile triumphantly.
+
+"No, silly." she boops your nose, then kisses your forehead again, "Happy."
+
+Again Lou always had that talent to render you speechless. It's not uncomfortable though, so again, you chose to make a joke out of it. You lightly splash her.
+
+ "There's enough space for both of us my love"
+
+She smiles, that sweet little smile that she reserves just for you. Not the polished one she uses on clients.
+
+"I'll join i promise I just need to make sure your water stays warm and –"
+
+She stops when you grab her hand and gently kiss it. 
+
+"Please stay."
+
+Lou is a busy woman, a people pleaser often running everywhere making sure her business blooms and that everyone around her is satisfied and content. She doesnt stay with you as much time as she'd like that you know. But she misses you, you can see it in her eyes and her lingering touches. And so, this time, she does stay.
+
+
+[[Back|EndofDemo]] 
+
+
 :: Map [menu] {"position":"175,275","size":"100,100"}
 [LOCKED]
 
@@ -222,7 +515,7 @@ $tellher
 <</link>>
 
 
-:: Name {"position":"2325,450","size":"100,100"}
+:: Name {"position":"2450,450","size":"100,100"}
 One Last thing, Tell me Wolkin, what is your name?
 [[Amaranthe|nickname][$mc to "Amaranthe"]]
 [[Candide|nickname][$mc to "Candide"]]
@@ -239,7 +532,6 @@ Or, insert your name: <<set $mc to " ">>
 <span class="typed-text"><<type 120ms>>!PROLOGUE<</type>></span>
 <span class="typed-text"><<type 60ms>>\''September 1766, Palace of Versailles
 2 years later''<</type>></span>
-
 
 	After almost 2 years of entertainment, the king is almost mournful to hear the beast has been slayed.
 
@@ -288,12 +580,6 @@ Romance: $hyacinthe_r
 <</link>>
 
 
-:: Shit is right. {"position":"6375,450","size":"100,100"}
-<span class="typed-text"><<type 120ms>>End of Chapter 1<</type>></span>
-thank you for playing!!!!
-hopefully chapter 2 will take less time than the first chapter
-
-
 :: StoryCaption [menu] {"position":"550,100","size":"100,100"}
 <div id="title-image"><img src="https://raw.githubusercontent.com/ValantineD/Interactive_fiction_beast_of_gevaudan/refs/heads/main/pics/bog_emblem_final.png" alt="Beast Logo">
 </div>
@@ -306,7 +592,7 @@ hopefully chapter 2 will take less time than the first chapter
 [[Map]]
 
 
-:: Tavern1 {"position":"5025,450","size":"100,100"}
+:: Tavern1 {"position":"5200,450","size":"100,100"}
 Perhaps it is because you worked, or perhaps it is because you've had a rough night, but a huge part of you needs to see Lou. Before you even realize, your feet are heading to the Inn.
 
 The Inn, La Lune Rousse, is, quite honestly the only part of town that makes it interesting, it's in the middle of the village, the village being a road? traveling? Sur la route?? Usually
@@ -373,7 +659,7 @@ Is that the disability you have?
 :: WoodCalm {"position":"925,575","size":"100,100"}
 <<set $stress +=  3>>
 
-	At this point, waking up bloodied and naked in the middle of X (forest name) is your new normal. And while the situation is weird, you know you probably just killed some rabbit or maybe a deer if you were hungry. One thing is sure, the wolf does not take unnecessary risks. You've been tracking your habits and the wolf seems content to just hunt in the forest. 
+	At this point, waking up bloodied and naked in the middle of Silvalupe is your new normal. And while the situation is weird, you know you probably just killed some rabbit or maybe a deer if you were hungry. One thing is sure, the wolf does not take unnecessary risks. You've been tracking your habits and the wolf seems content to just hunt in the forest. 
 
 [[At least for now.|wood2]]
 
@@ -381,7 +667,7 @@ Is that the disability you have?
 :: WoodPanic {"position":"925,450","size":"100,100"}
 <<set $stress =  0>>
 
-No matter how many times it happens this shit is still terrifying. Losing control, memory gaps, not knowing what you did. What you killed. It scares you. How many times can you escape (unescape? Clean not hurt) this situation without anyone noticing a stranger butt naked in X (name of the forest)?
+No matter how many times it happens this shit is still terrifying. Losing control, memory gaps, not knowing what you did. What you killed. It scares you. How many times can you escape (unescape? Clean not hurt) this situation without anyone noticing a stranger butt naked in the forest of Silvalupe
 
 //Oh gods, you're full on panicking now aren't you?// 
 
@@ -391,7 +677,7 @@ No matter how many times it happens this shit is still terrifying. Losing contro
 :: WoodRepressed {"position":"925,325","size":"100,100"}
 <<set $stress +=  1>>
 
-Okay, Calm Down. You inspire and expire slowly, trying to calm down your heart. Yes this whole situation is less than ideal but, you can do this, you close your eyes and try to focus on breathing. You feel your senses expand. you focus on your hearing. The forest of x is loud, but not uncomfortable, you hear a herd of deers running farther away, you hear a small bird making its nest. But no humans. 
+Okay, Calm Down. You inspire and expire slowly, trying to calm down your heart. Yes this whole situation is less than ideal but, you can do this, you close your eyes and try to focus on breathing. You feel your senses expand. you focus on your hearing. The forest of Silvalupe is loud, but not uncomfortable, you hear a herd of deers running farther away, you hear a small bird making its nest. But no humans. 
 That is a good sign. 
 
 [[You feel yourself relax..|wood2]]
@@ -406,11 +692,11 @@ And you remember …. //What do you remember?//
 
 	The water turns grim, brownish red.
 
-	You hear the loud ring of a rifle shot. The echo of whimpers. Sounds of impacts. Cries of pups.
+	You hear the loud ring of a rifle shot. The echo of whimpers. The sound of flesh being torn apart. Cries of pups.
 
 	//Make it Stop.//
 
-	You smelled blood and felt deep rooted pain within you. You felt hunger. You felt Anger  and more than anything you felt fear. Father is gone, Mother still doesn't move. Home isn’t home anymore, even then it felt wrong, rotten.
+	You smelled blood and felt deep rooted pain within you. You felt hunger. You felt anger too and more than anything you felt fear. Father is gone, Mother still doesn't move. Home isn’t home anymore, even then it felt wrong, rotten.
 
 [[ENOUGH.|bath3]]
 
@@ -418,8 +704,6 @@ And you remember …. //What do you remember?//
 :: bath3 {"position":"1800,450","size":"100,100"}
 You're not sure what made them come back. Memories forgotten for more than decades. But something triggered them. The door opened, and you can't quite close it. Frustrating enough it's also when the wolf started to manifest itself.
 But the pain they bring back almost always cuts you at the core. They leave you with a ragged breath and tears stuck at the corner of your eyes.
-
-BALD ? LENGH choice
 
 <<if $stress >= 4>>
 You breathe. And calm down.
@@ -429,17 +713,53 @@ You let yourself cry.
 You laugh. and laugh. Until you cant breathe anymore. You sound broken. This whole situation is so /absurd/. 
 <</if>>
 
+You've been here a while already, you should probably wash your...
+[[scalp (bald)|bath3.5][$length to "bald"]]
+[[buzzcut|bath3.5][$length to "buzzcut"]]
+[[short hair above the ears.|bath3.5][$length to "short above your ears"]]
+[[short hair below the ears|bath3.5][$length to "short below the ears"]]
+[[shoulder length hair.|bath3.5][$length to "shoulder length"]]
+[[waist length hair|bath3.5][$length to "waist length"]]
+[[braids close to your scalp|bath3.5][$length to "braided close to your scalp"]]
+[[short locs.|bath3.5][$length to "short locs"]]
+[[long locs.|bath3.5][$length to "long locs"]]
+
+
+
+
+
+
+
+
+:: bath3.5 {"position":"1925,450","size":"100,100"}
+[washing hair scene help]
+<<if $length == " ">><<endif>><<set $topSurgery = false>>
+
 When you get out, its with a towel around
+
 [[Your hips, showing your pecs|bath4][$chest to "pecs"]]
 [[your torso, hiding your breasts,|bath4][$chest to "breasts"]]
-[[your hips, showing scars underneath your pecs|bath4][$chest to "pecs"]]
+<<link "your hips, showing scars underneath your pecs">>
+	<<set $chest = "pecs">>
+	<<set $topSurgery = true>>
+	<<goto "bath4">>
+<</link>>
 
 
-:: bath3.5 {"position":"1850,575","size":"100,100"}
-hair lenght ? bald??
+
+bald
+buzzcut
+short above your ears
+short below the ears
+shoulder length
+waist length
+braided close to your scalp
+short locs
+long locs
 
 
-:: bath4 {"position":"1925,450","size":"100,100"}
+
+:: bath4 {"position":"2050,450","size":"100,100"}
 You’ve been scrubbing yourself for at least a good hour, if not two. Still even physically clean you still feel dirty, as you pick on your nails, trying to get the dirt and dried blood from underneath.
 
 	You put on clothes then go look for grandma's mirror. You need to make sure you don't look like you woke up naked in the middle of the forest this morning.
@@ -477,7 +797,7 @@ You're wearing:
 [[A robe|bath5][$clothes to "feminine"]]
 
 
-:: bath5 {"position":"2050,450","size":"100,100"}
+:: bath5 {"position":"2175,450","size":"100,100"}
 Even though they're from your closet, it's been quite a while since you had money to buy clothes that you really liked. Nevertheless they're way better than those in the forest so you're not gonna complain.
 Maybe one day when you're more in control you'll buy clothe you really feel comfortable with.
     
@@ -486,13 +806,13 @@ Maybe one day when you're more in control you'll buy clothe you really feel comf
 [[From the North of Frankia|origin_breton]]
 [[From Across the Sea in the South East.|origin_middle_east]]
 [[From the Deep South, across the sea.|origin_africa]]
-[[From the Far East|origin_east_asia]]
+[[From the Far East|origin_asia]]
 
 
-:: blacksmith [blacksmith] {"position":"3000,525","size":"100,100"}
+:: blacksmith [blacksmith] {"position":"3150,525","size":"100,100"}
 There is not much you remember about your parents. Most of it you were just a cub and the rest you tried to erase. But you'll never quite forget the almost unbearable heat of the forge when you visited your mother's workplace. The heat was almost unbearable and so was the diverse iron smells. Still you remember feeling safe there. 
 	You remember how happy she looked when she was crafting things. So different from the last memories you have of her. Maybe that's why you picked it up. To be closer to them.
-	Your Grandma, $grandma always said it's important to be well rounded in your knowledge, so you picked up a bit of everything. Edge tool making, locksmithing, tinsmith, sheet metal work and even gunsmith.
+	$grandma always said it's important to be well rounded in your knowledge, so you picked up a bit of everything. Edge tool making, locksmithing, tinsmith, sheet metal work and even gunsmith.
 	You're far from being a prodigy but you're good enough for the locals and that's good enough for you. For now at least.
 You didn't expect it to become quite so popular but it seemed the place was in dire need of a blacksmith.
 
@@ -503,7 +823,7 @@ Is that the job that you have ?
 [[No.|job2]]
 
 
-:: blacksmith1 [blacksmith] {"position":"3125,525","size":"100,100"}
+:: blacksmith1 [blacksmith] {"position":"3275,525","size":"100,100"}
 <<set $job to "blacksmith">>
 Business has been quiet for a few days. Luckily for you, you were feeling a bit drowsy with the full moon coming up.
 You take one last look at the mirror making sure you look at least presentable, and then go reach for the door.
@@ -513,21 +833,27 @@ As you open, you see;
 [[Next.|blacksmith2]]
 
 
-:: blacksmith11 [blacksmith] {"position":"4375,525","size":"100,100"}
+:: blacksmith11 [blacksmith] {"position":"4525,525","size":"100,100"}
 (( écrire l'intro passage black smith avec le loquet))
 
 [[Next.|blacksmith12]]
 
 
-:: blacksmith12 [blacksmith] {"position":"4500,525","size":"100,100"}
-faire comme docteur avec des variables en mode liste de choses
+:: blacksmith12 [blacksmith] {"position":"4650,525","size":"100,100"}
+You get closer to the kid and start the examination
 
-Quick fix or expensive one
+<<if not $blocket>>[[taking off the broken locket from the gate.|BrokenLocket]]<</if>> <<if $blocket>><span style="color:gray;">taking off the broken locket from the gate. (done)</span><</if>>
+<<if not $newlock>>[[Prepare the new lock.|newLock]]<</if>><<if $newlock>><span style="color:gray;">Prepare the new lock. (done)</span><</if>>
 
+<<if $blocket and $newlock>>Now, good as new.
 [[Next.|blacksmith13]]
+<</if>>
 
 
-:: blacksmith13 [blacksmith] {"position":"4625,525","size":"100,100"}
+
+
+
+:: blacksmith13 [blacksmith] {"position":"4775,525","size":"100,100"}
 conclusion locket
 
 “Thank you, $mc ”
@@ -535,44 +861,56 @@ conclusion locket
 [[“Of course”|JobFinal]]
 
 
-:: blacksmith2 [blacksmith] {"position":"3250,525","size":"100,100"}
-An older man, Augustin Boulet, white skin, auburn hair with a few hints of white hair, a full beard and bushy brows. Under a stern look in his eye. He’s a shepherd of sheep, and he and his family are your closest neighbors. You often see their sheep in the field right next to your house, sometimes even in your garden. Not that you mind since they take care of the grass.
+:: blacksmith2 [blacksmith] {"position":"3400,525","size":"100,100"}
+An older man, Augustin Boulet, white skin, auburn hair with a few hints of white hair, a full beard and and darke eyes hidden under a stern look with frowned bushy brows. He’s a shepherd of sheep, and he and his family are your closest neighbors. You often see their sheep in the field right next to your house, sometimes even in your garden. Not that you mind since they take care of the grass.
 
 As he sees you he straightens up a little. 
-[[He's not alone though.t.|blacksmith3]]
+[[He's not alone thought.|blacksmith3]]
 
 
-:: blacksmith3 {"position":"3375,525","size":"100,100"}
-You see the eldest of the Boulet twins. Élise. She's no more than 15 winters. Tall, with the thick brows of her father, crooked nose of her mother but gentle smile that is all of her own . Usually she's found helping out her mother, she made you quite a few tart in the past few years. The first few one were a bit atrocious but she, thankfully, quickly got better. You're pretty sure she's been arboring some sort of crush on you. Which to be totally honest, you cannot fathom why. Still, because of it she seems to have gotten a genuine interest in the culinary art. 
+:: blacksmith3 {"position":"3525,525","size":"100,100"}
+You see the eldest of the Boulet twins. Élise. She's no more than 15 winters. Tall, with the thick brows of her father, crooked nose of her mother but gentle smile that is all of her own . 
+Usually she's found helping out her mother, she made you quite a few tart in the past few years. The first few one were a bit atrocious but she, thankfully, quickly got better. You're pretty sure she's been arboring some sort of hero crush on you. Which to be totally honest, you cannot fathom why. Still, because of it she seems to have gotten a genuine interest in the culinary art. 
  	Lou is fond of her, so you suspect that soon enough she'll get a proper job at the inn.  
 She's considered by the entire village as the eldest because of how responsible she is. Although you personally rarely see that side of her because of her ridiculous crush on you.
   
 [[Next.|blacksmith4]]
 
 
-:: blacksmith4 [blacksmith] {"position":"3500,525","size":"100,100"}
+:: blacksmith4 [blacksmith] {"position":"3650,525","size":"100,100"}
+You look at them expectantly.
+
 “The lock holding the sheep broke, you mind taking a look at it?”
 
-
 He eyes you at the corner of his eyes, he looks fidgety. You can help but cock your head asking a silent question. 
-He sniffs, and wipes his palms against his pants. “Sorry, You look like you slept badly.”
+
+He sniffs, and wipes his palms against his pants, before replying.
+
+“Sorry, You look like you slept badly.”
+
 He’s always been awkward. At first you thought it was because you were a stranger in a small town but after years of knowing the man you know he just prefers the company of his sheep to humans. You can’t really blame him there.
 
-[[Next.|blacksmith5]]
-
-
-:: blacksmith5 [blacksmith] {"position":"3625,525","size":"100,100"}
 "Are you okay ?" The youngling asks
 
 You catch her looking at you, observing you. It's a little unsettling if you have to be honest. She must see how wild you look right now, but you see her turning her head back at the road. Whatever she saw, she's way too polite to comment on it. You exhale. 
 
+[[Stare at her until she backs off.|blacksmith5][$quiet += 1]]
+[["Mind your buisiness."|blacksmith5][$angry += 1]]
+[[Try to redirect while thanking about it.|blacksmith5][$kind += 1]]
+[[be sarcastic.|blacksmith5][$funny += 1]]
 
-false choice; +personality
 
-He nods, seemingly not wanting to continue this conversation farther. 
-And while Augustin seems done with the conversation, you perk up again when Elise mentions.
+:: blacksmith5 [blacksmith] {"position":"3775,525","size":"100,100"}
+first react personnality:
+
+"Oh yes I'm splendid, I've never been so well." you drawl 
+
+This seem to surprise her before she blushes and realise how personal this question is. For a moment it looks like she wants to disapppear, before you take pity and sigh. You realise shes hiding something behind her back.
+
+"Whatcha got here?"
 
 "I baked you a pie!"
+
 
 [[Raise eyebrow but don't say anything.|blacksmith6][$quiet += 1]]
 [["Again?"|blacksmith6][$angry += 1]]
@@ -580,14 +918,14 @@ And while Augustin seems done with the conversation, you perk up again when Elis
 [[Tease her about it.|blacksmith6][$funny += 1]]
 
 
-:: blacksmith6 {"position":"3750,525","size":"100,100"}
+:: blacksmith6 {"position":"3900,525","size":"100,100"}
 You see her cheeks flush and can't help but sigh internally. You’ve been pretty clear to her before, and you wonder what it will take to make this child stop having these feelings. She will grow out of it. 
 You need to distract her or she will become clingy.
 
 [["How's your mother?"|blacksmith7]]
 
 
-:: blacksmith7 [blacksmith] {"position":"3875,525","size":"100,100"}
+:: blacksmith7 [blacksmith] {"position":"4025,525","size":"100,100"}
 "Oh! Well" She seems surprised by your questions. "Mother is good, (little one) got sick and she's taking care of her."
 
 
@@ -611,7 +949,7 @@ It is not unusual. Jeanne, while being a very sweet child, always had her head i
 [[Next.|job8]]
 
 
-:: blacksmith9 [blacksmith] {"position":"4250,525","size":"100,100"}
+:: blacksmith9 [blacksmith] {"position":"4400,525","size":"100,100"}
 ((You see Augustin Boulet. He seems to be focusing on repairing one of the gates that hold the ships. From a glance, you're not sure he's succeeding at fixing it. He seems to notice you as he looks up from what he's doing.
 
 You wave, and he nods, not one to talk.))
@@ -628,14 +966,14 @@ Just a water
 [[Next.|blacksmith11]]
 
 
-:: bowels [Doctor] {"position":"4775,225","size":"100,100"}
+:: bowels [Doctor] {"position":"4900,225","size":"100,100"}
 <<set $bowels = true>>
 You put your hand on her stomach, tapping lightly on it with the other one. The noise is normal which tells you her guts are not tight. Considering she doesn't seem to be in deep pain, they have not perforated either. 
 
 [[That's good.|doctor12]]
 
 
-:: breathing [Doctor] {"position":"4525,225","size":"100,100"}
+:: breathing [Doctor] {"position":"4650,225","size":"100,100"}
 You lift her, she's sleepy and while she's a bit of a dead weight at the moment, she's still small enough that she's not too heavy for you.
 You put your ears on her back listening to her attentively. Not that you need it being a werewolf but you’ve always done so in the pretense of people..
 Her breathing is slow and a bit ragged.
@@ -647,9 +985,8 @@ It seems that her illness is mostly pulmonary, as her lungs are taken by the ill
 
 
 :: coldbath {"position":"1550,375","size":"100,100"}
-<<set $stress += 1>>
-<<set $warmbath = false >>
-The day following the transformation always feels tough on your body; your whole body aches, you feel pain in your joints and muscles and the pain seems so deep that for a moment you think your actual bones hurt.
+<<set $stress += 1>><<set $warmbath = false >>
+The day before the transformation always feels tough on your body; your whole body aches, you feel pain in your joints and muscles and the pain seems so deep that for a moment you think your actual bones hurt.
 
 Perhaps it is to punish yourself a little. You know the aching will not be soothed by the freezing water of the mountain. Or perhaps it is simply to wake yourself up, after all you did spend a truly awful night.
 It doesn't matter the reason, you think to yourself as you sink into the cold water, which makes you gasp. It's…. colder than expected.
@@ -657,11 +994,11 @@ It doesn't matter the reason, you think to yourself as you sink into the cold wa
 [[Next|bath2]]
 
 
-:: doctor [Doctor] {"position":"3000,375","size":"100,100"}
+:: doctor [Doctor] {"position":"3150,375","size":"100,100"}
 You always had a knack for helping people. Your grandma used to show you diverse plants that live in the forest and how to use them. Your prized possession that you acquired before arriving there, is an anatomy book that you know by heart now.
 It's always been easy as a werewolf to spot people who were sick, mostly because they had this scent to them. The spare room that you built in your house became your studies where you examined people when they came to you. 
 When you first arrived in Tierce-lieux you were surprised by how welcoming everyone was, even more so when they learned that you could help heal them. Even neighbors from other villages came knocking at your door. 
-	Your Grandma, $grandma always said it's important to be well rounded in your knowledge, so you picked up a bit of everything. Medicinal tonical, herbs, poultice, and even surgery once. You're far from being a prodigy but you're good enough for the locals and that's good enough for you. For now at least.
+	$grandma always said it's important to be well rounded in your knowledge, so you picked up a bit of everything. Medicinal tonical, herbs, poultice, and even surgery once. You're far from being a prodigy but you're good enough for the locals and that's good enough for you. For now at least.
 	And while you do consider yourself a physician you know that you technically don't have the proper title, as one is required to pass a fancy expensive exam in the Capital, and to be quite fair you've never cared about it that much.
 You didn't expect to become quite so popular but it seemed the place was in dire need of a doctor.
 
@@ -672,7 +1009,7 @@ Is that the job you have?
 [[No.|job2]]
 
 
-:: doctor1 [Doctor] {"position":"3125,375","size":"100,100"}
+:: doctor1 [Doctor] {"position":"3275,375","size":"100,100"}
 <<set $job to "doctor">> 
 Business has been quiet for a few days. Luckily for you, you were feeling a bit drowsy with the full moon coming up.
 You take one last look at the mirror making sure you look at least presentable, and then go reach for the door.
@@ -682,7 +1019,7 @@ As you open, you see;
 [[Next.|doctor2]]
 
 
-:: doctor11 [Doctor] {"position":"4375,375","size":"100,100"}
+:: doctor11 [Doctor] {"position":"4525,375","size":"100,100"}
 "Can I offer you anything, Physician?"
 
 " <<cycle "$drinkboulet" autoselect>>
@@ -721,7 +1058,7 @@ You get closer to the kid and start the examination
 <<set $bowels to false>>
 
 
-:: doctor12 [Doctor] {"position":"4500,375","size":"100,100"}
+:: doctor12 [Doctor] {"position":"4650,375","size":"100,100"}
 You get closer to the kid and start the examination
 
 <<if not $eyes>>[[Check her eyes.|eyes]]<</if>> <<if $eyes>><span style="color:gray;">Check her eyes (done)</span><</if>>
@@ -737,7 +1074,7 @@ You get closer to the kid and start the examination
 <</if>>
 
 
-:: doctor13 [Doctor] {"position":"4625,375","size":"100,100"}
+:: doctor13 [Doctor] {"position":"4775,375","size":"100,100"}
 “She will be fine. She needs rest.”
 
 You hear Anne-Marie exhale slowly as you turn towards her.
@@ -754,7 +1091,7 @@ Anne-Marie inspect you for a second, seemingly looking to see if you tell the tr
 [[“Of course”|JobFinal]]
 
 
-:: doctor2 [Doctor] {"position":"3250,375","size":"100,100"}
+:: doctor2 [Doctor] {"position":"3400,375","size":"100,100"}
 “I'm sorry to bother you dear, I was wondering if we could get your assistance if you’re free.”
 
 An older woman, Anne-Marie Boulet, crooked nose, olive skin, dark hair that has grayed out, crows feet nested at the corner of her eyes, marking a life lived with joy. She's the wife of a shepherd of sheep, the Boulet family are your closest neighbors. You often see their sheep in the field right next to your house, sometimes even in your garden. Not that you mind since they take care of the grass.
@@ -764,26 +1101,34 @@ Anne-Marie smiles gently at you and you notice she has a hand over someone else'
 [[Next.|doctor3]]
 
 
-:: doctor3 {"position":"3375,375","size":"100,100"}
-You see the eldest of the Boulet twins. Élise. She's no more than 15 winters. Tall, with the thick brows of her father, crooked nose of her mother but gentle smile that is all of her own . Usually she's found helping out her mother, she made you quite a few tart in the past few years. The first few one were a bit atrocious but she, thankfully, quickly got better. You're pretty sure she's been arboring some sort of crush on you. Which to be totally honest, you cannot fathom why. Still, because of it she seems to have gotten a genuine interest in the culinary art. 
+:: doctor3 {"position":"3525,375","size":"100,100"}
+You see the eldest of the Boulet twins. Élise. She's no more than 15 winters. Tall, with the thick brows of her father, crooked nose of her mother but gentle smile that is all of her own . 
+Usually she's found helping out her mother, she made you quite a few tart in the past few years. The first few one were a bit atrocious but she, thankfully, quickly got better. You're pretty sure she's been arboring some sort of hero crush on you. Which to be totally honest, you cannot fathom why. Still, because of it she seems to have gotten a genuine interest in the culinary art. 
  	Lou is fond of her, so you suspect that soon enough she'll get a proper job at the inn.  
 She's considered by the entire village as the eldest because of how responsible she is. Although you personally rarely see that side of her because of her ridiculous crush on you.
   
 [[Next.|doctor4]]
 
 
-:: doctor4 [Doctor] {"position":"3500,375","size":"100,100"}
-"daughter sick"
+:: doctor4 [Doctor] {"position":"3650,375","size":"100,100"}
+"Is everything alright dear? you look like you've seen a ghost."
+
+You feel yourself tense invuntarily, fear tightening your muscles, and she must see it because she smile apolegically.
+
+"My apologies dear, it is none of my buisiness. We are simply here because the little one is sick again, could we spare some of your time?"
+
+You nod.
+
+But before she can open her mouth, you hear Elise blurting out.
+
+"Are you okay ?" The youngling asks
+
+You catch her looking at you, observing you. It's a little unsettling if you have to be honest. She must see how wild you look right now, but you see her turning her head back at the road. Whatever she saw, she's way too polite to comment on it. You exhale.
 
 [[Next.|doctor5]]
 
 
-:: doctor5 [Doctor] {"position":"3625,375","size":"100,100"}
-"Are you okay ?" The youngling asks
-
-You catch her looking at you, observing you. It's a little unsettling if you have to be honest. She must see how wild you look right now, but you see her turning her head back at the road. Whatever she saw, she's way too polite to comment on it. You exhale. 
-
-
+:: doctor5 [Doctor] {"position":"3775,375","size":"100,100"}
 false choice; +personality
 
 He nods, seemingly not wanting to continue this conversation farther. 
@@ -797,14 +1142,14 @@ And while Anne-Marie seems done with the conversation, you perk up again when El
 [[Tease her about it.|doctor6][$funny += 1]]
 
 
-:: doctor6 {"position":"3750,375","size":"100,100"}
+:: doctor6 {"position":"3900,375","size":"100,100"}
 You see her cheeks flush and can't help but sigh internally. You’ve been pretty clear to her before, and you wonder what it will take to make this child stop having these feelings. She will grow out of it. 
 You need to distract her or she will become clingy.
 
 [["How's your father?"|doctor7]]
 
 
-:: doctor7 [Doctor] {"position":"3875,375","size":"100,100"}
+:: doctor7 [Doctor] {"position":"4025,375","size":"100,100"}
 "Oh! Well" She seems surprised by your questions. "Father is good, the lock holding the sheeps broke a few nights ago and he's trying to fix it I think."
 
 You hear Anne-Mary hums. "I'm more worried about Jeanne" 
@@ -826,13 +1171,13 @@ It is not unusual. Jeanne, while being a very sweet child, always had her head i
 [[Next.|doctor8]]
 
 
-:: doctor8 {"position":"4000,375","size":"100,100"}
+:: doctor8 {"position":"4150,375","size":"100,100"}
 Thankfully you don't have to think of an answer as you arrive at the Boulet's House. It's nothing extravagant, just a two stories house, made with grayish white stones and black slates for roofs. There is a barn close enough for the sheep.
 
 [[Next.|doctor9]]
 
 
-:: doctor9 [Doctor] {"position":"4125,375","size":"100,100"}
+:: doctor9 [Doctor] {"position":"4275,375","size":"100,100"}
 You see Augustin Boulet. He seems to be focusing on repairing one of the gates that hold the ships. From a glance, you're not sure he's succeeding at fixing it. He seems to notice you as he looks up from what he's doing.
 
 You wave, and he nods, not one to talk.
@@ -840,7 +1185,7 @@ You wave, and he nods, not one to talk.
 [[Next.|job10]]
 
 
-:: ears [Doctor] {"position":"4400,225","size":"100,100"}
+:: ears [Doctor] {"position":"4525,225","size":"100,100"}
 Her ears are mostly clean, there is no redness.
 
 [[At least it is not infected.|doctor12]]
@@ -848,7 +1193,7 @@ Her ears are mostly clean, there is no redness.
 <<set $ears = true>>
 
 
-:: eyes [Doctor] {"position":"4025,225","size":"100,100"}
+:: eyes [Doctor] {"position":"4150,225","size":"100,100"}
 You grab one of the candles that is on the tabletop next to her bed. With one hand you go to open her eyes slightly, and watch her reaction to the light.
 Eyes are responsive as you open a lid of the candle next to you to make more light.
 
@@ -857,7 +1202,7 @@ Eyes are responsive as you open a lid of the candle next to you to make more lig
 <<set $eyes = true>>
 
 
-:: forehead [Doctor] {"position":"4150,225","size":"100,100"}
+:: forehead [Doctor] {"position":"4275,225","size":"100,100"}
 She's hot to the touch, but not dangerously so.
 You believe it will pass. Although you need to make sure she stays hydrated. You'll need someone to keep their eyes on her though, in case it gets worse. You'd have to cool her down quickly if that's the case.
 
@@ -866,7 +1211,7 @@ You believe it will pass. Although you need to make sure she stays hydrated. You
 <<set $forehead = true>>
 
 
-:: hands_feet [Doctor] {"position":"4650,225","size":"100,100"}
+:: hands_feet [Doctor] {"position":"4775,225","size":"100,100"}
 You check her hands and feet and they seem normal, no cuts or wounds, not that you expected to see one but you never know.
 
 [[ At least everything is the right color.|doctor12]]
@@ -875,12 +1220,12 @@ You check her hands and feet and they seem normal, no cuts or wounds, not that y
 
 
 :: home1 {"position":"1425,450","size":"100,100"}
-	//Home,// you think tenderly.
+//Home,// you think tenderly.
     
 	It's nothing too big, just a small cabin, away from the center village, on the edge of the woods. You’ve built it with the help of the villagers.
 	At first you thought the villager took pity on you, but now that you know them, they were simply their usual self; kind. Which came at a surprise at first. Honestly when you first moved to Tierce-Lieux, a few years back, you expected them to be like in any village; to be distrustful, finding new comers untrustworthy. They were the opposite; very welcoming, helping you on the very first day, bringing you dinner, fresh vegetables and baked goods. Even blankets and fresh clothes, which was quite needed as it was the middle of winter. Old Martin helped you with the roof, Germain with the windows, and Louise with the furniture.
 
-	So despite what happened last night, it's with a smile that you reach your home. Thankfully you always keep a backup key of the back door for situations like these. 	You examine the back garden, which you do not take care of -you mentally note- and reach for one of the plants Lou gave you “for good luck”. The plant is named Elbert, you’re not sure why, Lou was very insistent, and mentioned that Elbert would keep you company when she wasn’t here. It’s a small potted Apple tree. ??
+	So despite what happened last night, it's with a smile that you reach your home. Thankfully you always keep a backup key of the back door for situations like these. 	You examine the back garden, which you do not take care of -you mentally note- and reach for one of the plants Lou gave you “for good luck”. The plant is a small potted tree named Elbert, you’re not sure why, Lou was very insistent, and mentioned that Elbert would keep you company when she wasn’t here.
 	Easily enough with a little bit of digging you find the key in the soil of the plant. You also should probably water it, you think as you take out one of the bugs feeding on the leaves. Lou would certainly have your head if she knew that Elbert was not watered enough.
 	Absently scratching your legs. 
 
@@ -894,18 +1239,18 @@ You check her hands and feet and they seem normal, no cuts or wounds, not that y
 [[You draw a cold bath.|coldbath]]
 
 
-:: job1 {"position":"2725,450","size":"100,100"}
+:: job1 {"position":"2875,450","size":"100,100"}
 <<set $quiet = 0>> <<set $angry = 0>> <<set $kind = 0>> <<set $funny = 0>>You turn from the mirror as you hear knocking at the door. 
 
 “Do you think ?they <<verb "is" "are">> here ?  ?Title ! Please we need your help. $mc are you here?”
 
-[[Be silent|job2][$quiet += 1]]
+[[Be silent, it's quicker to just go open the door.|job2][$quiet += 1]]
 [[Grumble something|job2][$angry += 1]]
-[["Give me a minute!"|job2][$kind += 1]]
+[['"Give me a minute!"'|job2][$kind += 1]]
 [[Be sarcastic|job2][$funny += 1]]
 
 
-:: job10 {"position":"4250,375","size":"100,100"}
+:: job10 {"position":"4400,375","size":"100,100"}
 You've never really entered the Boulets household before. All of them feeling well enough to come directly to your house in their time of need.  [Change this to blacksmith]
 
 The house smells of fresh bread. And olive. The second one, you suspect, is the family's soap, as all of them carry this fragrance. 
@@ -914,7 +1259,7 @@ There is a hint of sheep though. If you didn't know before, you'd knew by smell 
 [[Next.|doctor11]]
 
 
-:: job2 {"position":"2850,450","size":"100,100"}
+:: job2 {"position":"3000,450","size":"100,100"}
 //Actually we forgot one more thing, wolkin.//
 What is it that you //do// ?
 
@@ -922,13 +1267,13 @@ What is it that you //do// ?
 [[You are a Doctor.|doctor]]
 
 
-:: job8 {"position":"4000,525","size":"100,100"}
+:: job8 {"position":"4150,525","size":"100,100"}
 Thankfully you don't have to think of an answer as you arrive at the Boulet's House. It's nothing extravagant, just a two stories house, made with grayish white stones and black slates for roofs. There is a barn close enough for the sheep.
 
 [[Next.|job9]]
 
 
-:: job9 {"position":"4125,525","size":"100,100"}
+:: job9 {"position":"4275,525","size":"100,100"}
 You've never really entered the Boulets household before. All of them feeling well enough to come directly to your house in their time of need.  [Change this to blacksmith]
 
 The house smells of fresh bread. And olive. The second one, you suspect, is the family's soap, as all of them carry this fragrance. 
@@ -937,7 +1282,7 @@ There is a hint of sheep though. If you didn't know before, you'd knew by smell 
 [[Next.|blacksmith9]]
 
 
-:: namevalidation {"position":"2525,325","size":"100,100"}
+:: namevalidation {"position":"2600,350","size":"100,100"}
 Your name is $mc and you use ?they and ?them
 <<if $nickname == $mc>> You have no nickname.
 <<else>> Your nickname is $nickname.
@@ -948,7 +1293,15 @@ Is that correct?
 [[Yes.|job1]]
 
 
-:: nickname {"position":"2400,575","size":"100,100"}
+:: newLock [blacksmith] {"position":"4625,700","size":"100,100"}
+depending on the lock mentionned earlier, prepare the new lock rn make sure the dimmension fits and shit
+
+[[blabla|blacksmith12]]
+
+<<set $newlock = true>>
+
+
+:: nickname {"position":"2550,575","size":"100,100"}
 <<set $nickname = "">>
 Does $mc get shortened sometimes?
 
@@ -956,7 +1309,7 @@ Does $mc get shortened sometimes?
 [[No|pronouns1][$nickname = $mc]]
 
 
-:: nickname2 {"position":"2550,650","size":"100,100"}
+:: nickname2 {"position":"2700,650","size":"100,100"}
 Insert your nickname:
 <<set $nickname to " ">>
 <<textbox "$nickname" " ">>
@@ -964,67 +1317,76 @@ Insert your nickname:
 [[Next.|pronouns1]]
 
 
-:: origin_africa {"position":"2050,575","size":"100,100"}
-You traveled a lot, You were born in Africa, the Deep-South across many lands and seas. You grew up with your parents until your grandma adopted you. She passed away a few years ago, hence why you decided to move here after her death. Staying behind was too painful and brought back too many memories. You needed a new beginning. The long travel by Sea certainly helped with that.
+:: origin_africa {"position":"2175,575","size":"100,100"}
+You traveled a lot, You were born in Africa, the Deep-South across many lands and seas. You grew up with your parents until your grandma adopted you. She passed away a few years ago, hence why you decided to move here after her death. Staying behind was too painful and brought back too many memories. You needed a new beginning. The long travel by Sea, new culture and language barrier certainly helped with that.
+<<set $origin to "African">><<set $grandma to " ">>
+You called your grandma: 
+<<textbox "$grandma" "gogo wami">>
 
 Is that right?
 
 [[Yes|Name]]
 [[No|bath5]]
 
-<<set $origin to "africa">>
-<<set $grandma to "Ugogo">>
 
 
-:: origin_breton {"position":"2175,575","size":"100,100"}
+
+
+:: origin_asia {"position":"2325,325","size":"100,100"}
+You traveled a lot, You were born in Asia, in the Far East across many lands and seas. You grew up with your parents until your grandma adopted you. She passed away a few years ago, hence why you decided to move here after her death. Staying behind was too painful and brought back too many memories. You needed a new beginning. The long travel by Sea, new culture and language barrier certainly helped with that.
+<<set $origin to "Asian">> <<set $grandma to " ">>
+You called your grandma: 
+<<textbox "$grandma" "Ah Ma">>
+
+Is that right?
+
+[[Yes|Name]]
+[[No|bath5]]
+
+
+
+
+:: origin_breton {"position":"2300,575","size":"100,100"}
 You traveled a bit. You were born in the North of França, in Brittany to be more exact. You grew up with your parents until your grandma adopted you. She passed away a few years ago, hence why you decided to move here after her death. Staying behind was too painful and brought back too many memories. You needed a new beginning.
+<<set $origin to "Breton">><<set $grandma to " ">>
+You call your grandma: 
+<<textbox "$grandma" "Menina">>
 
 Is that right?
 
 [[Yes|Name]]
 [[No|bath5]]
 
-<<set $origin to "breton">>
-<<set $grandma to "Menina">>
 
 
-:: origin_east_asia {"position":"2175,325","size":"100,100"}
-You traveled a lot, You were born in Asia, in the Far East across many lands and seas. You grew up with your parents until your grandma adopted you. She passed away a few years ago, hence why you decided to move here after her death. Staying behind was too painful and brought back too many memories. You needed a new beginning. The long travel by Sea certainly helped with that.
-
-Is that right?
-
-[[Yes|Name]]
-[[No|bath5]]
-
-<<set $origin to "asia">>
-<<set $grandma to "NaiNai">>
-
-
-:: origin_marseille {"position":"2050,325","size":"100,100"}
+:: origin_marseille {"position":"2175,325","size":"100,100"}
 You weren’t born far, Born in the South of França, in Provence to be more exact. You grew up with your parents until your grandma adopted you. She passed away a few years ago, hence why you decided to move here after her death. Staying behind was too painful and brought back too many memories. You needed a new beginning.
+<<set $origin to "Marseillais">> <<set $grandma to " ">>
+You called your grandma: 
+<<textbox "$grandma" "Manou">>
 
 Is that right?
 
 [[Yes|Name]]
 [[No|bath5]]
 
-<<set $origin to "marseille">>
-<<set $grandma to "manou">>
 
-
-:: origin_middle_east {"position":"2175,450","size":"100,100"}
-You traveled a lot, You were born in the Middle-East, South-East across the sea. You grew up with your parents until your grandma adopted you. She passed away a few years ago, hence why you decided to move here after her death. Staying behind was too painful and brought back too many memories. You needed a new beginning. The long travel by Sea certainly helped with that.
+:: origin_middle_east {"position":"2325,450","size":"100,100"}
+You traveled a lot, You were born in the Middle-East, South-East across the sea. You grew up with your parents until your grandma adopted you. She passed away a few years ago, hence why you decided to move here after her death. Staying behind was too painful and brought back too many memories. You needed a new beginning. The long travel by Sea, new culture and language barrier certainly helped with that.
+<<set $origin to "Levantine">> <<set $grandma to " ">>
+You called your grandma: 
+<<textbox "$grandma" "Anane">>
 
 Is that right?
 
 [[Yes|Name]]
 [[No|bath5]]
 
-<<set $origin to "mid_east">>
-<<set $grandma to "Anane">>
 
 
-:: pronouns1 {"position":"2550,475","size":"100,100"}
+
+
+:: pronouns1 {"position":"2725,475","size":"100,100"}
 What pronouns do you use?
 
 <<link 'Configure your pronouns.'>>
@@ -1035,7 +1397,7 @@ What pronouns do you use?
 [[Next.|namevalidation]]
 
 
-:: tavern2angry {"position":"5225,375","size":"100,100"}
+:: tavern2angry {"position":"5400,375","size":"100,100"}
 You heave a sigh, the vulnerability twists something in your stomach and makes you angry.
 
 “What do you think?” You bark.
@@ -1051,7 +1413,7 @@ Its only been a few years, but it feels like she knows you better than you know 
 [[Next.|tavern3]]
 
 
-:: tavern2funny {"position":"5100,325","size":"100,100"}
+:: tavern2funny {"position":"5275,325","size":"100,100"}
 “What ? Not even a Hello, how are you doing my friend, what a beautiful day we're having.”
 
 She crosses her arms, leaning back on her chair.
@@ -1076,7 +1438,7 @@ It's only been a few years, but it feels like she knows you better than you know
 [[Next.|tavern3]]
 
 
-:: tavern2kind {"position":"5225,525","size":"100,100"}
+:: tavern2kind {"position":"5400,525","size":"100,100"}
 "bad night" blabla
 
 honest +1
@@ -1084,7 +1446,7 @@ honest +1
 [[Next.|tavern3]]
 
 
-:: tavern2quiet {"position":"5100,575","size":"100,100"}
+:: tavern2quiet {"position":"5275,575","size":"100,100"}
 You grumble, not feeling comfortable answering at the moment, and Lou easily catches on.
 It's always been like that with Lou, like opposite and two sides of the same coin. She talks and you listen ever since the first day. Perhaps that's why you were so keen on being close friends with her. Not only do you like her company but she also has a way to soothe the wolf within you. The pillar of solitude that never seems to leave your chest always feels a little less heavy when you're with her.
 
@@ -1094,7 +1456,7 @@ It's only been a few years, but it feels like she knows you better than you know
 [[Next.|tavern3]]
 
 
-:: tavern3 {"position":"5375,450","size":"100,100"}
+:: tavern3 {"position":"5525,450","size":"100,100"}
 <<cycle "$tellher" autoselect>>
 	<<option "You want to tell her but you can't">>
 	<<option "You're too scared to even think about this conversation.">>
@@ -1106,7 +1468,7 @@ You're in this limbo of craving kinship of wanting, nay, needing to be known for
 [[Next.|tavern4]]
 
 
-:: tavern4 {"position":"5500,450","size":"100,100"}
+:: tavern4 {"position":"5650,450","size":"100,100"}
 <<if $tellher == "You want to tell her but you can't">><<set $honest += 5>> <</if>> You don't want to just reject her outright, at least no more than you already did, so the only thing left to talk about is something else entirely.
 
 “Heard anything since the last time I came?”
@@ -1141,7 +1503,7 @@ You see the Mirth in her eyes, as a conspiratory smile splits her face as she le
   [[You Nod without saying a word.|tavern5][$quiet += 1]]
 
 
-:: tavern5 {"position":"5625,450","size":"100,100"}
+:: tavern5 {"position":"5775,450","size":"100,100"}
 <<set $drink to " ">>
 “Poor Sod” You say, absently scratching a wine stain on the wood table.
 
@@ -1159,7 +1521,7 @@ Alcohol makes you queasy. It's a werewolf thing that you know for sure, cause gr
 [[You usually drink herbal tea, but after the night you had you’ll have some alcohol.|tavern6][$drink to "tea"]]
 
 
-:: tavern6 {"position":"5750,450","size":"100,100"}
+:: tavern6 {"position":"5900,450","size":"100,100"}
 <<set $lou_r = 0>> <<set $lou_f = 5>>
 “Got it” She winks before heading and welcoming the travelers.
 
@@ -1183,7 +1545,7 @@ ADD FATHER COMING IN THE INN
 <</link>>
 
 
-:: tavern7 {"position":"5875,450","size":"100,100"}
+:: tavern7 {"position":"6025,450","size":"100,100"}
 You don't know how you could have survived without her. When your grandma died, you were all alone, and there's no worse fate for a werewolf, to be utterly alone. Werewolves are social creatures, they need a pack; a tight-knit group of people may be friends, lovers or family.
 Without it, well, there is a reason solitary werewolves are cautionary tales. The emptiness becomes too much to bear and most become too angry to be safe around. Like a wounded beast really.
 
@@ -1202,7 +1564,7 @@ You see Lou coming back with your drink, a glass of [choice], before she settles
   [[Next.|tavern8]]
 
 
-:: tavern8 {"position":"6000,450","size":"100,100"}
+:: tavern8 {"position":"6150,450","size":"100,100"}
 "At least she has someone you know. Or options."
 
 “What?”
@@ -1228,7 +1590,7 @@ next that looks like dialogue: first check based on personality: that essentiall
 <</if>>
 
 
-:: tavern9louf {"position":"6125,350","size":"100,100"}
+:: tavern9louf {"position":"6275,375","size":"100,100"}
 "can i complain? "
 
 <<link '"Always."' "tavern9">>
@@ -1264,7 +1626,7 @@ You’re not sure, because you only like men anyway.
   [[Next.|tavernfinal]]
 
 
-:: tavern9lour {"position":"6125,550","size":"100,100"}
+:: tavern9lour {"position":"6275,525","size":"100,100"}
 "Ill always be there for you, you know that right?" if RLOU
 
 
@@ -1290,7 +1652,7 @@ You hear commotion outside, but the way Lou smiles at you, like it's a secret be
   [[Until it becomes overwhelming.|tavernfinal]]
 
 
-:: tavernfinal {"position":"6250,450","size":"100,100"}
+:: tavernfinal {"position":"6400,450","size":"100,100"}
 You try to peer outside trying to decipher what's wrong. If you were a wolf right now your ears would definitely be twitching.
 
 "My girl my sweet girl—"
@@ -1306,15 +1668,15 @@ The other villagers are trying to either get a look at what's happening or tryin
 "No ! You dont understand my Jeanne, my sweet little girl, she's been attacked!"
 
 The realization comes to you like fire thrown on oil. Last night you killed something, you remember the blood on your body, caked underneath your nails and the iron taste in your mouth. You see flashes of human flesh being torn apart. Of teeth sinking into the soft flesh of the neck.
-You did /this/.
+You did //this//.
 You killed her. You killed Jeanne Boulet.
 
 //Shit//
 
-[[Shit is right.]]
+[[Shit is right.|EndofDemo]] 
 
 
-:: throat [Doctor] {"position":"4275,225","size":"100,100"}
+:: throat [Doctor] {"position":"4400,225","size":"100,100"}
 There is some light swelling around the throat. 
 She is infected then.
 
@@ -1324,9 +1686,8 @@ She is infected then.
 
 
 :: warmbath {"position":"1550,525","size":"100,100"}
-<<set $stress += 3>>
-<<set $warmbath = true >>
-The day following the transformation always feels tough on your body; your whole body aches, you feel pain in your joints and muscles and the pain seems so deep that for a moment you think your actual bones hurt.
+<<set $stress += 3>><<set $warmbath = true >>
+The day before the transformation always feels tough on your body; your whole body aches, you feel pain in your joints and muscles and the pain seems so deep that for a moment you think your actual bones hurt.
 Perhaps, you think, the warm water will soothe you. 
 
 Now the key to that stratagem you play is to be methodical, cover your back.
@@ -1405,15 +1766,14 @@ You put them on.
 
 
 :: woodend {"position":"1300,450","size":"100,100"}
-The sun is not quite high in the sky yet, you see the early morning sunrise slicing through the canopy scattering this almost pinkish color across the forest floor.
-The earth is soft beneath your feet, and with the strong petrichor smell you figure smth smht morning dew ?
+The sun is not high in the sky yet as it is dawn. You see the early morning sunrise slicing through the canopy scattering this almost pinkish color across the forest floor.
+The earth is soft beneath your feet. With the way the morning dew cling to the leaves and how strong the smell of petrichor is you assumed it rained last night.
 You try to walk on stones, roots and solid ground rather than the soft earth. testing each step before putting your weight down, trying not to sink, trying not to leave a mark that will betray you to anyone looking.
 
 You hear a sound above and feel your heart leap into your chest, before realising it is just a squirrel darting across branches.
 You catch a glimmer of the river through the trees. You only need to follow it to reach the village.
 
-You skirt the muddier banks, stepping where the soil is firmer, Your soles sting from hidden stones and thorns, but there’s no other way.
-You’re hyper alert to every sound and smell around you, every rustle, every snap of twigs sends your pulse racing. 
+You skirt the muddier banks, stepping where the soil is firmer, Your soles sting from hidden stones and thorns, but there’s no other way. You’re hyper alert to every sound and smell around you, every rustle, every snap of twigs sends your pulse racing. 
 The forest hums and shifts around you, alive and watchful, oblivious to your struggle, while you try to weave your way silently towards the faint promise of safety at the edge of the trees.
 
 
@@ -1433,13 +1793,13 @@ Config.history.maxStates = 1;
     'use strict';
 
     // --- THEME CONFIG ---
-    var settingThemeNames = ["(none)", "Bright White", "Dark Black", "Warm Yellow"];
+    var settingThemeNames = ["Original", "Bright White", "Dark Black","Sepia", "Warm Yellow", "Navy Blue"];
 
     var settingThemeHandler = function () {
     var $html = $("html");
 
     // Remove existing theme classes
-    $html.removeClass("theme-bright-white theme-dark-black theme-warm-yellow");
+    $html.removeClass("theme-bright-white theme-dark-black theme-sepia theme-warm-yellow theme-navy-blue");
 
     // Apply the selected theme
     switch (settings.theme) {
@@ -1449,9 +1809,14 @@ Config.history.maxStates = 1;
         case "Dark Black":
             $html.addClass("theme-dark-black");
             break;
+         case "Sepia":
+            $html.addClass("theme-sepia");
+            break;
         case "Warm Yellow":
             $html.addClass("theme-warm-yellow");
             break;
+      	case "Navy Blue":
+        	$html.addClass("theme-navy-blue");
     }
 };
 
@@ -1926,7 +2291,7 @@ var genderMap = {
 
 }());
 
-UIBar.refresh();
+
 
 :: StoryStylesheet [stylesheet]
 /* =============================
@@ -2009,13 +2374,17 @@ h1, h2, h3 {
     margin-bottom: 0px;
 }
 
+#ui-dialog-title {
+    background-color: #8B0000;
+  	color: white;
+    border-right: 2px solid #E6E6E6;
+}
 
 #passages,
 .passage {
     background-color: transparent;
     border: none;
 }
-
 
 
 /* 3. LIENS */
@@ -2060,23 +2429,9 @@ html.theme-bright-white a:hover {
 html.theme-bright-white body::after {
     display: none;
 }
-html.theme-bright-white body {
-    color: #1a1a1a; /* Nearly black for better readability */
-    background: linear-gradient(to bottom, #fffef7, #f5f5dc);
-    background-attachment: fixed;
-}
-html.theme-bright-white a {
-    color: #8B0000; /* Dark red to tie into your main theme */
-}
-html.theme-bright-white a:hover {
-    color: #DC143C; /* Brighter red on hover */
-}
-html.theme-bright-white body::after {
-    opacity: 0.08; /* Subtle emblem visibility */
-}
 html.theme-bright-white #ui-bar {
-    background-color: #e8e8d0;
-    border-right: 2px solid #d4d4b8;
+    background-color: #D6D6D6;
+    border-right: 2px solid #E6E6E6;
 }
 html.theme-bright-white #ui-bar a,
 html.theme-bright-white #ui-bar button {
@@ -2084,8 +2439,69 @@ html.theme-bright-white #ui-bar button {
 }
 html.theme-bright-white #ui-bar a:hover,
 html.theme-bright-white #ui-bar button:hover {
-    color: #8B0000;
-    background-color: rgba(139, 0, 0, 0.05);
+    color: black;
+    background-color: #F7FAFF;
+}
+html.theme-bright-white #ui-dialog-body {
+    background-color: #1a1a1a;
+  	color: #D6D6D6;
+    border-right: 2px solid #E6E6E6;
+}
+html.theme-bright-white #ui-dialog-title {
+    background-color: white;
+  	color: black;
+    border-right: 2px solid #E6E6E6;
+}
+html.theme-bright-white #ui-dialog {
+    background-color: #1a1a1a;
+  	color: #D6D6D6;
+    border-right: 2px solid #E6E6E6;
+}
+html.theme-bright-white #ui-dialog-close{
+	color: black;
+}
+
+/* THEME: Sepia */
+
+html.theme-sepia a {
+    color: #1266C4;
+}
+html.theme-sepia a:hover {
+    color: #003366;
+}
+html.theme-sepia body::after {
+    display: none;
+}
+html.theme-sepia body {
+    color: #1a1a1a; 
+    background: linear-gradient(to bottom, #F4ECD8, #F4ECD8);
+    background-attachment: fixed;
+}
+
+html.theme-sepia #ui-bar {
+    background-color: #D9CDB8;
+    border-right: 2px solid #CCBCA1;
+}
+html.theme-sepia #ui-bar a,
+html.theme-sepia #ui-bar button {
+    color: #1a1a1a;
+}
+html.theme-sepia #ui-bar a:hover,
+html.theme-sepia #ui-bar button:hover {
+    background-color: #C7C5FA;
+}
+html.theme-sepia #ui-dialog-title {
+    background-color: #F4ECD8;
+  	color: black;
+    border-right: 2px solid #E6E6E6;
+}
+html.theme-sepia #ui-dialog-body {
+    background-color: #1a1a1a;
+  	color: #D6D6D6;
+    border-right: 2px solid #E6E6E6;
+}
+html.theme-sepia #ui-dialog-close{
+	color: black;
 }
 
 /* THEME: Dark Black */
@@ -2095,57 +2511,116 @@ html.theme-dark-black body::after {
 }
 
 html.theme-dark-black body {
-    color: #f4e5c2; /* Soft yellowish cream */
-    background: linear-gradient(to bottom, #0a1628, #000000);
+    color: #FFFFFF; 
+    background: linear-gradient(to bottom, #000000, #000000);
     background-attachment: fixed;
 }
 html.theme-dark-black a {
-    color: #FFD700; /* Gold/yellow */
+    color: #8AA1FF; 
 }
 html.theme-dark-black a:hover {
-    color: #FFF44F; /* Brighter yellow */
+    color: #CCD6FF; 
 }
 html.theme-dark-black #ui-bar {
-    background-color: #162438;
-    border-right: 2px solid #1e3a5f;
+    background-color: #1F1818;
+    border-right: 2px solid #382F2F;
 }
 html.theme-dark-black #ui-bar a,
 html.theme-dark-black #ui-bar button {
-    color: #f4d03f;
+    color: #FFFFFF;
 }
 html.theme-dark-black #ui-bar a:hover,
 html.theme-dark-black #ui-bar button:hover {
+    color: #FFFFFF;
+    background-color: #363636;
+}
+html.theme-dark-black #ui-dialog-title {
+    background-color: black;
+  	color: white;
+    border-right: 2px solid #E6E6E6;
+}
+
+/* THEME: Navy Blue */
+
+html.theme-navy-blue body::after {
+    display: none;
+}
+
+html.theme-navy-blue body {
+    color: #f4e5c2; 
+    background: linear-gradient(to bottom, #0a1628, #000000);
+    background-attachment: fixed;
+}
+html.theme-navy-blue a {
+    color: #FFD700; 
+}
+html.theme-navy-blue a:hover {
+    color: #FFF44F; 
+}
+html.theme-navy-blue #ui-bar {
+    background-color: #162438;
+    border-right: 2px solid #1e3a5f;
+}
+html.theme-navy-blue #ui-bar a,
+html.theme-navy-blue #ui-bar button {
+    color: #f4d03f;
+}
+html.theme-navy-blue #ui-bar a:hover,
+html.theme-navy-blue #ui-bar button:hover {
     color: #ffeb3b;
     background-color: rgba(244, 208, 63, 0.1);
+}
+html.theme-navy-blue #ui-dialog-title {
+    background-color: #162438;
+  	color: white;
+    border-right: 2px solid #E6E6E6;
+}
+html.theme-navy-blue #ui-dialog-body {
+  	color: #FFD700;
+    border-right: 2px solid #E6E6E6;
 }
 
 /* THEME: Warm Yellow */
 html.theme-warm-yellow body {
-    color: #2b1d0e; /* Dark brown/black text for readability */
+    color: #2b1d0e; 
     background: linear-gradient(to bottom, #FFF085 0%, #FCB454 33%, #FF9B17 66%, #f77436 100%);
     background-attachment: fixed;
 }
 html.theme-warm-yellow a {
-    color: #8B0000; /* Dark red links */
+    color: #8B0000; 
 }
 html.theme-warm-yellow a:hover {
-    color: #DC143C; /* Brighter red on hover */
+    color: #DC143C; 
 }
 html.theme-warm-yellow body::after {
-    opacity: 0.08; /* Subtle emblem on bright background */
+    opacity: 0.08; 
 }
 html.theme-warm-yellow #ui-bar {
-    background-color: #FCB454; /* Using your second color for sidebar */
+    background-color: #FCB454; 
     border-right: 2px solid #FF9B17;
 }
 html.theme-warm-yellow #ui-bar a,
 html.theme-warm-yellow #ui-bar button {
-    color: #2b1d0e; /* Dark text */
+    color: #2b1d0e; 
 }
 html.theme-warm-yellow #ui-bar a:hover,
 html.theme-warm-yellow #ui-bar button:hover {
     color: #8B0000;
     background-color: rgba(139, 0, 0, 0.1);
+}
+
+html.theme-warm-yellow #ui-dialog-body {
+    background-color: #1a1a1a;
+  	color: #D6D6D6;
+    border-right: 2px solid #E6E6E6;
+}
+html.theme-warm-yellow #ui-dialog-title {
+    background-color: #FCB454;
+  	color: black;
+    border-right: 2px solid #E6E6E6;
+}
+html.theme-warm-yellow #ui-dialog-close{
+	color: black;
 }
 
 /* TOGGLEABLE GREY BACKGROUND */
@@ -2154,4 +2629,3 @@ html.textbg-enabled .passage {
     border-radius: 25px;
     padding: 25px;
 }
-
