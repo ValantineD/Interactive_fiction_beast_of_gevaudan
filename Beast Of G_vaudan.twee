@@ -14,7 +14,7 @@ Beast Of Gévaudan
     "blacksmith": "red",
     "Doctor": "blue"
   },
-  "zoom": 1
+  "zoom": 0.6
 }
 
 
@@ -92,7 +92,7 @@ There, the gate ready for a new locket.
 <<set $blocket = true>>
 
 
-:: CHAPTER1 {"position":"675,450","size":"100,100"}
+:: CHAPTER1 {"position":"825,450","size":"100,100"}
 <span class="typed-text"><<type 120ms>>!CHAPTER 1<</type>></span>
 <img src="https://raw.githubusercontent.com/ValantineD/Interactive_fiction_beast_of_gevaudan/refs/heads/main/pics/chap1.jpg">
 Made by Julie Vidal
@@ -111,7 +111,7 @@ After all, how many opportunities do you get to see your greatest adversary up c
 Besides, it's interesting to see the king's hunter, fight without their arquebus.
 Yes you tell yourself, when Camille asked you to accompany you, you said yes purely for strategy purposes.
 
-Gone are the heavy cloaks of the hunters, and the coat of the arquebusier du roy. Instead they stand shirtless with only white pants. 
+Gone are the heavy cloaks of the hunters, and the royal coats of the arquebusier du roy. Instead they stand shirtless with only white pants and hand wrapping.
 The candlelights of the club and the sweat that colle??? Their body almost make their skin glow.
 
 When you saw their adversary, a guy twice their size, step into the circular pit, you thought this was going to be a massacre. 
@@ -159,7 +159,7 @@ Their eyes look so pretty in this light, deep soulful eyes so dark you could dro
 [[Back|EndofDemo]] 
 
 
-:: Character Stats [menu] {"position":"25,150","size":"100,100"}
+:: Character Stats [menu] {"position":"100,300","size":"100,100"}
 <span class="typed-text">WHO ARE YOU?</span>
 
 Your name is $mc , <<if $nickname == $mc >> you have no nickname, <<else>> your nickname is $nickname,<</if>> You go by ?they and ?them, You are $origin and call your grandma $grandma.
@@ -193,7 +193,7 @@ funny $funny
 <</link>>
 
 
-:: Codex [menu] {"position":"25,275","size":"100,100"}
+:: Codex [menu] {"position":"100,425","size":"100,100"}
 [LOCKED]
 
 <<link "Return to Story">>
@@ -201,7 +201,7 @@ funny $funny
 <</link>>
 
 
-:: EndPrologue [Intro] {"position":"675,325","size":"100,100"}
+:: EndPrologue [Intro] {"position":"700,450","size":"100,100"}
 After that the king doesn't want to touch the wolf, with a curt movement of his head, one of his servants, the one who accompanied him to see the beast Mx. Antoine slayed, moved around to stay in front of the beast's face and lifted one of its lips to show a range of large and sharp teeth.
 
 	The king nods to himself mostly, he will not admit it but he is impressed by it.
@@ -227,13 +227,19 @@ I wrote some snippets of what the romance will be like deep relationship here :
 [[Camille]]
 
 
-:: FurNext [Intro] {"position":"550,325","size":"100,100"}
+:: FurNext [Intro] {"position":"575,450","size":"100,100"}
 <<if $fur == "ginger" || $fur == "blonde">>
 The skin looks torn, burnt and scarred in many places, as if someone stabbed the beast multiple times and tried to sew the skin back together, the fur missing in many places. The "wolf" doesnt really look intimidating anymore, it's dirty, muddy and bloody.
 <<else>>
 	The $fur fur is dirty, bloodied and lost its shiny effect making the wolf almost look like a scrawny street dog. He pokes the beast and almost recoils as the beast emits an horrible decomposition smell.
 <</if>>
 [[Next|EndPrologue]]
+
+
+:: Home2 {"position":"1550,325","size":"100,100"}
+Describe the thingy basic? alcove? the towel
+
+
 
 
 :: Hyacinthe {"position":"6575,325","size":"100,100"}
@@ -356,7 +362,7 @@ Well with that much money, you should say goodbye to those awful morning clothes
 <<set $gold += 10>>
 
 
-:: List of variables {"position":"400,100","size":"100,100"}
+:: List of variables {"position":"475,250","size":"100,100"}
 $mc
  $nickname
  
@@ -507,7 +513,7 @@ Lou is a busy woman, a people pleaser often running everywhere making sure her b
 [[Back|EndofDemo]] 
 
 
-:: Map [menu] {"position":"175,275","size":"100,100"}
+:: Map [menu] {"position":"250,425","size":"100,100"}
 [LOCKED]
 
 <<link "Return to Story">>
@@ -528,7 +534,7 @@ Or, insert your name: <<set $mc to " ">>
 [[Next|nickname]]
 
 
-:: Prologue [Intro] {"position":"425,325","size":"100,100"}
+:: Prologue [Intro] {"position":"450,450","size":"100,100"}
 <span class="typed-text"><<type 120ms>>!PROLOGUE<</type>></span>
 <span class="typed-text"><<type 60ms>>\''September 1766, Palace of Versailles
 2 years later''<</type>></span>
@@ -541,7 +547,7 @@ Or, insert your name: <<set $mc to " ">>
 
 	The king scrunches his noses in disgust as he inspects the beast.
 
-//What is the color of your fur and your hair Wolfkin?//
+//What is the color of your fur and your hair, Wolfkin?//
 [[White|FurNext][$fur to "white"]]
 [[Black|FurNext][$fur to "black"]]
 [[Brown|FurNext][$fur to "brown"]]
@@ -550,10 +556,10 @@ Or, insert your name: <<set $mc to " ">>
 [[Yellow|FurNext][$fur to "blonde"]]
 
 
-:: Relationships [menu] {"position":"175,150","size":"100,100"}
+:: Relationships [menu] {"position":"250,300","size":"100,100"}
 <span class="typed-text">Louisette "Lou" Valet, //the Inn Keeper//</span>
 <img src="https://raw.githubusercontent.com/ValantineD/Interactive_fiction_beast_of_gevaudan/refs/heads/main/pics/9hzli7V6.jpg">
-
+You met Lou, a few years ago when you moved to Thierce-Lieux. She's been your closest friend ever since.
 Friendship: $lou_f
 Romance: $lou_r
 
@@ -580,12 +586,12 @@ Romance: $hyacinthe_r
 <</link>>
 
 
-:: StoryCaption [menu] {"position":"550,100","size":"100,100"}
+:: StoryCaption [menu] {"position":"625,250","size":"100,100"}
 <div id="title-image"><img src="https://raw.githubusercontent.com/ValantineD/Interactive_fiction_beast_of_gevaudan/refs/heads/main/pics/bog_emblem_final.png" alt="Beast Logo">
 </div>
 
 
-:: StoryMenu [menu] {"position":"100,25","size":"100,100"}
+:: StoryMenu [menu] {"position":"175,175","size":"100,100"}
 [[Character Stats]]
 [[Relationships]] 
 [[Codex]] 
@@ -619,7 +625,7 @@ After serving Charles, she heads straight to your table and sit down in front of
 [[Banter back.|tavern2funny][$funny += 1]]
 
 
-:: Welcome {"position":"425,450","size":"100,100"}
+:: Welcome {"position":"125,750","size":"100,100"}
 <span class="typed-text"><<type 90ms>>Welcome to the Land of the Beast, Wolfkin.<</type>></span>
 
 ''DISCLAIMER:''
@@ -637,14 +643,14 @@ Many people take arms in hope of killing the beast. To this day the mystery rema
 	''Because you are the Beast of Gevaudan.''
 
 
-Before we start, Your character has a disability, please choose which one:
+Your character will have a disability, usually you would chose among the fellow three, but I havent written them yet so! I apologise for that:
 
 	''Colorblind.'' The most common disability among werewolves. Red and Greens are difficult to distinguish, while you see predominantly in shades of Blue and Yellow.
 Is that the disability you have?
 	''Hard of Hearing.'' (under construction - sorry!)
 	''Selective Mutism'' (under construction - sorry!)
     
-[[Prologue]] 
+[[Next.|origin]]
 
 <<if $stress is undefined>>
   <<set $stress = 0>>
@@ -656,7 +662,7 @@ Is that the disability you have?
 <<set $dominantPersonality = null>>
 
 
-:: WoodCalm {"position":"925,575","size":"100,100"}
+:: WoodCalm {"position":"1075,575","size":"100,100"}
 <<set $stress +=  3>>
 
 	At this point, waking up bloodied and naked in the middle of Silvalupe is your new normal. And while the situation is weird, you know you probably just killed some rabbit or maybe a deer if you were hungry. One thing is sure, the wolf does not take unnecessary risks. You've been tracking your habits and the wolf seems content to just hunt in the forest. 
@@ -664,7 +670,7 @@ Is that the disability you have?
 [[At least for now.|wood2]]
 
 
-:: WoodPanic {"position":"925,450","size":"100,100"}
+:: WoodPanic {"position":"1075,450","size":"100,100"}
 <<set $stress =  0>>
 
 No matter how many times it happens this shit is still terrifying. Losing control, memory gaps, not knowing what you did. What you killed. It scares you. How many times can you escape (unescape? Clean not hurt) this situation without anyone noticing a stranger butt naked in the forest of Silvalupe
@@ -674,7 +680,7 @@ No matter how many times it happens this shit is still terrifying. Losing contro
 [[Get a hold on yourself.|wood2]]
 
 
-:: WoodRepressed {"position":"925,325","size":"100,100"}
+:: WoodRepressed {"position":"1075,325","size":"100,100"}
 <<set $stress +=  1>>
 
 Okay, Calm Down. You inspire and expire slowly, trying to calm down your heart. Yes this whole situation is less than ideal but, you can do this, you close your eyes and try to focus on breathing. You feel your senses expand. you focus on your hearing. The forest of Silvalupe is loud, but not uncomfortable, you hear a herd of deers running farther away, you hear a small bird making its nest. But no humans. 
@@ -683,7 +689,7 @@ That is a good sign.
 [[You feel yourself relax..|wood2]]
 
 
-:: bath2 {"position":"1675,450","size":"100,100"}
+:: bath2 {"position":"1825,450","size":"100,100"}
 As you begin to scrub yourself to clean the dried mud and blood on your body, you rack your mind attempting to remember any fleeting memory from the last night. You remember feeling dull pain behind your eyes and a sharp one at the base of your skull as if the wolf was pushing to be released. 
 	You remember the utter joy and relief of running right after you transformed. After that your memory becomes more fragmented.
 And you remember …. //What do you remember?// 
@@ -701,7 +707,7 @@ And you remember …. //What do you remember?//
 [[ENOUGH.|bath3]]
 
 
-:: bath3 {"position":"1800,450","size":"100,100"}
+:: bath3 {"position":"1950,450","size":"100,100"}
 You're not sure what made them come back. Memories forgotten for more than decades. But something triggered them. The door opened, and you can't quite close it. Frustrating enough it's also when the wolf started to manifest itself.
 But the pain they bring back almost always cuts you at the core. They leave you with a ragged breath and tears stuck at the corner of your eyes.
 
@@ -731,7 +737,7 @@ You've been here a while already, you should probably wash your...
 
 
 
-:: bath3.5 {"position":"1925,450","size":"100,100"}
+:: bath3.5 {"position":"2075,450","size":"100,100"}
 [washing hair scene help]
 <<if $length == " ">><<endif>><<set $topSurgery = false>>
 
@@ -759,7 +765,7 @@ long locs
 
 
 
-:: bath4 {"position":"2050,450","size":"100,100"}
+:: bath4 {"position":"2200,450","size":"100,100"}
 You’ve been scrubbing yourself for at least a good hour, if not two. Still even physically clean you still feel dirty, as you pick on your nails, trying to get the dirt and dried blood from underneath.
 
 	You put on clothes then go look for grandma's mirror. You need to make sure you don't look like you woke up naked in the middle of the forest this morning.
@@ -797,16 +803,11 @@ You're wearing:
 [[A robe|bath5][$clothes to "feminine"]]
 
 
-:: bath5 {"position":"2175,450","size":"100,100"}
+:: bath5 {"position":"2325,450","size":"100,100"}
 Even though they're from your closet, it's been quite a while since you had money to buy clothes that you really liked. Nevertheless they're way better than those in the forest so you're not gonna complain.
 Maybe one day when you're more in control you'll buy clothe you really feel comfortable with.
     
-//Wolfkin, tell me, from where do you hail?//
-[[From around here.|origin_marseille]]
-[[From the North of Frankia|origin_breton]]
-[[From Across the Sea in the South East.|origin_middle_east]]
-[[From the Deep South, across the sea.|origin_africa]]
-[[From the Far East|origin_asia]]
+[[Next|Name]]
 
 
 :: blacksmith [blacksmith] {"position":"3150,525","size":"100,100"}
@@ -835,12 +836,13 @@ As you open, you see;
 
 :: blacksmith11 [blacksmith] {"position":"4525,525","size":"100,100"}
 (( écrire l'intro passage black smith avec le loquet))
+go back and build that shit
 
 [[Next.|blacksmith12]]
 
 
 :: blacksmith12 [blacksmith] {"position":"4650,525","size":"100,100"}
-You get closer to the kid and start the examination
+
 
 <<if not $blocket>>[[taking off the broken locket from the gate.|BrokenLocket]]<</if>> <<if $blocket>><span style="color:gray;">taking off the broken locket from the gate. (done)</span><</if>>
 <<if not $newlock>>[[Prepare the new lock.|newLock]]<</if>><<if $newlock>><span style="color:gray;">Prepare the new lock. (done)</span><</if>>
@@ -984,8 +986,12 @@ It seems that her illness is mostly pulmonary, as her lungs are taken by the ill
 <<set $breathing = true>>
 
 
-:: coldbath {"position":"1550,375","size":"100,100"}
+:: coldbath {"position":"1700,375","size":"100,100"}
 <<set $stress += 1>><<set $warmbath = false >>
+
+
+
+
 The day before the transformation always feels tough on your body; your whole body aches, you feel pain in your joints and muscles and the pain seems so deep that for a moment you think your actual bones hurt.
 
 Perhaps it is to punish yourself a little. You know the aching will not be soothed by the freezing water of the mountain. Or perhaps it is simply to wake yourself up, after all you did spend a truly awful night.
@@ -1219,7 +1225,7 @@ You check her hands and feet and they seem normal, no cuts or wounds, not that y
 <<set $hands_feet = true>>
 
 
-:: home1 {"position":"1425,450","size":"100,100"}
+:: home1 {"position":"1575,450","size":"100,100"}
 //Home,// you think tenderly.
     
 	It's nothing too big, just a small cabin, away from the center village, on the edge of the woods. You’ve built it with the help of the villagers.
@@ -1233,7 +1239,7 @@ You check her hands and feet and they seem normal, no cuts or wounds, not that y
     
 	//Finally//
     
-	Home is how you left it, although a bit messier because you genuinely forgot last night was the full moon which means you had to leave in a bit of a hurry. Well nonetheless you can now get out of those awful clothes.
+    	Home is how you left it, although a bit messier because you genuinely forgot last night was the full moon which means you had to leave in a bit of a hurry. Well nonetheless you can now get out of those awful clothes.
 
 [[You draw a warm bath.|warmbath]] 
 [[You draw a cold bath.|coldbath]]
@@ -1317,7 +1323,18 @@ Insert your nickname:
 [[Next.|pronouns1]]
 
 
-:: origin_africa {"position":"2175,575","size":"100,100"}
+:: origin {"position":"250,750","size":"100,100"}
+//Before we start, tell me Wolfkin, from where do you hail?//
+
+[[From around here.|origin_marseille]]
+[[From the North of Frankia|origin_breton]]
+[[From Across the Sea in the South East.|origin_middle_east]]
+[[From the Deep South, across the sea.|origin_africa]]
+[[From the Far East|origin_asia]]
+
+
+
+:: origin_africa {"position":"375,875","size":"100,100"}
 You traveled a lot, You were born in Africa, the Deep-South across many lands and seas. You grew up with your parents until your grandma adopted you. She passed away a few years ago, hence why you decided to move here after her death. Staying behind was too painful and brought back too many memories. You needed a new beginning. The long travel by Sea, new culture and language barrier certainly helped with that.
 <<set $origin to "African">><<set $grandma to " ">>
 You called your grandma: 
@@ -1325,14 +1342,13 @@ You called your grandma:
 
 Is that right?
 
-[[Yes|Name]]
-[[No|bath5]]
+[[Yes|Prologue]]
+[[No|origin]]
 
 
 
 
-
-:: origin_asia {"position":"2325,325","size":"100,100"}
+:: origin_asia {"position":"525,625","size":"100,100"}
 You traveled a lot, You were born in Asia, in the Far East across many lands and seas. You grew up with your parents until your grandma adopted you. She passed away a few years ago, hence why you decided to move here after her death. Staying behind was too painful and brought back too many memories. You needed a new beginning. The long travel by Sea, new culture and language barrier certainly helped with that.
 <<set $origin to "Asian">> <<set $grandma to " ">>
 You called your grandma: 
@@ -1340,13 +1356,12 @@ You called your grandma:
 
 Is that right?
 
-[[Yes|Name]]
-[[No|bath5]]
+[[Yes|Prologue]]
+[[No|origin]]
 
 
 
-
-:: origin_breton {"position":"2300,575","size":"100,100"}
+:: origin_breton {"position":"500,875","size":"100,100"}
 You traveled a bit. You were born in the North of França, in Brittany to be more exact. You grew up with your parents until your grandma adopted you. She passed away a few years ago, hence why you decided to move here after her death. Staying behind was too painful and brought back too many memories. You needed a new beginning.
 <<set $origin to "Breton">><<set $grandma to " ">>
 You call your grandma: 
@@ -1354,12 +1369,12 @@ You call your grandma:
 
 Is that right?
 
-[[Yes|Name]]
-[[No|bath5]]
+[[Yes|Prologue]]
+[[No|origin]]
 
 
 
-:: origin_marseille {"position":"2175,325","size":"100,100"}
+:: origin_marseille {"position":"400,625","size":"100,100"}
 You weren’t born far, Born in the South of França, in Provence to be more exact. You grew up with your parents until your grandma adopted you. She passed away a few years ago, hence why you decided to move here after her death. Staying behind was too painful and brought back too many memories. You needed a new beginning.
 <<set $origin to "Marseillais">> <<set $grandma to " ">>
 You called your grandma: 
@@ -1367,11 +1382,11 @@ You called your grandma:
 
 Is that right?
 
-[[Yes|Name]]
-[[No|bath5]]
+[[Yes|Prologue]]
+[[No|origin]]
 
 
-:: origin_middle_east {"position":"2325,450","size":"100,100"}
+:: origin_middle_east {"position":"450,750","size":"100,100"}
 You traveled a lot, You were born in the Middle-East, South-East across the sea. You grew up with your parents until your grandma adopted you. She passed away a few years ago, hence why you decided to move here after her death. Staying behind was too painful and brought back too many memories. You needed a new beginning. The long travel by Sea, new culture and language barrier certainly helped with that.
 <<set $origin to "Levantine">> <<set $grandma to " ">>
 You called your grandma: 
@@ -1379,8 +1394,8 @@ You called your grandma:
 
 Is that right?
 
-[[Yes|Name]]
-[[No|bath5]]
+[[Yes|Prologue]]
+[[No|origin]]
 
 
 
@@ -1685,7 +1700,7 @@ She is infected then.
 <<set $throat = true>>
 
 
-:: warmbath {"position":"1550,525","size":"100,100"}
+:: warmbath {"position":"1700,525","size":"100,100"}
 <<set $stress += 3>><<set $warmbath = true >>
 The day before the transformation always feels tough on your body; your whole body aches, you feel pain in your joints and muscles and the pain seems so deep that for a moment you think your actual bones hurt.
 Perhaps, you think, the warm water will soothe you. 
@@ -1701,7 +1716,7 @@ And as you lay in the warm water you can't help but sigh. This does feel good.
 [[Next|bath2]]
 
 
-:: wood1 {"position":"800,450","size":"100,100"}
+:: wood1 {"position":"950,450","size":"100,100"}
 <span class="typed-text"><<type 60ms>>\''June 1764, County of Gévaudan
 Present Day''<</type>></span>
 
@@ -1717,7 +1732,7 @@ You feel:
 [[Stressed but you will remain calm|WoodRepressed]]
 
 
-:: wood2 {"position":"1050,450","size":"100,100"}
+:: wood2 {"position":"1200,450","size":"100,100"}
 At the very least you know more or less where you are, the stash tree shouldn't be too far.
 
 You try to keep an eye out to see if you can find the body of whatever you killed but beside the blood on yourself you don't smell any blood around the area. well, maybe you ate and then went on the run?
@@ -1746,7 +1761,7 @@ You put them on.
 <<unset $addedStressHere>>
 
 
-:: woodclothes {"position":"1175,450","size":"100,100"}
+:: woodclothes {"position":"1325,450","size":"100,100"}
 <<if $height == "very small">>
 	The shirt is way too big for your petite frame, the sleeves are so long that if you’re just  standing there, they almost reach below your knees. It looks like you’re wearing a robe. You feel like a child again, wearing your parent’s clothes. The fabric of the pants is itchy and covered in unknown stains. 
     But the outfit does the job, so you cant really complain about that. You can't help but feel a little worried at the prospect of walking barefoot and naked in the snow this winter, but maybe by then, you'll be a normal werewolf, in control of its form.
@@ -1765,16 +1780,15 @@ You put them on.
 [[Next|woodend]]
 
 
-:: woodend {"position":"1300,450","size":"100,100"}
-The sun is not high in the sky yet as it is dawn. You see the early morning sunrise slicing through the canopy scattering this almost pinkish color across the forest floor.
-The earth is soft beneath your feet. With the way the morning dew cling to the leaves and how strong the smell of petrichor is you assumed it rained last night.
-You try to walk on stones, roots and solid ground rather than the soft earth. testing each step before putting your weight down, trying not to sink, trying not to leave a mark that will betray you to anyone looking.
+:: woodend {"position":"1450,450","size":"100,100"}
+The sun is still low on the horizon. You see its shining rays slice through the canopy scattering pinkish color across the forest floor. The earth is soft beneath your feet. With the way the morning dew cling to the leaves and how strong the smell of petrichor is you assumed it rained last night.
+You try to walk on stones, roots and solid ground rather than the soft earth, knowing the latter would leave a trace. Testing each step before putting your weight down, trying not to sink, trying not to leave a mark that will betray you to anyone looking.
 
-You hear a sound above and feel your heart leap into your chest, before realising it is just a squirrel darting across branches.
+You hear a sound above and feel your heart leap into throat, before realising it is just a squirrel darting across branches. You exhale slowly, and march on.
 You catch a glimmer of the river through the trees. You only need to follow it to reach the village.
 
-You skirt the muddier banks, stepping where the soil is firmer, Your soles sting from hidden stones and thorns, but there’s no other way. You’re hyper alert to every sound and smell around you, every rustle, every snap of twigs sends your pulse racing. 
-The forest hums and shifts around you, alive and watchful, oblivious to your struggle, while you try to weave your way silently towards the faint promise of safety at the edge of the trees.
+You skirt the muddier banks, stepping where the soil is firmer, Your soles sting from hidden stones and thorns, but there’s no other way. Beside, Now, its just a matter of not being seen, you can always claim you came to gather water. Still, You’re hyper alert to every sound and smell around you, every rustle, every snap of twigs sends your pulse racing. 
+The forest hums and shifts around you, alive and watchful, oblivious// Judging (depend on the var)  to your struggle, while you try to weave your way silently towards the faint promise of safety at the edge of the trees.
 
 
 [[Finally, you manage to reach your destination. |home1]]
