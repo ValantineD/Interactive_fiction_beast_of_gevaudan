@@ -14,7 +14,7 @@ Beast Of Gévaudan
     "blacksmith": "red",
     "Doctor": "blue"
   },
-  "zoom": 0.6
+  "zoom": 1
 }
 
 
@@ -68,7 +68,6 @@ You don't know how long you stayed looking blanking at a picnic table, after all
 Its one of the thing you've always loved about Alexis, they give you the time and space to process. But you know them enough now, behind that impassible face of them hides worry now, you can see it in the way the crease of their eyebrows or the way their lips tighten into a straight line.
 So you answer the best way you can with them: with physical touch. You hug them tight. As usual it takes a split second before Alexis hugs you tightly too. They're getting used to being hugged, being loved, the time reaction gets smaller each time. That makes you smile.
 
-
 "Thank you."
 
 "Of course" they simply answer as they kiss your temple
@@ -78,18 +77,7 @@ You both sit and Alexis takes out the meals. It's nothing too fancy but it makes
 And as you sit there, muscles sore but not quite aching, eating an apple badly peeled by Alexis, you feel at peace.
 
 
-[[Back|EndofDemo]] 
-
-
-:: BrokenLocket [blacksmith] {"position":"4475,700","size":"100,100"}
-taking off old locket
-repare the wood, 
-
-There, the gate ready for a new locket.
-
-[[blabla|blacksmith12]]
-
-<<set $blocket = true>>
+[[Back|EndofDemo]]
 
 
 :: CHAPTER1 {"position":"825,450","size":"100,100"}
@@ -107,56 +95,63 @@ Made by Julie Vidal
 
 :: Camille {"position":"6575,575","size":"100,100"}
 When Camille invited you to an underground fight you told yourself it was purely to analyse their fighting style. What was it that grandma always said? “Keep your friends close but your enemies closer”.
+
 After all, how many opportunities do you get to see your greatest adversary up close without the fear of getting shot at. 
 Besides, it's interesting to see the king's hunter, fight without their arquebus.
 Yes you tell yourself, when Camille asked you to accompany you, you said yes purely for strategy purposes.
 
-Gone are the heavy cloaks of the hunters, and the royal coats of the arquebusier du roy. Instead they stand shirtless with only white pants and hand wrapping.
-The candlelights of the club and the sweat that colle??? Their body almost make their skin glow.
+Gone are the heavy cloaks of the hunters, and the royal coat of the arquebusier du roy. Instead they stand shirtless with only white pants and hand wrappings.
+Sweat cling to their body and the soft candlelights of the club almost make their skin glow.
+They look up to you with a small smile and they nod before returning to stretch their arms. 
 
-When you saw their adversary, a guy twice their size, step into the circular pit, you thought this was going to be a massacre. 
-Huh, interesting. But no, Camille surprised you. Perhaps you underestimate them. 
+You hear the bell ring, and the crowd roar beside you, as both opponents start to circle around each other. Camille is bouncing on their feet, their movement swift and fluid, yet there’s a certain tension in them, like an animal waiting to pounce.
 
-punch
-esquive
-quick jabs
+When you saw their adversary, a guy twice their size, step into the circular pit, you thought this was going to be a massacre. After all, Camille is an excellent shot, and while they are good at horse riding and able to weave their way easily through the forest, you thought close-range would be their weakness. 
+But no, Camille surprised you. 
+Perhaps you underestimated them. It does make you wonder what their weakness could be.
 
-the fight club is buzzing with tension, you can smell sweat, blood and alcohol as if they were soaked in the walls themselves.
-Eager eyes glued to the fighters, yelling encouragement to the one they betted on and disapproving noises when they get punched.
-You could easily be overwhelmed in such an environment, it has been too long since you've been stimulated like this, but your own eyes are focused on Camille.
-You no longer hear the crowd or smell the place, its like your entire body is in tune with them and only them.
+You see the big man’s shoulder turn, weight dragging through his hips, before the punch comes, air almost stirring in its wake. His fist, the size of a sledgehammer, aimed at Camille’s head. They duck beneath it. 
 
-big guy lunge forward
-slamming hand into shoulder
+By the time his arm reaches its fullest stretch, the hunter has already slipped through his guard. A jab lends into his stomach. Another snaps upward brushing the giant’s cheekbone. A third kisses his mouth before he can close his guard. 
 
-using big guy thigh as a ledge
-knee to the gut
+Short swift blows, nothing strong enough to end the fight, but enough to make the giant’s balance waver. He staggers back, eyes wide for a split second. Camille grins.
 
-You see an opening, you see the colossus getting slower on their left side, and from the way Camille circles them like a shark, you know they must see it too, but then you watch as they look up to …. wink at you?
-You feel butterflies in your stomach but not before you feel your stomach drop. the giant takes the opportunity to uppercut them before they can block or dodge. The big guy doesnt give the hunter a chance to recover as they, twice, land powerful blows across their face. You watch Camille stagger before they collapse on the ground. You wait a bit, heart stuck in your throat before the referee announce the fight is over.
+Suddenly the size of him seems to matter far less.
 
-You ignore the crowd, feeling your heart squeeze in a painful way, as you rush to their side. They’re spitting blood on the ground, but they’re alive, although they look smaller now, with blood trickling from their mouth, split brow and noises. No longer the powerful, in control hunter, you came to know.
+The fight club is buzzing with tension, you can smell sweat, blood and alcohol as if they were soaked in the walls themselves. They probably are.
+Eager eyes glued to the fighters. People yelling encouragement to the one they betted on and yelling disapproving noises when they get punched.
+The smell, the noises, the overcrowding could easily overwhelm you. It has been too long since your senses were bombarded and yet your own eyes only see Camille. You no longer hear the crowd or smell the place, it's like your entire body is in tune with them and only them.
+
+The big man lunges forward, driving his massive hand into the hunter’s shoulder with a thunderous smack. The crowd gasps, as the force rattles Camille’s arm and rocks them back on their feet.
+The giant presses the attack, swinging a wide hook towards Camille’s ribs. The hunter pivots, letting it graze past, and counters with a quick elbow to the side of his torso. Another heavy punch drives toward Camille’s head, but they lean back just in time.
+The giant stumbles slightly, before adjusting his footing, and driving a hard shoulder into Camille’s chest. The hunter shifts their weight, absorbing the hit with a grunt. 
+The giant snarls, bracing, arms tight, as the hunter circles, testing his guard, reading their balance.
+Spotting a slight shift in his stance, Camille steps closer, planting a foot against the inside of his thigh. Using it as a ledge, the hunter drives a knee into his gut. The blow steals the air from him, forcing him back a step.
+The giant is visibly tired now, their guard no longer holds. You see an opening, a slack on their left side, a subtle dip of the shoulder and from the way Camille circles them like a shark, you know they must see it too
+Then, just for a heartbeat, they glance up… and wink at you.
+You feel butterflies in your stomach until you feel it drop: the giant see that they’re distracted and takes the opportunity to uppercut them before they can block or dodge. The Colossus doesn't even give the hunter a chance to recover as they, twice, land powerful blows across their face. You watch Camille stagger before they collapse on the ground.
+
+You ignore the crowd, feeling your heart squeeze in a painful way, as you rush to their side. They’re spitting blood on the ground, but they’re alive. Although they look smaller now, with blood trickling from their mouth, split brow and noses. No longer the powerful, in control hunter, you came to know.
 
 You gently take care of them, wiping the blood away from their face. They purposely avoid your gaze though, even if they sit tall, they look ashamed. 
 
 “I’ve known you more focused”
 
-There is no judgement in your voice, but you see them flinch nonetheless as you stamp the cloth against the arch of their brow. 
+There is no judgement in your voice, but you see them flinch nonetheless as you dab the cloth against the arch of their brow. 
 
-“I know.” Their gaze flickers to your eyes and lower before moving away.  “I was distracted. I would like to say it shall not happen again but that would be a lie.“
+“I know.” There’s something vulnerable in their eyes before they sigh and square their shoulders. Their gaze flickers to your eyes and lower before moving away.  
+“I was distracted. I would assure you it will not be repeated, but I cannot with perfect honesty do so.”
 
 “You were distracted? By what?” by whom? You stop yourself from asking.
 
-You halt your movement, but your hand doesn't get away from their face.
-they slowly wrap their hand around your wrist, movement slow enough that you can back away at any time. You don’t feel the need to.
+You halt your movement, but your hand doesn't get away from their face. They slowly wrap their hand around your wrist, movement slow enough that you can back away at any time. You don’t feel the need to.
 
-“I believe you already know.”
+“I suspect you are already aware of the reason.”
 
-Their eyes look so pretty in this light, deep soulful eyes so dark you could drown in it but oh, so warm. They smile, sitting taller as if they hadn’t lost in front of you. As if their face doesn’t look like they took a beating.
+Their eyes look so pretty in this light, deep soulful eyes so dark you could drown in it but oh, so warm. They smile, enough that you see a single dimple on their face, sitting taller as if they hadn’t lost in front of you. As if their face doesn’t look like they took a beating.
 
-“Perhaps with you at my side, I do not mind losing more often”
+“Perhaps, with you beside me, I find I scarcely mind losing at all”
 
-[[Back|EndofDemo]] 
 
 
 :: Character Stats [menu] {"position":"100,300","size":"100,100"}
@@ -219,7 +214,7 @@ thank you for playing!!!!
 hopefully chapter 2 will take less time than the first chapter
 
 
-I wrote some snippets of what the romance will be like deep relationship here :
+In the meantime I wrote some snippets you can read em here :
 
 [[Lou]]
 [[Hyacinthe]]
@@ -238,8 +233,6 @@ The skin looks torn, burnt and scarred in many places, as if someone stabbed the
 
 :: Home2 {"position":"1550,325","size":"100,100"}
 Describe the thingy basic? alcove? the towel
-
-
 
 
 :: Hyacinthe {"position":"6575,325","size":"100,100"}
@@ -307,7 +300,7 @@ You laugh. That took you by surprise.
 They smile then, eyes filled with mirth and they look relaxed and you hope — you wish that you will see this expression more often.
 
 
-[[Back|EndofDemo]] 
+[[Back|EndofDemo]]
 
 
 :: JobFinal {"position":"4900,450","size":"100,100"}
@@ -510,7 +503,7 @@ She stops when you grab her hand and gently kiss it.
 Lou is a busy woman, a people pleaser often running everywhere making sure her business blooms and that everyone around her is satisfied and content. She doesnt stay with you as much time as she'd like that you know. But she misses you, you can see it in her eyes and her lingering touches. And so, this time, she does stay.
 
 
-[[Back|EndofDemo]] 
+[[Back|EndofDemo]]
 
 
 :: Map [menu] {"position":"250,425","size":"100,100"}
@@ -628,19 +621,20 @@ After serving Charles, she heads straight to your table and sit down in front of
 :: Welcome {"position":"125,750","size":"100,100"}
 <span class="typed-text"><<type 90ms>>Welcome to the Land of the Beast, Wolfkin.<</type>></span>
 
-''DISCLAIMER:''
-	//While this story is based and inspired by France in the XVIII, you might notice there are some drastic changes. Indeed, Races, gender and sexuality will not be main core subjects simply because.... I don't want to write about them. So you will see that most people do not bat an eye at those topics. But doing so changes the setting immensely because sadly France is founded at the core by Imperialism, Colonialism, Misogyny, Homophobia and Transphobia.
-	I cannot fathom for the life of me writing a story where Misogyny, homophobia, racism, transphobia are not only the rules but expected at every corner. 
-While i will explore some of these themes, it will be done so in subtext and methaphor.//
-
-NOTE: This is a work in progress, i will add content warning and anything might change this is my version 1.01 which looks like shit but this will be changed <3
-
 	For about 2 years a mysterious creature - often described as wolf like- kills women, men and children alike, leaving behind remnant of corpses half eaten.
 Many people take arms in hope of killing the beast. To this day the mystery remains. Is it a wolf, hyena, a werewolf, a wizard or even just a human murderer? Between folklore, myth and crytid, the Beast of Gevaudan still eludes all.
 	Only one person knows for certain who is behind those attrocious murders.
 	//You.//
 	Why?
 	''Because you are the Beast of Gevaudan.''
+    
+
+''DISCLAIMER:''
+	//While this story is based and inspired by France in the XVIII, you might notice there are some drastic changes. Indeed, Races, gender and sexuality will not be main core subjects simply because.... I don't want to write about them. So you will see that most people do not bat an eye at those topics. But doing so changes the setting immensely because sadly France is founded at the core by Imperialism, Colonialism, Misogyny, Homophobia and Transphobia.
+	I cannot fathom for the life of me writing a story where Misogyny, homophobia, racism, transphobia are not only the rules but expected at every corner. 
+While i will explore some of these themes, it will be done so in subtext and methaphor.//
+
+NOTE: This is a work in progress, i will add content warning and anything might change this is my version 1.01 which looks like shit but this will be changed <3
 
 
 Your character will have a disability, usually you would chose among the fellow three, but I havent written them yet so! I apologise for that:
@@ -673,7 +667,7 @@ Is that the disability you have?
 :: WoodPanic {"position":"1075,450","size":"100,100"}
 <<set $stress =  0>>
 
-No matter how many times it happens this shit is still terrifying. Losing control, memory gaps, not knowing what you did. What you killed. It scares you. How many times can you escape (unescape? Clean not hurt) this situation without anyone noticing a stranger butt naked in the forest of Silvalupe
+No matter how many times it happens this shit is still terrifying. Losing control, memory gaps, not knowing what you did. What you killed. It scares you. How many times can you escape this situation unscathed without anyone noticing a stranger butt naked in the forest of Silvalupe
 
 //Oh gods, you're full on panicking now aren't you?// 
 
@@ -731,12 +725,6 @@ You've been here a while already, you should probably wash your...
 [[long locs.|bath3.5][$length to "long locs"]]
 
 
-
-
-
-
-
-
 :: bath3.5 {"position":"2075,450","size":"100,100"}
 [washing hair scene help]
 <<if $length == " ">><<endif>><<set $topSurgery = false>>
@@ -762,7 +750,6 @@ waist length
 braided close to your scalp
 short locs
 long locs
-
 
 
 :: bath4 {"position":"2200,450","size":"100,100"}
@@ -838,27 +825,33 @@ As you open, you see;
 (( écrire l'intro passage black smith avec le loquet))
 go back and build that shit
 
-[[Next.|blacksmith12]]
+The barn door is sagged on its hinge and the lock hungs loose.
+
+You grab the lock and turn it over in your hands. The iron case is thick, hammered square at the edges, the surface scaled from years of weather.
+You try to slid the key in but it get stucks halfway through. 
+
+"Probably Rust and a tired spring" You think outloud.
+
+two path ahead
+
+[[You can fix the existing lock.|fixingLock]]
+[[You can make a brand new lock.|newLock]]
 
 
 :: blacksmith12 [blacksmith] {"position":"4650,525","size":"100,100"}
+The new lock is set into the thick wooden door with hand-forged screws. You give the key to Augustin and sees him test. Once, twice and then tuck the key into his coat. 
 
+“Let the wolves push on that!” He smiles at you.
 
-<<if not $blocket>>[[taking off the broken locket from the gate.|BrokenLocket]]<</if>> <<if $blocket>><span style="color:gray;">taking off the broken locket from the gate. (done)</span><</if>>
-<<if not $newlock>>[[Prepare the new lock.|newLock]]<</if>><<if $newlock>><span style="color:gray;">Prepare the new lock. (done)</span><</if>>
+You wipe your hands on your apron. Well now, the lock should be able to outlast the both of you, if the hinges hold that is..
 
-<<if $blocket and $newlock>>Now, good as new.
 [[Next.|blacksmith13]]
-<</if>>
-
-
-
 
 
 :: blacksmith13 [blacksmith] {"position":"4775,525","size":"100,100"}
 conclusion locket
 
-“Thank you, $mc ”
+“Thank, $mc ”
 
 [[“Of course”|JobFinal]]
 
@@ -929,8 +922,6 @@ You need to distract her or she will become clingy.
 
 :: blacksmith7 [blacksmith] {"position":"4025,525","size":"100,100"}
 "Oh! Well" She seems surprised by your questions. "Mother is good, (little one) got sick and she's taking care of her."
-
-
 
 [ hear Anne-Mary hums. "I'm more worried about Jeanne" 
 
@@ -1208,6 +1199,27 @@ Eyes are responsive as you open a lid of the candle next to you to make more lig
 <<set $eyes = true>>
 
 
+:: fixingLock {"position":"4450,675","size":"100,100"}
+You set the lock near the edge of the forge until the metal grew warm, not glowing orange though, just warm enough to drive out the damp.
+The scent of heated iron and old oil rose into the air. With a small hammer you start to punch the side plate loose. You see the interior, fixed iron ribs that forced the key to follow a precise path.
+the spring had cracked clean through.
+From a strip of iron you start to create a new spring, thining it under steady blows then reheating and quenching in the slack tub.
+Steam burst. You start to test it with your thumb and when you see it bent slightly then come back to its orignal shape you nod to yourself.
+
+You start to fit the new spring and close the case. 
+
+You fill the key just in case, decades of use worn it.
+
+then you test the lock.  the key goes through, then you hear a satifying clicj as you turn it.
+
+"there, good as new." you hand the lock back. "should hold your sheep better than before. Oil it every once in a while"
+
+
+[[Next.|blacksmith12]]
+
+set $newLock to "true"
+
+
 :: forehead [Doctor] {"position":"4275,225","size":"100,100"}
 She's hot to the touch, but not dangerously so.
 You believe it will pass. Although you need to make sure she stays hydrated. You'll need someone to keep their eyes on her though, in case it gets worse. You'd have to cool her down quickly if that's the case.
@@ -1231,7 +1243,7 @@ You check her hands and feet and they seem normal, no cuts or wounds, not that y
 	It's nothing too big, just a small cabin, away from the center village, on the edge of the woods. You’ve built it with the help of the villagers.
 	At first you thought the villager took pity on you, but now that you know them, they were simply their usual self; kind. Which came at a surprise at first. Honestly when you first moved to Tierce-Lieux, a few years back, you expected them to be like in any village; to be distrustful, finding new comers untrustworthy. They were the opposite; very welcoming, helping you on the very first day, bringing you dinner, fresh vegetables and baked goods. Even blankets and fresh clothes, which was quite needed as it was the middle of winter. Old Martin helped you with the roof, Germain with the windows, and Louise with the furniture.
 
-	So despite what happened last night, it's with a smile that you reach your home. Thankfully you always keep a backup key of the back door for situations like these. 	You examine the back garden, which you do not take care of -you mentally note- and reach for one of the plants Lou gave you “for good luck”. The plant is a small potted tree named Elbert, you’re not sure why, Lou was very insistent, and mentioned that Elbert would keep you company when she wasn’t here.
+	So despite what happened last night, it's with a smile that you reach your home. Thankfully you always keep a backup key of the back door for situations like these. 	You examine the back garden, which you do not take care of — you mentally note — and reach for one of the plants Lou gave you “for good luck”. The plant is a small potted tree named Elbert, you’re not sure why, Lou was very insistent, and mentioned that Elbert would keep you company when she wasn’t here.
 	Easily enough with a little bit of digging you find the key in the soil of the plant. You also should probably water it, you think as you take out one of the bugs feeding on the leaves. Lou would certainly have your head if she knew that Elbert was not watered enough.
 	Absently scratching your legs. 
 
@@ -1299,12 +1311,46 @@ Is that correct?
 [[Yes.|job1]]
 
 
-:: newLock [blacksmith] {"position":"4625,700","size":"100,100"}
-depending on the lock mentionned earlier, prepare the new lock rn make sure the dimmension fits and shit
+:: newLock {"position":"4600,675","size":"100,100"}
+Well then, back to the forge it is.
 
-[[blabla|blacksmith12]]
+You chose a bar of wrough iron from the rack along the wall, testing for flaws. That one should be perfect.
 
-<<set $newlock = true>>
+You bury the bar deep in the heart of the coals. You press the bellows and hear it sigh before it roars.
+Sparks starts to climb the chimney like fireflies.
+When the iron starts to glow that beautiful yellow-orange color, you draw it out and lay it accross the anvil. 
+The first blow is to flatten it, squaring it folding it till it forms the lock's case.
+Hammers strokes rang through the forge. Measured and Precised.
+Clang clang clang. You love the repetitive movement, there's something soothing to it. It always manages to calm you down. 
+" <<cycle "$whistle" autoselect>>
+	<<option "You whistle while you work. ">>
+	<<option "Beside the usual noise from the forge, you like working in silence.">>
+<</cycle>> "
+
+You bend the hot metal around a form block, shaping it into a shallow box. A second plate would close it later.
+Next came the bolt. You draw out a thick section, hammering one end into a rectangular tongue that will slide into the door frame. You leave the other end broad to receive the spring.
+The wards, the hidden ribs inside that will only move for the  proper key, are forged from slender strips, heated and riveted into place within the case. Each is set carefully. Too loose, and any crude key might turn it. Too tight, and even the right key would jam.
+
+For the spring, you work a thin strip again and again, heating, hammering, quenching. You temper it to a dark blue at the edge of the fire, judging the color by eye alone. A brittle spring would snap; a soft one would fail to drive the bolt.
+
+Only then do you begin working on the key.
+From a narrow rod you forge the bow, a simple oval for a gloved hand, then draw out the shaft. The bit you shape slowly, cutting away with file and chisel until its pattern matches the narrow path between the wards.
+
+The lock case is closed with rivets, peened tight while still hot. You cool it, file the seams smooth, and fix it in the vise.
+
+Then, you take the key and slid it into the lock.
+Unfortunately the the first turn does nothing. Huh. 
+
+You remove the back plate, fil one ward thinner, and reassemble.
+
+The second turns but gets stuck.
+
+Again you open it, adjust the spring tension, polish the bolt’s edges. 
+On the third attempt, the key turns cleanly. You smiled faintly. Third time's the charm.
+
+By afternoon, You walk back to the Boulet's barn. Augustin is working with his sheep when he sees you he nods and joins you after a bit.
+
+[[Next.|blacksmith12]]
 
 
 :: nickname {"position":"2550,575","size":"100,100"}
@@ -1333,7 +1379,6 @@ Insert your nickname:
 [[From the Far East|origin_asia]]
 
 
-
 :: origin_africa {"position":"375,875","size":"100,100"}
 You traveled a lot, You were born in Africa, the Deep-South across many lands and seas. You grew up with your parents until your grandma adopted you. She passed away a few years ago, hence why you decided to move here after her death. Staying behind was too painful and brought back too many memories. You needed a new beginning. The long travel by Sea, new culture and language barrier certainly helped with that.
 <<set $origin to "African">><<set $grandma to " ">>
@@ -1344,8 +1389,6 @@ Is that right?
 
 [[Yes|Prologue]]
 [[No|origin]]
-
-
 
 
 :: origin_asia {"position":"525,625","size":"100,100"}
@@ -1360,7 +1403,6 @@ Is that right?
 [[No|origin]]
 
 
-
 :: origin_breton {"position":"500,875","size":"100,100"}
 You traveled a bit. You were born in the North of França, in Brittany to be more exact. You grew up with your parents until your grandma adopted you. She passed away a few years ago, hence why you decided to move here after her death. Staying behind was too painful and brought back too many memories. You needed a new beginning.
 <<set $origin to "Breton">><<set $grandma to " ">>
@@ -1371,7 +1413,6 @@ Is that right?
 
 [[Yes|Prologue]]
 [[No|origin]]
-
 
 
 :: origin_marseille {"position":"400,625","size":"100,100"}
@@ -1396,9 +1437,6 @@ Is that right?
 
 [[Yes|Prologue]]
 [[No|origin]]
-
-
-
 
 
 :: pronouns1 {"position":"2725,475","size":"100,100"}
@@ -1688,7 +1726,7 @@ You killed her. You killed Jeanne Boulet.
 
 //Shit//
 
-[[Shit is right.|EndofDemo]] 
+[[Shit is right.|EndofDemo]]
 
 
 :: throat [Doctor] {"position":"4400,225","size":"100,100"}
@@ -1745,7 +1783,7 @@ After walking for a few minutes you find the stash tree, the one where you alway
 The tree is an old beech tree, who, sadly, seemed to have died from illness a few years prior, but is still standing tall. A fox lead you to it. The damned creature kept stealing your clothes, and when you managed to hunt it down it was hiding in the tree. Now your first thought was to leave it alone but the fox actually peed on your clothes too. And maybe it was because you were having a bad night, but you fought the damn fox. It obviously lost but not before biting your wrist and leaving a nasty scar. It does come back from time to time, but you’re pretty sure it’s to annoy you, as sometimes you still find your clothes reeking of piss.
 
 It is quite annoying how many clothes you've torn in the past few months.
-True you became better at stitching clothes — at least the one salvageable — but its still nothing great. In the past few weeks you bought so many clothes it's beginning to cost a small fortune if you have to be honest. So you had to buy less expensive clothes, and sometimes even clothes that don’t fit you at all. Your hand reaches out into the Center of the hollow tree, hoping - because it happened once - that those awful tiny insects didn’t decide on a whim to feast on your clothes.
+True you became better at stitching clothes — at least the one salvageable — but its still nothing great. In the past few weeks you bought so many clothes it's beginning to cost a small fortune if you have to be honest. So you had to buy less expensive clothes, and sometimes even clothes that don’t fit you at all. Your hand reaches out into the Center of the hollow tree, hoping — because it happened once — that those awful tiny insects didn’t decide on a whim to feast on your clothes.
 
 You take out a grayish shirt and some earth toned pants. Nothing too fancy, and to be honest nothing really comfortable. And while they both have holes here and there, they seem mostly okay as you inspect them. You sniff them just for good measure, but no fox piss. That’s good. 
 
@@ -2304,8 +2342,6 @@ var genderMap = {
     window.gender = window.gender || setup.gender;
 
 }());
-
-
 
 :: StoryStylesheet [stylesheet]
 /* =============================
