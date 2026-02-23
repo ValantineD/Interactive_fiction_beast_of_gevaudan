@@ -153,7 +153,6 @@ Their eyes look so pretty in this light, deep soulful eyes so dark you could dro
 “Perhaps, with you beside me, I find I scarcely mind losing at all”
 
 
-
 :: Character Stats [menu] {"position":"100,300","size":"100,100"}
 <span class="typed-text">WHO ARE YOU?</span>
 
@@ -816,12 +815,14 @@ Is that the job that you have ?
 Business has been quiet for a few days. Luckily for you, you were feeling a bit drowsy with the full moon coming up.
 You take one last look at the mirror making sure you look at least presentable, and then go reach for the door.
 
-As you open, you see;
+As you open, you see an older man, Augustin Boulet, skin tanned from work spend outside, auburn hair with a few hints of white hair, a full beard and and darke eyes hidden under a stern look with frowned bushy brows. He’s a shepherd of sheep, and he and his family are your closest neighbors. You often see their sheep in the field right next to your house, sometimes even in your garden. Not that you mind since they take care of the grass.
 
-[[Next.|blacksmith2]]
+As he sees you he straightens up a little. 
+
+[[He's not alone thought.|blacksmith2.5]]
 
 
-:: blacksmith11 [blacksmith] {"position":"4525,525","size":"100,100"}
+:: blacksmith11 [blacksmith] {"position":"4275,525","size":"100,100"}
 (( écrire l'intro passage black smith avec le loquet))
 go back and build that shit
 
@@ -856,14 +857,7 @@ conclusion locket
 [[“Of course”|JobFinal]]
 
 
-:: blacksmith2 [blacksmith] {"position":"3400,525","size":"100,100"}
-An older man, Augustin Boulet, white skin, auburn hair with a few hints of white hair, a full beard and and darke eyes hidden under a stern look with frowned bushy brows. He’s a shepherd of sheep, and he and his family are your closest neighbors. You often see their sheep in the field right next to your house, sometimes even in your garden. Not that you mind since they take care of the grass.
-
-As he sees you he straightens up a little. 
-[[He's not alone thought.|blacksmith3]]
-
-
-:: blacksmith3 {"position":"3525,525","size":"100,100"}
+:: blacksmith2.5 {"position":"3400,525","size":"100,100"}
 You see the eldest of the Boulet twins. Élise. She's no more than 15 winters. Tall, with the thick brows of her father, crooked nose of her mother but gentle smile that is all of her own . 
 Usually she's found helping out her mother, she made you quite a few tart in the past few years. The first few one were a bit atrocious but she, thankfully, quickly got better. You're pretty sure she's been arboring some sort of hero crush on you. Which to be totally honest, you cannot fathom why. Still, because of it she seems to have gotten a genuine interest in the culinary art. 
  	Lou is fond of her, so you suspect that soon enough she'll get a proper job at the inn.  
@@ -872,12 +866,10 @@ She's considered by the entire village as the eldest because of how responsible 
 [[Next.|blacksmith4]]
 
 
-:: blacksmith4 [blacksmith] {"position":"3650,525","size":"100,100"}
+:: blacksmith4 [blacksmith] {"position":"3525,525","size":"100,100"}
 You look at them expectantly.
 
-“The lock holding the sheep broke, you mind taking a look at it?”
-
-He eyes you at the corner of his eyes, he looks fidgety. You can help but cock your head asking a silent question. 
+“The lock of the barn broke yesterday. You mind taking a look at it?” He eyes you at the corner of his eyes, he looks fidgety. You can help but cock your head asking a silent question. 
 
 He sniffs, and wipes his palms against his pants, before replying.
 
@@ -895,7 +887,7 @@ You catch her looking at you, observing you. It's a little unsettling if you hav
 [[be sarcastic.|blacksmith5][$funny += 1]]
 
 
-:: blacksmith5 [blacksmith] {"position":"3775,525","size":"100,100"}
+:: blacksmith5 [blacksmith] {"position":"3650,525","size":"100,100"}
 first react personnality:
 
 "Oh yes I'm splendid, I've never been so well." you drawl 
@@ -913,60 +905,65 @@ This seem to surprise her before she blushes and realise how personal this quest
 [[Tease her about it.|blacksmith6][$funny += 1]]
 
 
-:: blacksmith6 {"position":"3900,525","size":"100,100"}
+:: blacksmith6 {"position":"3775,525","size":"100,100"}
 You see her cheeks flush and can't help but sigh internally. You’ve been pretty clear to her before, and you wonder what it will take to make this child stop having these feelings. She will grow out of it. 
 You need to distract her or she will become clingy.
 
 [["How's your mother?"|blacksmith7]]
 
 
-:: blacksmith7 [blacksmith] {"position":"4025,525","size":"100,100"}
-"Oh! Well" She seems surprised by your questions. "Mother is good, (little one) got sick and she's taking care of her."
+:: blacksmith7 [blacksmith] {"position":"3900,525","size":"100,100"}
+"Oh! Well" She seems surprised by your questions. "Mother is good, the little one got sick and she's taking care of her."
 
-[ hear Anne-Mary hums. "I'm more worried about Jeanne" 
+"Jeanne did not come home last night" Augustin Interject.
 
-"Jeanne? Please mother, we all know she probably found some berries in the woods and is too busy eating them rather than actually working." She says, rolling her eyes.
+While Elise is well liked by everyone, Jeanne, is Augustin's favorite. Probably because like him, she's likely to follow in his footsteps and become a shepard as well. 
 
-"Elise." You hear her mother say her name, ever so calmly which, to your surprise, seems to calm down the vitriol the youngling had for her sister.
+"Jeanne? Please father, we all know she probably found some berries in the woods and is too busy eating them rather than actually working." She says, rolling her eyes.
 
-"Why? What happened to Jeanne?" You ask, and you can see Elise thank you silently for taking the attention off of her.
+"Enough." Augustin's voice is stern leaving no room for arguments. Elise deflates.
+
+"When did she leave ?" You ask, and you can see Elise thank you silently for taking the attention off of her.
 
 "Oh, well she went on a walk with our dog yesterday morning, but neither came back."
 
-It is not unusual. Jeanne, while being a very sweet child, always had her head in the clouds. You often found her napping next to a tree, or simply taking care of the animals lost in time. She almost befriended a badger once, before it scratched her hand, which you bandaged.
+It is not unusual. Jeanne, while being a very sweet child, always had her head in the clouds. You often found her napping next to a tree, or simply taking care of the animals lost in time. She befriended a badger once, before it scratched her hand.
 
 "Im sure she is fine, like your daughter said, she probably simply lost track of time"
 
-"Of course" you hear the mother reply, although her smile doesn't quite reach her eyes "I'm probably just worrying over nothing."]]conv with dad instead
+"Mmfph" From the look of things, Augustin doesn't look conviced at all, but he's gracious enough to let it go.
 
 [[Next.|job8]]
 
 
-:: blacksmith9 [blacksmith] {"position":"4400,525","size":"100,100"}
-((You see Augustin Boulet. He seems to be focusing on repairing one of the gates that hold the ships. From a glance, you're not sure he's succeeding at fixing it. He seems to notice you as he looks up from what he's doing.
+:: blacksmith9 [blacksmith] {"position":"4150,525","size":"100,100"}
+You see that one of the window is open though and someone is shaking sheets. It's Augustin's wife, Anne-Marie. She is an older woman with a crooked nose, olive skin. She has dark hair that grayed out and crows feet nested at the corner of her eyes, marking a life lived with joy.
 
-You wave, and he nods, not one to talk.))
+She sees you and smile "Hello $mc, Hope you're having a good day." Then she turns to her husband smile a bit harsher "Dear Husband of mine did you offer anything to your guest?"
 
-Describe Anne Marie? 
-shes probably upstairs and wave at the window and ask how MC is
+You hear Augustin grumble, before he turns to you.
 
-(("Can I offer you anything, Physician?")) girl ask it rather than anne marie. or maybe she ask through the window
+"You want to drink something?"
 
-A tea	
-No thank you
-Just a water 	
+" <<cycle "$drinkboulet" autoselect>>
+	<<option "Water would be nice.">>
+	<<option "Some Tea would be nice.">>
+<</cycle>> "
 
+"I'll take care of it" says Elise, apparently happy to take care of your needs, you sigh.
+
+You follow Augustin Boulet to the Barn.
 [[Next.|blacksmith11]]
 
 
-:: bowels [Doctor] {"position":"4900,225","size":"100,100"}
+:: bowels [Doctor] {"position":"4475,225","size":"100,100"}
 <<set $bowels = true>>
 You put your hand on her stomach, tapping lightly on it with the other one. The noise is normal which tells you her guts are not tight. Considering she doesn't seem to be in deep pain, they have not perforated either. 
 
 [[That's good.|doctor12]]
 
 
-:: breathing [Doctor] {"position":"4650,225","size":"100,100"}
+:: breathing [Doctor] {"position":"4225,225","size":"100,100"}
 You lift her, she's sleepy and while she's a bit of a dead weight at the moment, she's still small enough that she's not too heavy for you.
 You put your ears on her back listening to her attentively. Not that you need it being a werewolf but you’ve always done so in the pretense of people..
 Her breathing is slow and a bit ragged.
@@ -979,10 +976,6 @@ It seems that her illness is mostly pulmonary, as her lungs are taken by the ill
 
 :: coldbath {"position":"1700,375","size":"100,100"}
 <<set $stress += 1>><<set $warmbath = false >>
-
-
-
-
 The day before the transformation always feels tough on your body; your whole body aches, you feel pain in your joints and muscles and the pain seems so deep that for a moment you think your actual bones hurt.
 
 Perhaps it is to punish yourself a little. You know the aching will not be soothed by the freezing water of the mountain. Or perhaps it is simply to wake yourself up, after all you did spend a truly awful night.
@@ -1011,18 +1004,21 @@ Is that the job you have?
 Business has been quiet for a few days. Luckily for you, you were feeling a bit drowsy with the full moon coming up.
 You take one last look at the mirror making sure you look at least presentable, and then go reach for the door.
 
-As you open, you see;
+As you open, you see an older woman, Anne-Marie Boulet. Crooked nose, olive skin, dark hair that has grayed out, crows feet nested at the corner of her eyes, marking a life lived with joy. She's the wife of a shepherd of sheep, the Boulet family are your closest neighbors. You often see their sheep in the field right next to your house, sometimes even in your garden. Not that you mind since they take care of the grass.
 
-[[Next.|doctor2]]
+“I'm sorry to bother you dear, I was wondering if we could get your assistance if you’re free.”
+
+Anne-Marie smiles gently at you and you notice she has a hand over someone else's shoulder.
+
+[[Next.|doctor2.5]]
 
 
-:: doctor11 [Doctor] {"position":"4525,375","size":"100,100"}
+:: doctor11 [Doctor] {"position":"4150,375","size":"100,100"}
 "Can I offer you anything, Physician?"
 
 " <<cycle "$drinkboulet" autoselect>>
 	<<option "Water would be nice.">>
 	<<option "Some Tea would be nice.">>
-	<<option "I'm good, thanks.">>
 <</cycle>> "
 
 "I'll take care of it" says Elise, apparently happy to take care of your needs, you sigh.
@@ -1032,11 +1028,10 @@ As you open, you see;
 You follow Anne-Marie up the stairs to one of the rooms directly on the right and you see the youngest of the Boulet Family. Marie was born 5 summers ago. You remember that day because you were there helping birthing her too.
 It was the first time you helped birthing a child and you'll always remember that moment fondly when you finally had the tiny little enfant all red and still slick in your arms.
 
-Marie is still young, but she's the youngest child of the village, and by far the favorite. Everyone is completely smitten by her, and truth be told, so are you. Her laugh is probably one of the happiest sounds you've heard and it never fails to make everyone smile.
+Marie is still young, but she's the youngest child of the village, and by far the favorite. Everyone is completely smitten by her, and truth be told, so are you. Her laugh is probably one of the happiest sounds you've ever heard and it never fails to make everyone smile.
 
-She is sick. Red, feverish.
-You push down the worry.
-You start to grab your equipment out of your bag. You don't think she is contagious but you can't never be too safe. You grab your mask full of incense and herbs to help kill any bacteria.
+She is sick. Red, feverish. You push down the worry.
+You grab your equipment out of your bag. You don't think she is contagious but you can't never be too safe. You grab your mask full of incense and herbs to help kill any bacteria.
 
 "How long has she been like this ?" You ask
 
@@ -1055,7 +1050,7 @@ You get closer to the kid and start the examination
 <<set $bowels to false>>
 
 
-:: doctor12 [Doctor] {"position":"4650,375","size":"100,100"}
+:: doctor12 [Doctor] {"position":"4275,375","size":"100,100"}
 You get closer to the kid and start the examination
 
 <<if not $eyes>>[[Check her eyes.|eyes]]<</if>> <<if $eyes>><span style="color:gray;">Check her eyes (done)</span><</if>>
@@ -1071,7 +1066,7 @@ You get closer to the kid and start the examination
 <</if>>
 
 
-:: doctor13 [Doctor] {"position":"4775,375","size":"100,100"}
+:: doctor13 [Doctor] {"position":"4400,375","size":"100,100"}
 “She will be fine. She needs rest.”
 
 You hear Anne-Marie exhale slowly as you turn towards her.
@@ -1079,7 +1074,7 @@ You hear Anne-Marie exhale slowly as you turn towards her.
 “The illness has taken root in her lungs” You say as you rummage through your bag, for breathing-Poultice which you take out and hand to her 
 “Apply this to her back and torso twice her day it should help her breathe better. After that I'm afraid only time will tell.”
 
-Maybe bloodletting would work better, but you've never been a fan of the practice, Human blood tends to leave you with a queer feeling. You always thought it was due to being a werewolf, but $grandma was totally fine with it.
+Maybe bloodletting would work better, but you've never been a fan of the practice, Human blood tends to leave you with a queer feeling. You always thought it was due to being a werewolf, but $grandma was totally fine with it. So its probably a you thing.
 
 Anne-Marie inspect you for a second, seemingly looking to see if you tell the truth, but then relax slightly
 
@@ -1088,17 +1083,7 @@ Anne-Marie inspect you for a second, seemingly looking to see if you tell the tr
 [[“Of course”|JobFinal]]
 
 
-:: doctor2 [Doctor] {"position":"3400,375","size":"100,100"}
-“I'm sorry to bother you dear, I was wondering if we could get your assistance if you’re free.”
-
-An older woman, Anne-Marie Boulet, crooked nose, olive skin, dark hair that has grayed out, crows feet nested at the corner of her eyes, marking a life lived with joy. She's the wife of a shepherd of sheep, the Boulet family are your closest neighbors. You often see their sheep in the field right next to your house, sometimes even in your garden. Not that you mind since they take care of the grass.
-
-Anne-Marie smiles gently at you and you notice she has a hand over someone else's shoulder.
-
-[[Next.|doctor3]]
-
-
-:: doctor3 {"position":"3525,375","size":"100,100"}
+:: doctor2.5 {"position":"3400,375","size":"100,100"}
 You see the eldest of the Boulet twins. Élise. She's no more than 15 winters. Tall, with the thick brows of her father, crooked nose of her mother but gentle smile that is all of her own . 
 Usually she's found helping out her mother, she made you quite a few tart in the past few years. The first few one were a bit atrocious but she, thankfully, quickly got better. You're pretty sure she's been arboring some sort of hero crush on you. Which to be totally honest, you cannot fathom why. Still, because of it she seems to have gotten a genuine interest in the culinary art. 
  	Lou is fond of her, so you suspect that soon enough she'll get a proper job at the inn.  
@@ -1107,7 +1092,7 @@ She's considered by the entire village as the eldest because of how responsible 
 [[Next.|doctor4]]
 
 
-:: doctor4 [Doctor] {"position":"3650,375","size":"100,100"}
+:: doctor4 [Doctor] {"position":"3525,375","size":"100,100"}
 "Is everything alright dear? you look like you've seen a ghost."
 
 You feel yourself tense invuntarily, fear tightening your muscles, and she must see it because she smile apolegically.
@@ -1125,7 +1110,7 @@ You catch her looking at you, observing you. It's a little unsettling if you hav
 [[Next.|doctor5]]
 
 
-:: doctor5 [Doctor] {"position":"3775,375","size":"100,100"}
+:: doctor5 [Doctor] {"position":"3650,375","size":"100,100"}
 false choice; +personality
 
 He nods, seemingly not wanting to continue this conversation farther. 
@@ -1139,15 +1124,15 @@ And while Anne-Marie seems done with the conversation, you perk up again when El
 [[Tease her about it.|doctor6][$funny += 1]]
 
 
-:: doctor6 {"position":"3900,375","size":"100,100"}
+:: doctor6 {"position":"3775,375","size":"100,100"}
 You see her cheeks flush and can't help but sigh internally. You’ve been pretty clear to her before, and you wonder what it will take to make this child stop having these feelings. She will grow out of it. 
 You need to distract her or she will become clingy.
 
 [["How's your father?"|doctor7]]
 
 
-:: doctor7 [Doctor] {"position":"4025,375","size":"100,100"}
-"Oh! Well" She seems surprised by your questions. "Father is good, the lock holding the sheeps broke a few nights ago and he's trying to fix it I think."
+:: doctor7 [Doctor] {"position":"3900,375","size":"100,100"}
+"Oh! Well" She seems surprised by your questions. "Father is good, the lock holding barn broke last night and he's trying to fix it I think."
 
 You hear Anne-Mary hums. "I'm more worried about Jeanne" 
 
@@ -1159,7 +1144,7 @@ You hear Anne-Mary hums. "I'm more worried about Jeanne"
 
 "Oh, well she went on a walk with our dog yesterday morning, but neither came back."
 
-It is not unusual. Jeanne, while being a very sweet child, always had her head in the clouds. You often found her napping next to a tree, or simply taking care of the animals lost in time. She almost befriended a badger once, before it scratched her hand, which you bandaged.
+It is not unusual. Jeanne, while being a very sweet child, always had her head in the clouds. You often found her napping next to a tree, or simply taking care of the animals lost in time. She befriended a badger once, before it scratched her hand, which you bandaged.
 
 "Im sure she is fine, like your daughter said, she probably simply lost track of time"
 
@@ -1168,21 +1153,22 @@ It is not unusual. Jeanne, while being a very sweet child, always had her head i
 [[Next.|doctor8]]
 
 
-:: doctor8 {"position":"4150,375","size":"100,100"}
+:: doctor8 {"position":"4025,375","size":"100,100"}
 Thankfully you don't have to think of an answer as you arrive at the Boulet's House. It's nothing extravagant, just a two stories house, made with grayish white stones and black slates for roofs. There is a barn close enough for the sheep.
 
-[[Next.|doctor9]]
-
-
-:: doctor9 [Doctor] {"position":"4275,375","size":"100,100"}
-You see Augustin Boulet. He seems to be focusing on repairing one of the gates that hold the ships. From a glance, you're not sure he's succeeding at fixing it. He seems to notice you as he looks up from what he's doing.
+You see Anne-Marie's husband, Augustin Boulet next to the latter. He is an older man, skin tanned from work spend outside, auburn hair with a few hints of white hair, a full beard and and darke eyes hidden under a stern look with frowned bushy brows. He’s the local shepherd of sheep in the village.
+He seems to be focusing on repairing the lock of the door. From a glance, you're not sure he's succeeding at fixing it. He seems to notice you as he looks up from what he's doing.
 
 You wave, and he nods, not one to talk.
 
-[[Next.|job10]]
+You've never really entered the Boulets household before. All of them feeling well enough to come directly to your house in their time of need. Even when you helped Anne-Marie give birth, she surprised you when she knocked on your house after her water broke.
+
+The house smells of fresh bread. And olive. The second one, you suspect, is the family's soap, as all of them carry this fragrance. There is a hint of sheep though. If you didn't know before, you'd knew by smell that this is a family of shepherds.
+ 
+[[Next.|doctor11]]
 
 
-:: ears [Doctor] {"position":"4525,225","size":"100,100"}
+:: ears [Doctor] {"position":"4100,225","size":"100,100"}
 Her ears are mostly clean, there is no redness.
 
 [[At least it is not infected.|doctor12]]
@@ -1190,7 +1176,7 @@ Her ears are mostly clean, there is no redness.
 <<set $ears = true>>
 
 
-:: eyes [Doctor] {"position":"4150,225","size":"100,100"}
+:: eyes [Doctor] {"position":"3725,225","size":"100,100"}
 You grab one of the candles that is on the tabletop next to her bed. With one hand you go to open her eyes slightly, and watch her reaction to the light.
 Eyes are responsive as you open a lid of the candle next to you to make more light.
 
@@ -1199,10 +1185,12 @@ Eyes are responsive as you open a lid of the candle next to you to make more lig
 <<set $eyes = true>>
 
 
-:: fixingLock {"position":"4450,675","size":"100,100"}
-You set the lock near the edge of the forge until the metal grew warm, not glowing orange though, just warm enough to drive out the damp.
-The scent of heated iron and old oil rose into the air. With a small hammer you start to punch the side plate loose. You see the interior, fixed iron ribs that forced the key to follow a precise path.
-the spring had cracked clean through.
+:: fixingLock {"position":"4400,525","size":"100,100"}
+Well then, back to the forge it is.
+
+Once you're back to your workshop, you set the lock near the edge of the forge until the metal grows warm, not glowing orange though, just warm enough to drive out the damp.
+The scent of heated iron and old oil rise into the air. With a small hammer you start to punch the side plate loose. You see the interior, fixed iron ribs that forces the key to follow a precise path.
+the spring has cracked clean through.
 From a strip of iron you start to create a new spring, thining it under steady blows then reheating and quenching in the slack tub.
 Steam burst. You start to test it with your thumb and when you see it bent slightly then come back to its orignal shape you nod to yourself.
 
@@ -1220,7 +1208,7 @@ then you test the lock.  the key goes through, then you hear a satifying clicj a
 set $newLock to "true"
 
 
-:: forehead [Doctor] {"position":"4275,225","size":"100,100"}
+:: forehead [Doctor] {"position":"3850,225","size":"100,100"}
 She's hot to the touch, but not dangerously so.
 You believe it will pass. Although you need to make sure she stays hydrated. You'll need someone to keep their eyes on her though, in case it gets worse. You'd have to cool her down quickly if that's the case.
 
@@ -1229,7 +1217,7 @@ You believe it will pass. Although you need to make sure she stays hydrated. You
 <<set $forehead = true>>
 
 
-:: hands_feet [Doctor] {"position":"4775,225","size":"100,100"}
+:: hands_feet [Doctor] {"position":"4350,225","size":"100,100"}
 You check her hands and feet and they seem normal, no cuts or wounds, not that you expected to see one but you never know.
 
 [[ At least everything is the right color.|doctor12]]
@@ -1268,15 +1256,6 @@ You check her hands and feet and they seem normal, no cuts or wounds, not that y
 [[Be sarcastic|job2][$funny += 1]]
 
 
-:: job10 {"position":"4400,375","size":"100,100"}
-You've never really entered the Boulets household before. All of them feeling well enough to come directly to your house in their time of need.  [Change this to blacksmith]
-
-The house smells of fresh bread. And olive. The second one, you suspect, is the family's soap, as all of them carry this fragrance. 
-There is a hint of sheep though. If you didn't know before, you'd knew by smell that this is a family of shepherds.
- 
-[[Next.|doctor11]]
-
-
 :: job2 {"position":"3000,450","size":"100,100"}
 //Actually we forgot one more thing, wolkin.//
 What is it that you //do// ?
@@ -1285,17 +1264,12 @@ What is it that you //do// ?
 [[You are a Doctor.|doctor]]
 
 
-:: job8 {"position":"4150,525","size":"100,100"}
+:: job8 {"position":"4025,525","size":"100,100"}
 Thankfully you don't have to think of an answer as you arrive at the Boulet's House. It's nothing extravagant, just a two stories house, made with grayish white stones and black slates for roofs. There is a barn close enough for the sheep.
 
-[[Next.|job9]]
+You've never really entered the Boulets household before. You've never had the need to, since they mostly came to you when they needed your expertise. 
 
-
-:: job9 {"position":"4275,525","size":"100,100"}
-You've never really entered the Boulets household before. All of them feeling well enough to come directly to your house in their time of need.  [Change this to blacksmith]
-
-The house smells of fresh bread. And olive. The second one, you suspect, is the family's soap, as all of them carry this fragrance. 
-There is a hint of sheep though. If you didn't know before, you'd knew by smell that this is a family of shepherds.
+The house smells of fresh bread. And olive. The second one, you suspect, is the family's soap, as all of them carry this fragrance. There is a hint of sheep though. If you didn't know before, you'd knew by smell that this is a family of shepherds.
  
 [[Next.|blacksmith9]]
 
@@ -1311,7 +1285,7 @@ Is that correct?
 [[Yes.|job1]]
 
 
-:: newLock {"position":"4600,675","size":"100,100"}
+:: newLock {"position":"4400,675","size":"100,100"}
 Well then, back to the forge it is.
 
 You chose a bar of wrough iron from the rack along the wall, testing for flaws. That one should be perfect.
@@ -1729,7 +1703,7 @@ You killed her. You killed Jeanne Boulet.
 [[Shit is right.|EndofDemo]]
 
 
-:: throat [Doctor] {"position":"4400,225","size":"100,100"}
+:: throat [Doctor] {"position":"3975,225","size":"100,100"}
 There is some light swelling around the throat. 
 She is infected then.
 
@@ -1822,7 +1796,7 @@ You put them on.
 The sun is still low on the horizon. You see its shining rays slice through the canopy scattering pinkish color across the forest floor. The earth is soft beneath your feet. With the way the morning dew cling to the leaves and how strong the smell of petrichor is you assumed it rained last night.
 You try to walk on stones, roots and solid ground rather than the soft earth, knowing the latter would leave a trace. Testing each step before putting your weight down, trying not to sink, trying not to leave a mark that will betray you to anyone looking.
 
-You hear a sound above and feel your heart leap into throat, before realising it is just a squirrel darting across branches. You exhale slowly, and march on.
+You hear a sound above and feel your heart leap into your throat, before realising it is just a squirrel darting across branches. You exhale slowly, and march on.
 You catch a glimmer of the river through the trees. You only need to follow it to reach the village.
 
 You skirt the muddier banks, stepping where the soil is firmer, Your soles sting from hidden stones and thorns, but there’s no other way. Beside, Now, its just a matter of not being seen, you can always claim you came to gather water. Still, You’re hyper alert to every sound and smell around you, every rustle, every snap of twigs sends your pulse racing. 
