@@ -823,9 +823,7 @@ As he sees you he straightens up a little.
 
 
 :: blacksmith11 [blacksmith] {"position":"4275,525","size":"100,100"}
-(( écrire l'intro passage black smith avec le loquet))
-go back and build that shit
-
+Augustin hands you the key as you step up. 
 The barn door is sagged on its hinge and the lock hungs loose.
 
 You grab the lock and turn it over in your hands. The iron case is thick, hammered square at the edges, the surface scaled from years of weather.
@@ -833,7 +831,8 @@ You try to slid the key in but it get stucks halfway through.
 
 "Probably Rust and a tired spring" You think outloud.
 
-two path ahead
+Its not the most complex work to do, but still it should take the day. 
+There's two possibility here: You could fix the existing lock. Not the best choice in terms of life span, but the one who will cost less for your customers. The other would be to make a brand new one. You know that whatever you chose, the Boulet will be able to pay you regardless. 
 
 [[You can fix the existing lock.|fixingLock]]
 [[You can make a brand new lock.|newLock]]
@@ -858,7 +857,7 @@ conclusion locket
 
 
 :: blacksmith2.5 {"position":"3400,525","size":"100,100"}
-You see the eldest of the Boulet twins. Élise. She's no more than 15 winters. Tall, with the thick brows of her father, crooked nose of her mother but gentle smile that is all of her own . 
+You see the eldest of the Boulet twins. Élise. She's no more than 15 winters. Tall, with the thick brows of her father, crooked nose of her mother but gentle smile that is all of her own. 
 Usually she's found helping out her mother, she made you quite a few tart in the past few years. The first few one were a bit atrocious but she, thankfully, quickly got better. You're pretty sure she's been arboring some sort of hero crush on you. Which to be totally honest, you cannot fathom why. Still, because of it she seems to have gotten a genuine interest in the culinary art. 
  	Lou is fond of her, so you suspect that soon enough she'll get a proper job at the inn.  
 She's considered by the entire village as the eldest because of how responsible she is. Although you personally rarely see that side of her because of her ridiculous crush on you.
@@ -906,24 +905,25 @@ This seem to surprise her before she blushes and realise how personal this quest
 
 
 :: blacksmith6 {"position":"3775,525","size":"100,100"}
-You see her cheeks flush and can't help but sigh internally. You’ve been pretty clear to her before, and you wonder what it will take to make this child stop having these feelings. She will grow out of it. 
+You see her cheeks flush and can't help but sigh internally. 
+You know its pretty common for kids to pick an adult and start a hero worship of sort. You have no idea what you did to make her chose /you/ of all people. At first you thought it as cause you were new to the village, but as time passed, it remained. She will grow out of it you hope. 
 You need to distract her or she will become clingy.
 
 [["How's your mother?"|blacksmith7]]
 
 
 :: blacksmith7 [blacksmith] {"position":"3900,525","size":"100,100"}
-"Oh! Well" She seems surprised by your questions. "Mother is good, the little one got sick and she's taking care of her."
+"Oh! Well" She seems surprised by your questions. "Mother is good, the little one got sick so she's taking care of her."
 
 "Jeanne did not come home last night" Augustin Interject.
 
-While Elise is well liked by everyone, Jeanne, is Augustin's favorite. Probably because like him, she's likely to follow in his footsteps and become a shepard as well. 
+While Elise is well liked by everyone, Jeanne however is Augustin's favorite. Probably because like him, she's likely to follow in his footsteps and become a sheperd as well. 
 
 "Jeanne? Please father, we all know she probably found some berries in the woods and is too busy eating them rather than actually working." She says, rolling her eyes.
 
-"Enough." Augustin's voice is stern leaving no room for arguments. Elise deflates.
+"Enough." Augustin's voice is stern, leaving no room for arguments. Elise deflates.
 
-"When did she leave ?" You ask, and you can see Elise thank you silently for taking the attention off of her.
+"When did she leave ?" You ask, and you can see Elise thanking you silently for taking the attention off of her.
 
 "Oh, well she went on a walk with our dog yesterday morning, but neither came back."
 
@@ -931,13 +931,13 @@ It is not unusual. Jeanne, while being a very sweet child, always had her head i
 
 "Im sure she is fine, like your daughter said, she probably simply lost track of time"
 
-"Mmfph" From the look of things, Augustin doesn't look conviced at all, but he's gracious enough to let it go.
+He grumbles but doesnt say more. From the look of things, Augustin doesn't look conviced at all, but he's gracious enough to let it go.
 
 [[Next.|job8]]
 
 
 :: blacksmith9 [blacksmith] {"position":"4150,525","size":"100,100"}
-You see that one of the window is open though and someone is shaking sheets. It's Augustin's wife, Anne-Marie. She is an older woman with a crooked nose, olive skin. She has dark hair that grayed out and crows feet nested at the corner of her eyes, marking a life lived with joy.
+One of the window is open though and someone is shaking sheets. It's Augustin's wife, Anne-Marie. She is an older woman with a crooked nose and olive skin. She has dark hair that grayed out and crows feet nested at the corner of her eyes, marking a life lived with joy.
 
 She sees you and smile "Hello $mc, Hope you're having a good day." Then she turns to her husband smile a bit harsher "Dear Husband of mine did you offer anything to your guest?"
 
@@ -952,7 +952,7 @@ You hear Augustin grumble, before he turns to you.
 
 "I'll take care of it" says Elise, apparently happy to take care of your needs, you sigh.
 
-You follow Augustin Boulet to the Barn.
+"This way" Augustin's says, as if the barn is not an obvious sight on the farm. Still, you follow Augustin Boulet to it.
 [[Next.|blacksmith11]]
 
 
@@ -1125,7 +1125,8 @@ And while Anne-Marie seems done with the conversation, you perk up again when El
 
 
 :: doctor6 {"position":"3775,375","size":"100,100"}
-You see her cheeks flush and can't help but sigh internally. You’ve been pretty clear to her before, and you wonder what it will take to make this child stop having these feelings. She will grow out of it. 
+You see her cheeks flush and can't help but sigh internally. 
+You know its pretty common for kids to pick an adult and start a hero worship of sort. You have no idea what you did to make her chose /you/ of all people. At first you thought it as cause you were new to the village, but as time passed, it remained. She will grow out of it you hope. 
 You need to distract her or she will become clingy.
 
 [["How's your father?"|doctor7]]
