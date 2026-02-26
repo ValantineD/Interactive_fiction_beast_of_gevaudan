@@ -18,7 +18,7 @@ Beast Of Gévaudan
 }
 
 
-:: Alexis {"position":"6700,525","size":"100,100"}
+:: Alexis {"position":"6425,525","size":"100,100"}
 [You are in a relationship with Alexis, they know you are a werewolf]
 
 
@@ -93,7 +93,7 @@ Made by Julie Vidal
 <</if>>
 
 
-:: Camille {"position":"6575,575","size":"100,100"}
+:: Camille {"position":"6300,575","size":"100,100"}
 When Camille invited you to an underground fight you told yourself it was purely to analyse their fighting style. What was it that grandma always said? “Keep your friends close but your enemies closer”.
 
 After all, how many opportunities do you get to see your greatest adversary up close without the fear of getting shot at. 
@@ -207,9 +207,10 @@ At least the journalistic uprising about the Beast of Gevaudan will be behind th
 [[CHAPTER1]]
 
 
-:: EndofDemo {"position":"6525,450","size":"100,100"}
+:: EndofDemo {"position":"6250,450","size":"100,100"}
 <span class="typed-text"><<type 120ms>>End of Chapter 1<</type>></span>
 thank you for playing!!!!
+
 hopefully chapter 2 will take less time than the first chapter
 
 
@@ -234,7 +235,7 @@ The skin looks torn, burnt and scarred in many places, as if someone stabbed the
 Describe the thingy basic? alcove? the towel
 
 
-:: Hyacinthe {"position":"6575,325","size":"100,100"}
+:: Hyacinthe {"position":"6300,325","size":"100,100"}
 [You are not “quite” in a relationship with Hyacinthe, but there is heavy attraction on both side]
 
 "I believe I must decline. There is a ball happening at the manor tonight and I shall do my best to avoid it."
@@ -302,8 +303,10 @@ They smile then, eyes filled with mirth and they look relaxed and you hope — y
 [[Back|EndofDemo]]
 
 
-:: JobFinal {"position":"4900,450","size":"100,100"}
+:: JobFinal {"position":"4650,450","size":"100,100"}
 <<set $village = 0>><<set $gold = 0>>
+
+
 “How much do we owe you?”
 
 You know the Boulet are far from rich. And while they need the money, so do you.
@@ -314,7 +317,7 @@ You know the Boulet are far from rich. And while they need the money, so do you.
 <</if>>
 
 
-:: JobFinalGen {"position":"5050,325","size":"100,100"}
+:: JobFinalGen {"position":"4775,325","size":"100,100"}
 “Nothing, really”
 
 “What ? No $mc we can't accept this. At least if you do not want some coin would you take some food at the very least”
@@ -327,7 +330,7 @@ Well, you can't really say no to delicious food now can you?
 <<set $village += 5>>
 
 
-:: JobFinalModerate {"position":"5050,575","size":"100,100"}
+:: JobFinalModerate {"position":"4775,575","size":"100,100"}
 "A couple of coin should suffice”
 
 “Are you sure? I could give you more”
@@ -341,7 +344,7 @@ Well, you can't really say no to delicious food now can you?
 <<set $gold += 5>>
 
 
-:: JobFinalRat {"position":"5050,450","size":"100,100"}
+:: JobFinalRat {"position":"4775,450","size":"100,100"}
 “A small pouch shoud be fine”
 
 “Of course, thank you dear”
@@ -425,7 +428,7 @@ $stresspath: 1 - calm 2- stressed 3- stressed but ok
 $tellher
 
 
-:: Lou {"position":"6700,375","size":"100,100"}
+:: Lou {"position":"6425,375","size":"100,100"}
 [You are deep in a relationship with Lou, and she is aware of you being a werewolf]
 
 
@@ -590,7 +593,7 @@ Romance: $hyacinthe_r
 [[Map]]
 
 
-:: Tavern1 {"position":"5200,450","size":"100,100"}
+:: Tavern1 {"position":"4925,450","size":"100,100"}
 Perhaps it is because you worked, or perhaps it is because you've had a rough night, but a huge part of you needs to see Lou. Before you even realize, your feet are heading to the Inn.
 
 The Inn, La Lune Rousse, is, quite honestly the only part of town that makes it interesting, it's in the middle of the village, the village being a road? traveling? Sur la route?? Usually
@@ -823,13 +826,12 @@ As he sees you he straightens up a little.
 
 
 :: blacksmith11 [blacksmith] {"position":"4275,525","size":"100,100"}
-Augustin hands you the key as you step up. 
-The barn door is sagged on its hinge and the lock hungs loose.
+Augustin hands you the key as you step up. The barn door is sagged on its hinge and the lock hungs loose.
 
 You grab the lock and turn it over in your hands. The iron case is thick, hammered square at the edges, the surface scaled from years of weather.
 You try to slid the key in but it get stucks halfway through. 
 
-"Probably Rust and a tired spring" You think outloud.
+"Probably rust and a tired spring" You think outloud.
 
 Its not the most complex work to do, but still it should take the day. 
 There's two possibility here: You could fix the existing lock. Not the best choice in terms of life span, but the one who will cost less for your customers. The other would be to make a brand new one. You know that whatever you chose, the Boulet will be able to pay you regardless. 
@@ -838,22 +840,19 @@ There's two possibility here: You could fix the existing lock. Not the best choi
 [[You can make a brand new lock.|newLock]]
 
 
-:: blacksmith12 [blacksmith] {"position":"4650,525","size":"100,100"}
-The new lock is set into the thick wooden door with hand-forged screws. You give the key to Augustin and sees him test. Once, twice and then tuck the key into his coat. 
+:: blacksmith12 [blacksmith] {"position":"4525,525","size":"100,100"}
+The new lock is set into the thick wooden door with hand-forged screws. You give the key to Augustin and sees him test it. Once, twice and then tuck the key into his coat. 
 
 “Let the wolves push on that!” He smiles at you.
 
-You wipe your hands on your apron. Well now, the lock should be able to outlast the both of you, if the hinges hold that is..
+You wipe your hands on your apron. <<if $newLock == "true">>
+Well now, the lock should be able to outlast the both of you, if the hinges hold that is...
+<<else>>If Augustin oils it from time to time, it should be able to last a few decades before it breaks again.
+<<endif>>
 
-[[Next.|blacksmith13]]
+"Well, thanks"
 
-
-:: blacksmith13 [blacksmith] {"position":"4775,525","size":"100,100"}
-conclusion locket
-
-“Thank, $mc ”
-
-[[“Of course”|JobFinal]]
+[[“Of course.”|JobFinal]]
 
 
 :: blacksmith2.5 {"position":"3400,525","size":"100,100"}
@@ -887,7 +886,7 @@ You catch her looking at you, observing you. It's a little unsettling if you hav
 
 
 :: blacksmith5 [blacksmith] {"position":"3650,525","size":"100,100"}
-first react personnality:
+first react personnality.
 
 "Oh yes I'm splendid, I've never been so well." you drawl 
 
@@ -1327,6 +1326,8 @@ By afternoon, You walk back to the Boulet's barn. Augustin is working with his s
 
 [[Next.|blacksmith12]]
 
+set $newLock to "false"
+
 
 :: nickname {"position":"2550,575","size":"100,100"}
 <<set $nickname = "">>
@@ -1425,7 +1426,7 @@ What pronouns do you use?
 [[Next.|namevalidation]]
 
 
-:: tavern2angry {"position":"5400,375","size":"100,100"}
+:: tavern2angry {"position":"5125,375","size":"100,100"}
 You heave a sigh, the vulnerability twists something in your stomach and makes you angry.
 
 “What do you think?” You bark.
@@ -1441,7 +1442,7 @@ Its only been a few years, but it feels like she knows you better than you know 
 [[Next.|tavern3]]
 
 
-:: tavern2funny {"position":"5275,325","size":"100,100"}
+:: tavern2funny {"position":"5000,325","size":"100,100"}
 “What ? Not even a Hello, how are you doing my friend, what a beautiful day we're having.”
 
 She crosses her arms, leaning back on her chair.
@@ -1466,7 +1467,7 @@ It's only been a few years, but it feels like she knows you better than you know
 [[Next.|tavern3]]
 
 
-:: tavern2kind {"position":"5400,525","size":"100,100"}
+:: tavern2kind {"position":"5125,525","size":"100,100"}
 "bad night" blabla
 
 honest +1
@@ -1474,7 +1475,7 @@ honest +1
 [[Next.|tavern3]]
 
 
-:: tavern2quiet {"position":"5275,575","size":"100,100"}
+:: tavern2quiet {"position":"5000,575","size":"100,100"}
 You grumble, not feeling comfortable answering at the moment, and Lou easily catches on.
 It's always been like that with Lou, like opposite and two sides of the same coin. She talks and you listen ever since the first day. Perhaps that's why you were so keen on being close friends with her. Not only do you like her company but she also has a way to soothe the wolf within you. The pillar of solitude that never seems to leave your chest always feels a little less heavy when you're with her.
 
@@ -1484,7 +1485,7 @@ It's only been a few years, but it feels like she knows you better than you know
 [[Next.|tavern3]]
 
 
-:: tavern3 {"position":"5525,450","size":"100,100"}
+:: tavern3 {"position":"5250,450","size":"100,100"}
 <<cycle "$tellher" autoselect>>
 	<<option "You want to tell her but you can't">>
 	<<option "You're too scared to even think about this conversation.">>
@@ -1496,7 +1497,7 @@ You're in this limbo of craving kinship of wanting, nay, needing to be known for
 [[Next.|tavern4]]
 
 
-:: tavern4 {"position":"5650,450","size":"100,100"}
+:: tavern4 {"position":"5375,450","size":"100,100"}
 <<if $tellher == "You want to tell her but you can't">><<set $honest += 5>> <</if>> You don't want to just reject her outright, at least no more than you already did, so the only thing left to talk about is something else entirely.
 
 “Heard anything since the last time I came?”
@@ -1531,7 +1532,7 @@ You see the Mirth in her eyes, as a conspiratory smile splits her face as she le
   [[You Nod without saying a word.|tavern5][$quiet += 1]]
 
 
-:: tavern5 {"position":"5775,450","size":"100,100"}
+:: tavern5 {"position":"5500,450","size":"100,100"}
 <<set $drink to " ">>
 “Poor Sod” You say, absently scratching a wine stain on the wood table.
 
@@ -1549,7 +1550,7 @@ Alcohol makes you queasy. It's a werewolf thing that you know for sure, cause gr
 [[You usually drink herbal tea, but after the night you had you’ll have some alcohol.|tavern6][$drink to "tea"]]
 
 
-:: tavern6 {"position":"5900,450","size":"100,100"}
+:: tavern6 {"position":"5625,450","size":"100,100"}
 <<set $lou_r = 0>> <<set $lou_f = 5>>
 “Got it” She winks before heading and welcoming the travelers.
 
@@ -1573,7 +1574,7 @@ ADD FATHER COMING IN THE INN
 <</link>>
 
 
-:: tavern7 {"position":"6025,450","size":"100,100"}
+:: tavern7 {"position":"5750,450","size":"100,100"}
 You don't know how you could have survived without her. When your grandma died, you were all alone, and there's no worse fate for a werewolf, to be utterly alone. Werewolves are social creatures, they need a pack; a tight-knit group of people may be friends, lovers or family.
 Without it, well, there is a reason solitary werewolves are cautionary tales. The emptiness becomes too much to bear and most become too angry to be safe around. Like a wounded beast really.
 
@@ -1592,34 +1593,34 @@ You see Lou coming back with your drink, a glass of [choice], before she settles
   [[Next.|tavern8]]
 
 
-:: tavern8 {"position":"6150,450","size":"100,100"}
-"At least she has someone you know. Or options."
+:: tavern8 {"position":"5875,450","size":"100,100"}
+Things seems to have quiet down at the tavern. Most people have been served and are quietly chatting among themselves. Usually there's more people at this hour, especially considering the current season. But then again, maybe its because it rained, Although the real reason is probably much simpler: Father [smth] just arrived after weeks of being else where. You know people tend to avoid going to the tavern if he's there purely to show how "pure" they are. Whatever that means.
+
+"At least she has someone you know. Or options." Lou says after a while, cutting your thoughts. 
 
 “What?”
 
-“Lison”
+“Lison” She's avoiding your gaze, probably musing her thoughts as she's looking at the fire in the corner of the room.
 
-“Where are you going with this?”
+“Where are you going with this?” You frown. 
 
-"Look - I just." she sigh. 
-
-next that looks like dialogue: first check based on personality: that essentially is like "What is it?" "
+"Look - I just." she sigh, putting both her palms on the table, as if trying to gather her strength. You wait. Its not often that Lou is struggling to find her words. She looks small here, almost sad. Is she...lonely?
 
 <<if $lou_r == 3>>
-[["What is it?"|tavern9lour][$kind +=1]]
+[["What's wrong?"|tavern9lour][$kind +=1]]
 [["What?"|tavern9lour][$angry +=1]]
 [[Look at her with a questioning look.|tavern9lour][$quiet +=1]]
 [["Penny for your thoughts?"|tavern9lour][$funny +=1]]
 <<else>>
-[["What is it?"|tavern9louf][$kind +=1]]
+[["What's wrong?"|tavern9louf][$kind +=1]]
 [["What?"|tavern9louf][$angry +=1]]
 [[Look at her with a questioning look.|tavern9louf][$quiet +=1]]
 [["Penny for your thoughts?"|tavern9louf][$funny +=1]]
 <</if>>
 
 
-:: tavern9louf {"position":"6275,375","size":"100,100"}
-"can i complain? "
+:: tavern9louf {"position":"6000,375","size":"100,100"}
+"Can I complain? "
 
 <<link '"Always."' "tavern9">>
     <<set $kind += 1>>
@@ -1654,7 +1655,7 @@ You’re not sure, because you only like men anyway.
   [[Next.|tavernfinal]]
 
 
-:: tavern9lour {"position":"6275,525","size":"100,100"}
+:: tavern9lour {"position":"6000,525","size":"100,100"}
 "Ill always be there for you, you know that right?" if RLOU
 
 
@@ -1680,23 +1681,28 @@ You hear commotion outside, but the way Lou smiles at you, like it's a secret be
   [[Until it becomes overwhelming.|tavernfinal]]
 
 
-:: tavernfinal {"position":"6400,450","size":"100,100"}
-You try to peer outside trying to decipher what's wrong. If you were a wolf right now your ears would definitely be twitching.
+:: tavernfinal {"position":"6125,450","size":"100,100"}
+You try to peer outside trying to decipher what's wrong. If you were a wolf right now your ears would definitely be twitching. Then you hear loud knocking on the door of the inn. 
 
-"My girl my sweet girl—"
+"<<if $doctor >> PHYSICIAN! <<else>>FATHER! <</if>> HELP ME!" You hear yelling through the door.
 
 “What's going on?” ask Lou, but she's already rising from her seat to open the door of her inn.
+
+"My girl my sweet girl—"
 
 Outside you see none other than Augustin Boulet, in the middle of the street, looking distressed and devastated as he's holding in his arms something buddle up in a thick blanket, you only see a bloody tiny arm coming out of the blanket.
 You share a glance with Lou who looks equally alarmed.
 The other villagers are trying to either get a look at what's happening or trying to calm down Augustin but he is frantic.
 
-'Augustin my friend, you must calm—"
+"Augustin my friend, you must calm—"
 
 "No ! You dont understand my Jeanne, my sweet little girl, she's been attacked!"
 
 The realization comes to you like fire thrown on oil. Last night you killed something, you remember the blood on your body, caked underneath your nails and the iron taste in your mouth. You see flashes of human flesh being torn apart. Of teeth sinking into the soft flesh of the neck.
-You did //this//.
+
+Time seems to still. Augustin is distressed as he looks at <<if $doctor >> you   <<else>> Father [] <</if>>and yell "DO SOMETHING!" but you're paralysed. 
+
+Gods, above you did //this//.
 You killed her. You killed Jeanne Boulet.
 
 //Shit//
