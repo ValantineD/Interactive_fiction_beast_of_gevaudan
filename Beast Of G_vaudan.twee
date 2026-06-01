@@ -598,19 +598,19 @@ Perhaps it is because you worked, or perhaps it is because you've had a rough ni
 
 The Inn, La Lune Rousse, is, quite honestly the only part of town that makes it interesting, it's in the middle of the village, the village being a road? traveling? Sur la route?? Usually
 Usually people go to have a drink once or twice a week, most people who go there are travelers who need a shelter for the night on their way to the next town.
-Lou is the owner. Her aunt and uncle used to own the place with Lou only helping, but since they moved town they left the inn to Lou, who took over the establishment splendidly.
+Lou is the owner. Her aunt and uncle used to own the place with Lou only helping, but since they died, they left the inn to Lou, who took over the establishment splendidly.
 
 And while she rarely has time off, you often go meet her there to hang out. She always tries to make time for you.
 Besides, she does give you sweet prices, being your closest friend and all.
 
-When you enter, there's a few regulars there, you recognise the younglings Damien, Josephine and Louis who are as usual, drinking in the corner. There's old Charles, who after taking care of the fields, goes for one drink before heading home to his husband.
+When you enter, there's a few regulars there, you recognise Damien, Josephine and Louis who are all around 17 summers and as usual, drinking in the corner. There's old Charles, who after taking care of the fields, goes for one drink before heading home to his husband. You see Pierre drinking with Charles, he also works the field, but contrary to Charles, he stays until the inn close. You and Lou often had to carry him home because he was piss drunk.
 
 However your looks go straight to Lou, she's not prepping any meal, it's too early for any of that yet, but she is making drinks and serving folks.
-She looks incredibly put together for someone who works at the inn, her curly ginger hair is tied into a loose bun, She smiles when she sees you, almost dazzling as always. She's always been one of those people that have the brightest smile. The smile falls on her face when she sees the state you're in. She's always been quite observant.
+She looks incredibly put together for someone who works at the inn, her curly ginger hair is tied in a tight bun with few rogue curls escaping from it. She smiles when she sees you, almost dazzling as always. She's always been one of those people that have the brightest smile. However she smile falls on her face when she sees the state you're in. She's always been quite observant, unfortunately, or fortunately for you.
 
 You head straight to “your” table. It doesn't really belong to you, but it's in the corner with your back against the wall, it allows you to spot everyone who comes in. Besides, it's a bit secluded so you quite enjoy that.
 
-After serving Charles, she heads straight to your table and sit down in front of you.
+After serving Charles and Pierre, she heads straight to your table and sit down in front of you.
 
 “What's wrong?”
 
@@ -618,6 +618,8 @@ After serving Charles, she heads straight to your table and sit down in front of
 [[For some reason this question makes you angry.|tavern2angry][$angry += 1]]
 [[Be Honest.|tavern2kind][$kind += 1]]
 [[Banter back.|tavern2funny][$funny += 1]]
+
+<<set $honest = 0>>
 
 
 :: Welcome {"position":"125,750","size":"100,100"}
@@ -859,7 +861,7 @@ Well now, the lock should be able to outlast the both of you, if the hinges hold
 You see the eldest of the Boulet twins. Élise. She's no more than 15 winters. Tall, with the thick brows of her father, crooked nose of her mother but gentle smile that is all of her own. 
 Usually she's found helping out her mother, she made you quite a few tart in the past few years. The first few one were a bit atrocious but she, thankfully, quickly got better. You're pretty sure she's been arboring some sort of hero crush on you. Which to be totally honest, you cannot fathom why. Still, because of it she seems to have gotten a genuine interest in the culinary art. 
  	Lou is fond of her, so you suspect that soon enough she'll get a proper job at the inn.  
-She's considered by the entire village as the eldest because of how responsible she is. Although you personally rarely see that side of her because of her ridiculous crush on you.
+She's considered by the entire village as the eldest because of how responsible she is. Although you personally rarely see that side of her.
   
 [[Next.|blacksmith4]]
 
@@ -869,30 +871,34 @@ You look at them expectantly.
 
 “The lock of the barn broke yesterday. You mind taking a look at it?” He eyes you at the corner of his eyes, he looks fidgety. You can help but cock your head asking a silent question. 
 
-He sniffs, and wipes his palms against his pants, before replying.
+He sniffs, and wipes his palms against his already dirty pants, before replying.
 
 “Sorry, You look like you slept badly.”
 
 He’s always been awkward. At first you thought it was because you were a stranger in a small town but after years of knowing the man you know he just prefers the company of his sheep to humans. You can’t really blame him there.
 
-"Are you okay ?" The youngling asks
+"Are you okay ?" The youngling blurts out.
 
-You catch her looking at you, observing you. It's a little unsettling if you have to be honest. She must see how wild you look right now, but you see her turning her head back at the road. Whatever she saw, she's way too polite to comment on it. You exhale. 
+You catch her looking at you, observing you. It's still odd to you, to be the center of someone's else attention. For so long it was just you and your grandma. And while you got used to it, It's still a little unsettling. You can help but worry. She must see how wild you look right now. But then, you see her turning her head back at the road waiting for your answer. Whatever she saw, she's way too polite to comment on it. You exhale. 
+How long can you keep this up? 
 
 [[Stare at her until she backs off.|blacksmith5][$quiet += 1]]
-[["Mind your buisiness."|blacksmith5][$angry += 1]]
-[[Try to redirect while thanking about it.|blacksmith5][$kind += 1]]
+[["'Mind your buisiness, kid.'"|blacksmith5][$angry += 1]]
+[[Try to redirect while thanking her.|blacksmith5][$kind += 1]]
 [[be sarcastic.|blacksmith5][$funny += 1]]
 
 
 :: blacksmith5 [blacksmith] {"position":"3650,525","size":"100,100"}
-first react personnality.
+Your reaction seem to surprise her before she blushes and realise how personal this question is. For a moment it looks like she wants to disapppear. And you see Augustin frown at you. 
 
-"Oh yes I'm splendid, I've never been so well." you drawl 
+Damn it. 
 
-This seem to surprise her before she blushes and realise how personal this question is. For a moment it looks like she wants to disapppear, before you take pity and sigh. You realise shes hiding something behind her back.
+It's not her fault you are irritable and uncomfortable. Hiding secrets with no one to turn to. No need to take it out on the kid who's been nice to you  
+You sigh and soften and realise shes been holding something behind her back.
 
 "Whatcha got here?"
+
+"I baked you a pie!" You watch as her lil arm hold the pie high while her face arbor a proud smile. 
 
 "I baked you a pie!"
 
@@ -906,13 +912,14 @@ This seem to surprise her before she blushes and realise how personal this quest
 :: blacksmith6 {"position":"3775,525","size":"100,100"}
 You see her cheeks flush and can't help but sigh internally. 
 You know its pretty common for kids to pick an adult and start a hero worship of sort. You have no idea what you did to make her chose /you/ of all people. At first you thought it as cause you were new to the village, but as time passed, it remained. She will grow out of it you hope. 
+Still, it's not like it's hurting anyone, and you'd rather not hurt a kid just cause you don't like being the center of attention.
 You need to distract her or she will become clingy.
 
 [["How's your mother?"|blacksmith7]]
 
 
 :: blacksmith7 [blacksmith] {"position":"3900,525","size":"100,100"}
-"Oh! Well" She seems surprised by your questions. "Mother is good, the little one got sick so she's taking care of her."
+"Oh! Well" She seems surprised. "Mother is good, the little one got sick so she's taking care of her."
 
 "Jeanne did not come home last night" Augustin Interject.
 
@@ -1086,7 +1093,7 @@ Anne-Marie inspect you for a second, seemingly looking to see if you tell the tr
 You see the eldest of the Boulet twins. Élise. She's no more than 15 winters. Tall, with the thick brows of her father, crooked nose of her mother but gentle smile that is all of her own . 
 Usually she's found helping out her mother, she made you quite a few tart in the past few years. The first few one were a bit atrocious but she, thankfully, quickly got better. You're pretty sure she's been arboring some sort of hero crush on you. Which to be totally honest, you cannot fathom why. Still, because of it she seems to have gotten a genuine interest in the culinary art. 
  	Lou is fond of her, so you suspect that soon enough she'll get a proper job at the inn.  
-She's considered by the entire village as the eldest because of how responsible she is. Although you personally rarely see that side of her because of her ridiculous crush on you.
+She's considered by the entire village as the eldest because of how responsible she is. Although you personally rarely see that side of her.
   
 [[Next.|doctor4]]
 
@@ -1104,35 +1111,41 @@ But before she can open her mouth, you hear Elise blurting out.
 
 "Are you okay ?" The youngling asks
 
-You catch her looking at you, observing you. It's a little unsettling if you have to be honest. She must see how wild you look right now, but you see her turning her head back at the road. Whatever she saw, she's way too polite to comment on it. You exhale.
+You catch her looking at you, observing you. It's still odd to you, to be the center of someone's else attention. For so long it was just you and your grandma. And while you got used to it, It's still a little unsettling. You can help but worry. She must see how wild you look right now. But then, you see her turning her head back at the road waiting for your answer. Whatever she saw, she's way too polite to comment on it. You exhale. 
+How long can you keep this up? 
 
-[[Next.|doctor5]]
+[[Stare at her until she backs off.|doctor5][$quiet += 1]]
+[["Mind your buisiness, kid."|doctor5][$angry += 1]]
+[[Try to redirect while thanking her.|doctor5][$kind += 1]]
+[[be sarcastic.|doctor5][$funny += 1]]
 
 
 :: doctor5 [Doctor] {"position":"3650,375","size":"100,100"}
-false choice; +personality
+Your reaction seem to surprise her before she blushes and realise how personal this question is. For a moment it looks like she wants to disapppear. And you see Anne-Marie frown at you. 
 
-He nods, seemingly not wanting to continue this conversation farther. 
-And while Anne-Marie seems done with the conversation, you perk up again when Elise mentions.
+Damn it.
 
-"I baked you a pie!"
+It's not her fault you are irritable and uncomfortable. Hiding secrets with no one to turn to. No need to take it out on the kid who's been nice to you  
+You sigh and soften and realise shes been holding something behind her back.
 
-[[Raise eyebrow but don't say anything.|doctor6][$quiet += 1]]
-[["Again?"|doctor6][$angry += 1]]
-[[Thank her warmly.|doctor6][$kind += 1]]
-[[Tease her about it.|doctor6][$funny += 1]]
+"Whatcha got here?"
+
+"I baked you a pie!" You watch as her lil arm hold the pie high while her face arbor a proud smile. 
+
+[["Really? What kind?"|doctor6]]
 
 
 :: doctor6 {"position":"3775,375","size":"100,100"}
 You see her cheeks flush and can't help but sigh internally. 
 You know its pretty common for kids to pick an adult and start a hero worship of sort. You have no idea what you did to make her chose /you/ of all people. At first you thought it as cause you were new to the village, but as time passed, it remained. She will grow out of it you hope. 
+Still, it's not like it's hurting anyone, and you'd rather not hurt a kid just cause you don't like being the center of attention.
 You need to distract her or she will become clingy.
 
 [["How's your father?"|doctor7]]
 
 
 :: doctor7 [Doctor] {"position":"3900,375","size":"100,100"}
-"Oh! Well" She seems surprised by your questions. "Father is good, the lock holding barn broke last night and he's trying to fix it I think."
+"Oh! Well" She seems surprised. "Father is good, the lock holding barn broke last night and he's trying to fix it I think."
 
 You hear Anne-Mary hums. "I'm more worried about Jeanne" 
 
@@ -1189,23 +1202,33 @@ Eyes are responsive as you open a lid of the candle next to you to make more lig
 Well then, back to the forge it is.
 
 Once you're back to your workshop, you set the lock near the edge of the forge until the metal grows warm, not glowing orange though, just warm enough to drive out the damp.
-The scent of heated iron and old oil rise into the air. With a small hammer you start to punch the side plate loose. You see the interior, fixed iron ribs that forces the key to follow a precise path.
-the spring has cracked clean through.
-From a strip of iron you start to create a new spring, thining it under steady blows then reheating and quenching in the slack tub.
-Steam burst. You start to test it with your thumb and when you see it bent slightly then come back to its orignal shape you nod to yourself.
+The scent of heated iron and old oil rise into the air. With a small hammer you start to punch the side plate loose. You see the interior, fixed iron ribs that forces the key to follow its precise path.
+The spring has cracked clean through.
+
+From a strip of iron you start to create a new spring, thining it under steady blows.
+Hammers strikes ring through the forge. Measured and Precised. In perfect Rythm.
+/Clang clang clang/. You love the repetitive movement, there's something soothing to it. It always manages to calm you down. 
+<<cycle "$whistle" autoselect>>
+    <<option "You whistle while you work. ">>
+    <<option "Beside the usual noise from the forge, you like working in silence.">>
+<</cycle>>
+You then quench quench in the slack tub where steam burst. 
+You start to test it with your thumb and when you see it bent slightly then come back to its orignal shape you nod to yourself.
 
 You start to fit the new spring and close the case. 
 
 You fill the key just in case, decades of use worn it.
 
-then you test the lock.  the key goes through, then you hear a satifying clicj as you turn it.
+Then you test the lock.  the key goes through, then you hear a satifying click as you turn it.
 
-"there, good as new." you hand the lock back. "should hold your sheep better than before. Oil it every once in a while"
+By afternoon, You walk back to the Boulet's barn. Augustin is working with his sheep when he sees you he nods and joins you after a bit.
+
+"There, good as new." you hand the lock back. "Should hold your sheep better than before. Oil it every once in a while"
 
 
 [[Next.|blacksmith12]]
 
-set $newLock to "true"
+set $newLock to "false"
 
 
 :: forehead [Doctor] {"position":"3850,225","size":"100,100"}
@@ -1294,30 +1317,30 @@ You bury the bar deep in the heart of the coals. You press the bellows and hear 
 Sparks starts to climb the chimney like fireflies.
 When the iron starts to glow that beautiful yellow-orange color, you draw it out and lay it accross the anvil. 
 The first blow is to flatten it, squaring it folding it till it forms the lock's case.
-Hammers strokes rang through the forge. Measured and Precised.
-Clang clang clang. You love the repetitive movement, there's something soothing to it. It always manages to calm you down. 
-" <<cycle "$whistle" autoselect>>
+Hammers strikes ring through the forge. Measured and Precised. in perfect rythm.
+/Clang clang clang./ You love the repetitive movement, there's something soothing to it. It always manages to calm you down. 
+<<cycle "$whistle" autoselect>>
 	<<option "You whistle while you work. ">>
 	<<option "Beside the usual noise from the forge, you like working in silence.">>
-<</cycle>> "
+<</cycle>>
 
 You bend the hot metal around a form block, shaping it into a shallow box. A second plate would close it later.
-Next came the bolt. You draw out a thick section, hammering one end into a rectangular tongue that will slide into the door frame. You leave the other end broad to receive the spring.
-The wards, the hidden ribs inside that will only move for the  proper key, are forged from slender strips, heated and riveted into place within the case. Each is set carefully. Too loose, and any crude key might turn it. Too tight, and even the right key would jam.
+Next comes the bolt. You draw out a thick section, hammering one end into a rectangular tongue that will slide into the door frame. You leave the other end broad to receive the spring.
+The wards, the hidden ribs inside that will only move for the proper key, are forged from slender strips, heated and riveted into place within the case. Each is set carefully. Too loose, and any crude key might turn it. Too tight, and even the right key would jam.
 
 For the spring, you work a thin strip again and again, heating, hammering, quenching. You temper it to a dark blue at the edge of the fire, judging the color by eye alone. A brittle spring would snap; a soft one would fail to drive the bolt.
 
 Only then do you begin working on the key.
-From a narrow rod you forge the bow, a simple oval for a gloved hand, then draw out the shaft. The bit you shape slowly, cutting away with file and chisel until its pattern matches the narrow path between the wards.
+From a narrow rod you forge the bow, a simple oval, then draw out the shaft. The bit you shape slowly, cutting away with file and chisel until its pattern matches the narrow path between the wards.
 
 The lock case is closed with rivets, peened tight while still hot. You cool it, file the seams smooth, and fix it in the vise.
 
 Then, you take the key and slid it into the lock.
-Unfortunately the the first turn does nothing. Huh. 
+Unfortunately the first turn does nothing. Huh. 
 
 You remove the back plate, fil one ward thinner, and reassemble.
 
-The second turns but gets stuck.
+The second turns but gets stuck. 
 
 Again you open it, adjust the spring tension, polish the bolt’s edges. 
 On the third attempt, the key turns cleanly. You smiled faintly. Third time's the charm.
@@ -1326,7 +1349,7 @@ By afternoon, You walk back to the Boulet's barn. Augustin is working with his s
 
 [[Next.|blacksmith12]]
 
-set $newLock to "false"
+<<set $newLock to "true">>
 
 
 :: nickname {"position":"2550,575","size":"100,100"}
@@ -1431,10 +1454,9 @@ You heave a sigh, the vulnerability twists something in your stomach and makes y
 
 “What do you think?” You bark.
 
-You see Lou's face fall a little, and you already regret your words. You know she can sense you're not feeling well, asking this sort of question feels useless and makes you angry, short tempered.
+You see Lou's face fall a little, and you already regret your biting words. You know she can sense you're not feeling well, asking this sort of question feels useless and makes you angry, short tempered.
 You don't want to talk, it's not about trust, as far as trust goes, Lou is the one person alive you trust most in the world. You mostly, don't want to talk about it even if you created an elaborate lie
 But you do know, she's asking this out of concern for you.
-
 
 She doesn't Insist on her question though, knowing you will get angry again. And although you can sense her curiosity, she leaves you time to lead the next conversation.
 Its only been a few years, but it feels like she knows you better than you know yourself sometimes, well, except for the “I turn into a wolf once a month” part.
@@ -1443,11 +1465,11 @@ Its only been a few years, but it feels like she knows you better than you know 
 
 
 :: tavern2funny {"position":"5000,325","size":"100,100"}
-“What ? Not even a Hello, how are you doing my friend, what a beautiful day we're having.”
+“What ? Not even a Hello, how are you doing my friend, what a beautiful day we're having. You look incredible today but then again you look fantastic everyday”
 
-She crosses her arms, leaning back on her chair.
+She crosses her arms, leaning back on her feet.
 
-“Oh sorry, Hello [name], what a beautiful day we're having, I can see you're not doing well so spill the beans, smartass”
+“Oh sorry, Hello $mc, what a beautiful day we're having, I can see you're not doing well so spill the beans, smartass”
 
 “That's awful customer service, Ser”
 
@@ -1456,7 +1478,6 @@ She crosses her arms, leaning back on her chair.
 “What ? And here I thought I was your favorite customer”
 
 “With all the free drinks and food you steal from me? Please! Charles is by far my favorite customer” She replies, eyes full of mirth.
-
 
 You make a fake offended gasp before you both chuckle.
 It's always been like that with Lou, like a mirror the banter and the teasing flow easily between the two of you ever since the first day. Perhaps that's why you were so keen on being close friends with her. Not only do you like her company but she also has a way to soothe the wolf within you. The pillar of solitude that never seems to leave your chest always feels a little less heavy when you're with her.
@@ -1468,9 +1489,28 @@ It's only been a few years, but it feels like she knows you better than you know
 
 
 :: tavern2kind {"position":"5125,525","size":"100,100"}
-"bad night" blabla
+"Just slept badly. is all. thanks for asking."
 
-honest +1
+"Sure" she says but doesnt sounds quite convinced. "There was a full moon last night probably why."  she says as she looks at the sky outside. 
+
+You freeze up. This is it you think, as you feel a chill running down your spine. She knows. /She knows./
+
+"What did you say?" you manage to croak.
+
+She turns her attention back on you confused. "The moon? it was full last night. I know because i woke up early and thought it was day considering how bright it was. I've heard some midwife say people sleep badly during the full moon. No idea if its true or just..."
+
+She trails off and lips tightening. Ah. So she doesn't know? You feel relief and barely avoid to sag as you feel most of the tension leaving your body. Just in case though you ask.
+
+"Or just?"
+
+"Witches talk" she says barely above a whisper.
+
+You frown. She shouldnt talk like this. Not here and not so freely. Who knows who could be listening. Even if witches hunts are long over, you /know/ the Church still hunts everything not /normal/. Everything like /you/. 
+
+Still she doesnt continue this conversation, and although you can sense her curiosity, she leaves you time to lead the next conversation.
+It's only been a few years, but it feels like she knows you better than you know yourself sometimes, well, except for the “I turn into a wolf once a month” part.
+
+<<$honest +=1>>
 
 [[Next.|tavern3]]
 
@@ -1493,12 +1533,14 @@ It's only been a few years, but it feels like she knows you better than you know
 You love her, she is your friend, the only person you have now, and you wish you could tell her this part of yourself, to finally be seen wholly but you're terrified of the possibility.
 $grandma always warned you about telling who you are, what you are to others. People see werewolves are creatures of the devil, to be killed at best and tortured at worst. The idea that she knows about this side of yourself and that she rejects you. You don't think you could handle it, not after losing your grandma.
 You're in this limbo of craving kinship of wanting, nay, needing to be known for who you are, but terrified of letting people too close and for them to reject or abandon you again.
-<<set $honest = 0>>
+
 [[Next.|tavern4]]
 
 
 :: tavern4 {"position":"5375,450","size":"100,100"}
 <<if $tellher == "You want to tell her but you can't">><<set $honest += 5>> <</if>> You don't want to just reject her outright, at least no more than you already did, so the only thing left to talk about is something else entirely.
+
+You don't want to leave things like this with your friend, and You don't want to talk about it at least no more than you already did, so the only thing left to talk about is something else entirely.
 
 “Heard anything since the last time I came?”
 
@@ -1520,7 +1562,7 @@ You see the Mirth in her eyes, as a conspiratory smile splits her face as she le
 
 “That's...”
 
-“Cowardly? Yeah, a bit. I wonder what Lison sees in Tristan… Probably money.”
+“Cowardly? Yeah, a bit. I wonder what Lison sees in Tristan…" She taps her chin and then smirk a little "Probably money.”
 
 “So what did Sylvain do then ?”
 
@@ -1684,7 +1726,7 @@ You hear commotion outside, but the way Lou smiles at you, like it's a secret be
 :: tavernfinal {"position":"6125,450","size":"100,100"}
 You try to peer outside trying to decipher what's wrong. If you were a wolf right now your ears would definitely be twitching. Then you hear loud knocking on the door of the inn. 
 
-"<<if $doctor >> PHYSICIAN! <<else>>FATHER! <</if>> HELP ME!" You hear yelling through the door.
+"<<if $doctor >> PHYSICIAN! <<else>>FATHER! <<endif>> HELP ME!" You hear yelling through the door.
 
 “What's going on?” ask Lou, but she's already rising from her seat to open the door of her inn.
 
@@ -1700,7 +1742,7 @@ The other villagers are trying to either get a look at what's happening or tryin
 
 The realization comes to you like fire thrown on oil. Last night you killed something, you remember the blood on your body, caked underneath your nails and the iron taste in your mouth. You see flashes of human flesh being torn apart. Of teeth sinking into the soft flesh of the neck.
 
-Time seems to still. Augustin is distressed as he looks at <<if $doctor >> you   <<else>> Father [] <</if>>and yell "DO SOMETHING!" but you're paralysed. 
+Time seems to still. Augustin is distressed as he looks at <<if $doctor >> you   <<else>> Father  <</if>>and yell "DO SOMETHING!" but you're paralysed. 
 
 Gods, above you did //this//.
 You killed her. You killed Jeanne Boulet.
@@ -1806,8 +1848,8 @@ You try to walk on stones, roots and solid ground rather than the soft earth, kn
 You hear a sound above and feel your heart leap into your throat, before realising it is just a squirrel darting across branches. You exhale slowly, and march on.
 You catch a glimmer of the river through the trees. You only need to follow it to reach the village.
 
-You skirt the muddier banks, stepping where the soil is firmer, Your soles sting from hidden stones and thorns, but there’s no other way. Beside, Now, its just a matter of not being seen, you can always claim you came to gather water. Still, You’re hyper alert to every sound and smell around you, every rustle, every snap of twigs sends your pulse racing. 
-The forest hums and shifts around you, alive and watchful, oblivious// Judging (depend on the var)  to your struggle, while you try to weave your way silently towards the faint promise of safety at the edge of the trees.
+You skirt the muddier banks, stepping where the soil is firmer, Your soles sting from hidden stones and thorns, but there’s no other way. Beside, Now, its just a matter of not being seen, you can always claim you came to wash. Still, You’re hyper alert to every sound and smell around you, every rustle, every snap of twigs sends your pulse racing. 
+The forest hums and shifts around you, alive and watchful, <<if $stress ==  0>>oblivious to your struggle, <<elseif $stress >= 1 >> judging you, <<endif>>while you try to weave your way silently towards the faint promise of safety at the edge of the trees.
 
 
 [[Finally, you manage to reach your destination. |home1]]
