@@ -578,6 +578,7 @@ Or, insert your name: <<set $mc to " ">>
 [[Yellow|FurNext][$fur to "blonde"]]
 
 
+
 :: Relationships [menu] {"position":"250,300","size":"100,100"}
 <span class="typed-text">Louisette "Lou" Valet, //the Inn Keeper//</span>
 <img src="https://raw.githubusercontent.com/ValantineD/Interactive_fiction_beast_of_gevaudan/refs/heads/main/pics/9hzli7V6.jpg">
@@ -664,7 +665,6 @@ After serving Charles and Pierre, she heads straight to your table.
 
 :: Welcome {"position":"125,750","size":"100,100"}
 <span class="typed-text"><<type 90ms>>Welcome to the Land of the Beast, Wolfkin.<</type>></span>
-
 	For nearly three years, a mysterious creature has terrorised the region of Gévaudan. Described by survivors as wolf-like and relentless, it kills without pattern, taking men, women and children alike, leaving behind only what the strongest could stomach. Many have taken up arms, from simple farmers and hunters to soldiers and even nobles hungry for glory. None have succeeded.
     
     To this day the mystery remains. Is it a wolf? A hyena? A werewolf? A wizard or even just a human murderer? Somewhere between folklore and nightmare, between cautionary tale and genuine terror, the Beast of Gévaudan still eludes all.
@@ -776,8 +776,7 @@ You remember the dull pain behind your eyes. The sharp one at the base of your s
 
 <<if $warmbath == "false">>
 	The cold makes you hiss through your teeth but you don't stop.
-<<else>>	The $smell scent rises faintly with the steam, softened by the trace of $perfume in the water. You barely notice it.
-<</if>>
+<<else>>The $smell scent rises faintly with the steam, softened by the trace of $perfume in the water. You barely notice it.<</if>>
 
 	The water turns grim, brownish red.
 
@@ -790,6 +789,8 @@ You remember the dull pain behind your eyes. The sharp one at the base of your s
 	Rotten.
 
 [[ENOUGH.|bath2]]
+
+
 
 
 :: bath2 {"position":"1975,425","size":"100,100"}
@@ -835,38 +836,43 @@ Right.  Should take care of that too.
 [[long locs.|bath3][$length to "long locs"]]
 
 
-:: bath3 {"position":"2100,425","size":"100,100"}
-<<if $length == "bald" || $length == "buzzcut" || $length == "short above your ears">>
-It’s a short affair. You pour water over your head and let it run, fingers moving in small circles across your scalp, lifting dust, mud and whatever else was stuck in there. You take your time with the massage. It soothes you more than you'd like to admit.
-	
-	You rinse then, you uncork a little bit of $shampoo and get a knob on your finger as you lightly apply it across your head. You like the smell, it reminds you of easier times.
-<<else >>
 
+
+:: bath3 {"position":"2100,425","size":"100,100"}
+<<if $length == "bald" || $length == "buzzcut">>
+It's a short affair. You pour water over your head and let it run, fingers moving in small circles across your scalp, lifting dust, mud and whatever else was stuck in there. You take your time with the massage. It soothes you more than you'd like to admit.
+
+You rinse then, you uncork a little bit of $shampoo and get a knob on your finger as you lightly apply it across your head. You don't really need it but you like the smell, it reminds you of easier times.
+
+<<elseif $length == "short above your ears">>
+You tip your head forward and use a smaller jug to pour water over the crown, making sure everything is thoroughly wet. Water trickles down your forehead and temples, catching in the basin below.
+Fingers move in small circles across your scalp, lifting dust and mud and whatever else was stuck in there. You take your time with the massage. It soothes you more than you'd like to admit.
+You rinse then, you uncork a little bit of $shampoo and get a knob on your finger as you lightly apply it on your hair,<<if $texture == "straight">>styling it as you go.<<elseif $texture == "wavy">>detangling with your fingers as you go. You scrunch the waves loosely with your palms, not forcing anything, just encouraging them back into shape.<<elseif $texture == "curly">>detangling with your fingers as you go. You rinse again, thorough this time, before applying a little more sparingly, sealing it in. The curls find their shape on their own, defined by your hands rather than forced into anything.<<elseif $texture == "coily">>patiently, section by section, detangling then separating curls one at a time. Stretching each curl gently between your fingers. The coils hold their shape.<</if>>
+
+<<else>>
 You lean forward and let your hair fall loose. You use a smaller jug to pour water over the crown, making sure everything is thoroughly wet. Water trickles down your forehead and temples, catching in the basin below.
 
 You move your fingers in small circles across your scalp first, lifting dust and mud and whatever else was stuck in there, careful not to scrape. You take your time with it. It soothes you more than you'd like to admit.
 You rinse.
-<<endif>>
 
-<<if $texture == "straight" || if $length =! "bald" || $length =! "buzzcut" || $length =! "short above your ears">> 
-You work the soap through from root to tip, then rinse. You dry your hair with the linen towel, pale and worn smooth by years of use, and work through any tangles with your fingers while the hair is still damp. Then you get a small amount of $shampoo in your palms, warming it between your hands, before applying sparingly to the ends, leaving everything light and smooth.
-<<elseif $texture == "wavy" || $texture == "curly">>
+<<if $texture == "straight">>You work the soap through from root to tip, then rinse. You dry the excess with a linen towel, pale and worn smooth by years of use. Then you work through any tangles with your fingers while the hair is still damp. Then you get a small amount of $shampoo in your palms, before applying sparingly to the ends, leaving your hair feeling like silk.
 
-You work the soap into the scalp, then rinse. Then you apply the $shampoo through in sections, detangling as you go. You rinse again, thorough this time, before applying a little more sparingly, sealing it in. The curls find their shape on their own, defined by your hands rather than forced into anything. You leave it to dry naturally.
-<<elseif $texture == "coily">>
+<<elseif $texture == "wavy">>You apply the $shampoo, smoothing it through from root to tip, detangling with your fingers as you go. You rinse again, thorough this time, before drying the excess with a linen towel, pale and worn smooth by years of use, dabbing it lightly leaving your hair damp.
+Then you get a small amount of $shampoo in your palms, applying just a little more sparingly to the ends, sealing it in. You scrunch the waves loosely with your palms, not forcing anything, just encouraging them back into shape.
 
-You work the soap into the scalp, then rinse carefully.  Then you apply the $shampoo patiently, palms smoothing rather than dragging, working through section by section. You rinse again before applying just a little more, sealing in the softness. The coils hold their shape. You leave it to dry naturally.
+<<elseif $texture == "curly">>You apply the $shampoo in sections, detangling with your fingers as you go, then you rinse again.
+You get a small amount of $shampoo in your palms this time, before applying a little more sparingly, crunching the curls, sealing them in. They find their shape on their own, defined by your hands rather than forced into anything. It's still wet, but you'll leave it to dry naturally.
 
-<<elseif $length == "braided close to your scalp">>
-While everything is still damp you work through it in sections, rebraiding as you go, letting the hair settle neatly into place as it dries.
+<<elseif $texture == "coily">>You apply the $shampoo patiently, section by section, detangling then separating curls one at a time. Stretching each curl gently between your fingers. The coils hold their shape. By the time you're done, your hair is still wet but considerably less so, you'll leave it to dry naturally.<</if>>
 
-<<elseif $length == "short locs" || $length == "long locs">>
-You wet the locs thoroughly before working the $shampoo in, focusing on the scalp first, massaging in small circles, then working it through the length of each loc. You rinse until the water runs clean. Drying takes patience; you press the linen towel carefully through, section by section, drawing out the water without disturbing the shape. Where there's new growth you palm roll, slow and deliberate, retwisting where it needs it.
-<</if>>
+<<if $length == "braided close to your scalp">>While everything is still damp you work through it in sections, rebraiding as you go, letting the hair settle neatly into place as it dries.
 
-The $shampoo scent lingers faintly in the air.
+<<elseif $length == "short locs" || $length == "long locs">>You wet the locs thoroughly before working the $shampoo in, focusing on the scalp first, massaging in small circles, then working it through the length of each loc. You rinse until the water runs clean. Drying takes patience; you press the linen towel carefully through, section by section, drawing out the water without disturbing the shape. Where there's new growth you palm roll, slow and deliberate, retwisting where it needs it.
+<</if>><</if>>
 
 (i hate this fuckass buggy scene soooo much)
+
+The $shampoo scent lingers faintly in the air.
 
 [[All done, then.|bath3.5]]
 
@@ -903,7 +909,8 @@ You look tired. Your <<cycle "$eyes" autoselect>>
 	<<option "black">>
     <<option "green">>
     <<option "blue">>
-<</cycle>> eyes are hauntedthe kind of look that belongs to someone who has seen something they can't quite name. Dark rings sit beneath them, deep enough that no amount of sleep would fully explain them away.<<if $length =! "bald">> But your $fur $texture hair looks clean and soft, which counts for something. <<endif>>
+    <<option "hazel">>
+<</cycle>> eyes are hauntedthe kind of look that belongs to someone who has seen something they can't quite name. Dark rings sit beneath them, deep enough that no amount of sleep would fully explain them away.<<if $length != "bald">> But your $fur $texture hair looks clean and soft, which counts for something. <<endif>>
 Your <<cycle "$undertone" autoselect>>
 	<<option "warm">>
 	<<option "neutral">>
@@ -2203,16 +2210,14 @@ Config.history.maxStates = 1;
 (function () {
     'use strict';
 
-    // --- THEME CONFIG ---
+    // THEME 
     var settingThemeNames = ["Original", "Bright White", "Dark Black","Sepia", "Warm Yellow", "Navy Blue"];
 
     var settingThemeHandler = function () {
     var $html = $("html");
 
-    // Remove existing theme classes
     $html.removeClass("theme-bright-white theme-dark-black theme-sepia theme-warm-yellow theme-navy-blue");
 
-    // Apply the selected theme
     switch (settings.theme) {
         case "Bright White":
             $html.addClass("theme-bright-white");
@@ -2238,7 +2243,7 @@ Config.history.maxStates = 1;
         onChange : settingThemeHandler
     });
 
-  // --- TEXT BACKGROUND TOGGLE ---
+  // TEXT BACKGROUND
 var settingTextBgHandler = function () {
     var $html = $("html");
     
@@ -2255,7 +2260,7 @@ Setting.addToggle("textBackground", {
     onChange : settingTextBgHandler
 });
   
-    // --- FONT CONFIG ---
+    // FONT
 var settingFontNames = ["Default", "Fraunces", "Pangolin", "OpenDyslexic"];
 
 var settingFontHandler = function () {
@@ -2283,7 +2288,7 @@ Setting.addList("font", {
     onChange : settingFontHandler
 });
 
-    // --- FONT SIZE CONFIG ---
+    //FONT SIZE
     var settingFontSizeNames = ["Default", "Medium", "Large"];
 
     var settingFontSizeHandler = function () {
@@ -2702,6 +2707,8 @@ var genderMap = {
 
 }());
 
+// MENU RESPONSIVE
+
 $(document).one(':storyready', function () {
     if ($(window).width() <= 768) {
         $('#ui-bar-toggle').hide();
@@ -2716,10 +2723,9 @@ $(document).one(':storyready', function () {
         $('#ui-bar').toggleClass('menu-open');
     });
 
-    $(document).on(':passageend', function () {
-        if ($(window).width() <= 768) {
-            $('#ui-bar').removeClass('menu-open');
-        }
+    // Force close on every possible navigation event
+    $(document).on(':passageend :passagerender :passagestart :passagedisplay :passageinit', function () {
+        $('#ui-bar').removeClass('menu-open');
     });
 });
 
@@ -2729,9 +2735,7 @@ $(document).one(':storyready', function () {
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Fraunces:opsz,wght@9..144,400;9..144,700&family=Pangolin:wght@400&display=swap');
 
 
-/* =============================
-   OpenDyslexic Embedded (Base64)
-============================= */
+/* OpenDyslexic (Base64) */
 @font-face {
   font-family: "OpenDyslexic";
   font-style: normal;
@@ -2756,7 +2760,7 @@ $(document).one(':storyready', function () {
 
 
 
-/* STYLES DE BASE */
+/* BASE */
 
 html {
     height: 100%;
@@ -2818,7 +2822,7 @@ h1, h2, h3 {
 }
 
 
-/* 3. LIENS */
+/* LIENS */
 a {
     color: #FFD070;
     text-decoration: none;
@@ -2828,7 +2832,6 @@ a:hover {
     color: #9E8715;
     text-decoration: underline;
 }
-
 
 /* TAILLES DE TEXTE */
 
@@ -2849,7 +2852,6 @@ html.fontsize-large { font-size: 1.25em; }
 .chapter-name {
     font-family: 'Caveat', cursive !important;
     font-size: 2.5em;
-    font-style: italic;
     letter-spacing: 0.05em;
   	margin-top: 0;
 	margin-bottom: 0.6em
@@ -3070,8 +3072,10 @@ html.textbg-enabled .passage {
     padding: 25px;
 }
 
-/* ══ MOBILE ══ */
+/* PHONE */
+
 @media screen and (max-width: 768px) {
+  
   
 
     #ui-bar,
@@ -3101,11 +3105,19 @@ html.textbg-enabled .passage {
         padding: 8px 12px !important;
         box-sizing: border-box !important;
         width: 100% !important;
-       background-color: #3a0000 !important;
-      position: relative !important;
+        background-color: #3a0000 !important;
+        position: relative !important;
     }
 
-    #ui-bar-toggle { display: none !important; }
+    #ui-bar-toggle {
+        display: none !important;
+        visibility: hidden !important;
+        width: 0 !important;
+        height: 0 !important;
+        padding: 0 !important;
+        border: none !important;
+        overflow: hidden !important;
+    }
 
     #ui-bar #ui-bar-body,
     #ui-bar.stowed #ui-bar-body {
@@ -3118,6 +3130,10 @@ html.textbg-enabled .passage {
         padding: 8px 16px 20px !important;
         max-height: 80dvh !important;
         overflow-y: auto !important;
+    }
+
+    #story-banner {
+        display: none !important;
     }
 
     #ui-bar-tray > * { order: 1 !important; }
@@ -3144,23 +3160,37 @@ html.textbg-enabled .passage {
         padding-top: 70px !important;
         width: 100% !important;
         box-sizing: border-box !important;
+        transform: none !important;
+        transition: none !important;
     }
-  
-   #story-banner {
-        display: none !important;
+
+    #ui-bar ~ #story,
+    #ui-bar.stowed ~ #story {
+        margin-left: 0 !important;
+        transform: none !important;
+        transition: none !important;
     }
- 
 
     #passages {
         display: block !important;
         visibility: visible !important;
-        padding: 0 18px !important;
+        padding: 20px 25px !important;
         box-sizing: border-box !important;
         width: 100% !important;
         margin: 0 !important;
     }
-  
-    .passage input[type="text"] {
+
+    #story, #passages, .passage {
+        display: block !important;
+        visibility: visible !important;
+        opacity: 1 !important;
+        position: static !important;
+        transform: none !important;
+        left: auto !important;
+        margin: 0 !important;
+    }
+
+    input[type="text"] {
         min-width: 0 !important;
         width: 100% !important;
         box-sizing: border-box !important;
@@ -3210,47 +3240,39 @@ html.textbg-enabled .passage {
         margin-top: 8px !important;
         padding: 10px !important;
     }
+  
+  .typed-text,
+.chapter-name {
+    text-align: center !important;
+    display: block !important;
+    width: 100% !important;
+}
 
     html.theme-bright-white #ui-bar,
-    html.theme-bright-white #ui-bar.stowed { background-color: #D6D6D6 !important; border-bottom: 2px solid #E6E6E6 !important; }
+    html.theme-bright-white #ui-bar.stowed,
+    html.theme-bright-white #ui-bar-tray { background-color: #D6D6D6 !important; border-bottom: 2px solid #E6E6E6 !important; }
     html.theme-bright-white #mobile-menu-toggle { color: #1a1a1a !important; border-color: rgba(0,0,0,0.3) !important; }
 
     html.theme-sepia #ui-bar,
-    html.theme-sepia #ui-bar.stowed { background-color: #D9CDB8 !important; border-bottom: 2px solid #CCBCA1 !important; }
+    html.theme-sepia #ui-bar.stowed,
+    html.theme-sepia #ui-bar-tray { background-color: #D9CDB8 !important; border-bottom: 2px solid #CCBCA1 !important; }
     html.theme-sepia #mobile-menu-toggle { color: #1a1a1a !important; border-color: rgba(0,0,0,0.3) !important; }
 
     html.theme-dark-black #ui-bar,
-    html.theme-dark-black #ui-bar.stowed { background-color: #1F1818 !important; border-bottom: 2px solid #382F2F !important; }
+    html.theme-dark-black #ui-bar.stowed,
+    html.theme-dark-black #ui-bar-tray { background-color: #1F1818 !important; border-bottom: 2px solid #382F2F !important; }
     html.theme-dark-black #mobile-menu-toggle { color: #FFFFFF !important; border-color: rgba(255,255,255,0.3) !important; }
 
     html.theme-navy-blue #ui-bar,
-    html.theme-navy-blue #ui-bar.stowed { background-color: #162438 !important; border-bottom: 2px solid #1e3a5f !important; }
+    html.theme-navy-blue #ui-bar.stowed,
+    html.theme-navy-blue #ui-bar-tray { background-color: #162438 !important; border-bottom: 2px solid #1e3a5f !important; }
     html.theme-navy-blue #mobile-menu-toggle { color: #FFD700 !important; border-color: rgba(255,215,0,0.4) !important; }
 
     html.theme-warm-yellow #ui-bar,
-    html.theme-warm-yellow #ui-bar.stowed { background-color: #FCB454 !important; border-bottom: 2px solid #FF9B17 !important; }
+    html.theme-warm-yellow #ui-bar.stowed,
+    html.theme-warm-yellow #ui-bar-tray { background-color: #FCB454 !important; border-bottom: 2px solid #FF9B17 !important; }
     html.theme-warm-yellow #mobile-menu-toggle { color: #2b1d0e !important; border-color: rgba(43,29,14,0.4) !important; }
 }
-
-	html.theme-bright-white #ui-bar,
-	html.theme-bright-white #ui-bar.stowed,
-	html.theme-bright-white #ui-bar-tray { background-color: #D6D6D6 !important; border-bottom: 2px solid #E6E6E6 !important; }
-
-	html.theme-sepia #ui-bar,
-	html.theme-sepia #ui-bar.stowed,
-	html.theme-sepia #ui-bar-tray { background-color: #D9CDB8 !important; border-bottom: 2px solid #CCBCA1 !important; }
-
-	html.theme-dark-black #ui-bar,
-	html.theme-dark-black #ui-bar.stowed,
-	html.theme-dark-black #ui-bar-tray { background-color: #1F1818 !important; border-bottom: 2px solid #382F2F !important; }
-
-	html.theme-navy-blue #ui-bar,
-	html.theme-navy-blue #ui-bar.stowed,
-	html.theme-navy-blue #ui-bar-tray { background-color: #162438 !important; border-bottom: 2px solid #1e3a5f !important; }
-
-	html.theme-warm-yellow #ui-bar,
-	html.theme-warm-yellow #ui-bar.stowed,
-	html.theme-warm-yellow #ui-bar-tray { background-color: #FCB454 !important; border-bottom: 2px solid #FF9B17 !important; }
 
 @media screen and (min-width: 769px) {
     #mobile-menu-toggle { display: none !important; }
