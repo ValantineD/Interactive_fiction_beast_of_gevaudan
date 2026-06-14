@@ -159,31 +159,113 @@ Their eyes look so pretty in this light, deep soulful eyes so dark you could dro
 :: Character Stats [menu] {"position":"100,300","size":"100,100"}
 <span class="typed-text">WHO ARE YOU?</span>
 
-Your name is $mc , <<if $nickname == $mc >> you have no nickname, <<else>> your nickname is $nickname,<</if>> You go by ?they and ?them, You are $origin and call your grandma $grandma.
+<<if $mc != "">>Your name is $mc , <<if $nickname != "" and $nickname != $mc>>  you have no nickname, <<else>> your nickname is $nickname,<</if>> You go by ?they.  <<if $origin != "">><</if>>You are $origin by origin<<if $grandma != "">> and you call your grandmother $grandma<</if>>.<</if>>
 
-Your skin is $skin with a $undertone understone and you are $height , Your hair is $lenght, $texture and $fur , you have $chest<<if $topSurgery == true>> and did a top surgery<</if>>, your eyes are $eyes and you wear $clothes clothes.
+<<if $height != "" and $skin != "" and $undertone != "" and $eyes != "">>You are $height, with $undertone $skin skin and $eyes eyes.<<if $fur != "" and $texture != "" and $length != "">> Your hair is $length and $texture, $fur in colour.<</if>><</if>><<if $chest != "">><<if $topSurgery == true>> You have $chest, and have had top surgery.<</if>><</if>><<if $clothes != "" and $smell != "">> You dress in $clothes clothes, and carry the scent of $smell wherever you go.<</if>>
 
-You work as a $job
+<<if $job != "">>You make your living as a $job.<</if>>
 
-Your dominant personality is: $dominantPersonality 
-<<if $quiet > $funny and $quiet > $angry and $quiet > $kind>> <<set $dominantPersonality to "quiet">><<elseif $funny > $quiet and $funny > $angry and $funny > $kind>><<set $dominantPersonality to "funny">><<elseif $angry > $quiet and $angry > $funny and $angry > $kind>><<set $dominantPersonality  to "angry">><<elseif $kind > $quiet and $kind > $funny and $kind > $angry>><<set $dominantPersonality to "kind" >> <<else>> <<set $dominantPersonality to "No clear dominant trait yet.">><</if>>
+--
 
-<<if $spendingStyle == "rat">> You've always been stingy with money. Its not your fault really, you never had much and $grandma taught you early to be careful with what you have and what you will need in the future. <<elseif $spendingStyle == "generous">>  You've always been generous with money. $grandma always told you your dad was a generous man, and it seems you've inherited his kindness. What is the point of having things, if not to share them? You've always lived by the words "Take what you need and give what you can." <<elseif $spendingStyle == "normal">> You've always been fairly rounded when it comes to handling money. You give but not to the point of sacrificing your needs. This was how $grandma was, and there is no way you could have turn out differently. <</if>>
+<<if $quiet > $funny and $quiet > $angry and $quiet > $kind>> <<set $personality to "quiet">><<elseif $funny > $quiet and $funny > $angry and $funny > $kind>><<set $personality to "funny">><<elseif $angry > $quiet and $angry > $funny and $angry > $kind>><<set $personality  to "angry">><<elseif $kind > $quiet and $kind > $funny and $kind > $angry>><<set $personality to "kind" >><</if>><<if $personality == "quiet">>You are not one for noise. You observe, you wait, you think and by the time you speak, you've already considered it from every angle. People sometimes mistake your silence for distance. They're not entirely wrong.<<elseif $personality == "angry">>You don't dress things up. The world is what it is, and you'd rather call it plainly than waste time softening the blow. Some find it refreshing. Others find it difficult. You've stopped keeping track of which is which.<<elseif $personality == "kind">>You feel things deeply and you've never quite learned to hide it. People matter to you; their pain, their joys, the things they carry quietly. You wear your heart on your sleeve, and you've been hurt for it before. You'll be hurt for it again. <<elseif $personality == "funny">>If you can't laugh at it, what's the point? The world is absurd, people are absurd, and you ! You especially, are absurd. Humour is how you think, how you cope, how you love. The jokes are real. What's underneath them is too, even if you'd rather not talk about it.<<else>>//No clear dominant trait yet.//<</if>>
 
-<<if $stress == 0>> Your stress level is extremely high.<<elseif $stress >= 3>>Your stress level is high.<<else>>Your stress level is manageable.<</if>>
+--
 
-You are 
-quiet $quiet 
-angry $angry 
-kind $kind 
-funny $funny
+<<if $spendingStyle == "rat">>
+<<if $personality == "quiet">>Money has never come easily, and you've never forgotten that. $grandma taught you to hold on to what you have. You do. Quietly, carefully, without fuss.
+<<elseif $personality == "angry">>Money is hard to come by and easy to lose. You know that better than most. So no, you don't throw it around. $grandma raised no fool.	
+<<elseif $personality == "kind">>You wish you could give more. But $grandma taught you early, hold onto what you have, because there will be days when you'll need it. You try to remember that, even when it's hard.
+<<elseif $personality == "funny">>Are you stingy? You prefer the term "financially cautious." $grandma called it survival. tomato, tomato.
+<<else>>Money has never come easily, and you've never forgotten that. $grandma taught you early — hold onto what you have, because there will be days when you'll need it.<</if>>
+<<elseif $spendingStyle == "generous">>
+<<if $personality == "quiet">>You give without making a show of it. $grandma used to say your father was a generous man. You don't know if that's true. But it seems to have found its way to you, quietly.	
+<<elseif $personality == "angry">>What is the point of having things if you can't use them? You give. It's not a big deal. Don't make it one.<<elseif $personality == "kind">>You've never been able to hold onto money for long, not that you've tried very hard. $grandma used to say your father was a generous man. It seems that found its way to you too. What is the point of having things, if not to share them?
+<<elseif $personality == "funny">>You are, as $grandma would say, "aggressively bad with money." In your defence, someone had to inherit your father's generosity. Apparently that someone was you. You're choosing to see it as a gift.
+<<else>>You've never been able to hold onto money for long. $grandma used to say your father was a generous man, and it seems that found its way to you too.<</if>>
+<<elseif $spendingStyle == "normal">>
+<<if $personality == "quiet">>You give where you can, keep what you need, and don't make much of either. That was $grandma's way. It suits you.<<elseif $personality == "angry">>
+You're not reckless with money, and you're not a miser either. You give what's fair and keep the rest. Simple as that.
+<<elseif $personality == "kind">>You've always tried to strike a balance — giving where you can without leaving yourself with nothing. $grandma lived that way. You couldn't have turned out differently if you'd tried.
+<<elseif $personality == "funny">>Balanced. So Responsible. $grandma would be so proud. Or mildly surprised. Probably both.
+	<<else>>
+You've always struck a balance, giving where you can, keeping what you need. That was $grandma's way.
+<</if>>
+<</if>>
 
-<<if $tellher == "You want to tell her but you can't">>You wish you could be honest with who you are and what you feel. you can help but wish you could show your true form to your friend.<<elseif $tellher == "You're too scared to even think about this conversation.">> You know that if you were honest, you would be hated, vilified, and hunted down, better to lie, even if it is lonely sometimes <</if>>
+--
+
+<<if $stress == 0>>
+	<<if $personality == "quiet">>
+You are holding together. Barely. The silence helps, or, at least, it gives you somewhere to put everything you can't say.
+	<<elseif $personality == "angry">>
+Everything is fine. You're fine. The situation is less than ideal and the weight of it is considerable but you are fine.
+	<<elseif $personality == "kind">>
+You are holding together, for everyone else's sake if nothing else. The weight of everything sits at the very edge of what you can carry. You haven't let it show. Not yet.
+	<<elseif $personality == "funny">>
+You are doing great. Spectacular, even. Everything is completely under control and you are not at all barely keeping it together. Ha.
+	<<else>>
+You are holding together, barely. The weight of everything sits at the very edge of what you can carry.
+<</if>>
+<<elseif $stress >= 3>>
+	<<if $personality == "quiet">>
+There is more on your shoulders than you let on. You carry it without comment. That doesn't make it lighter.
+	<<elseif $personality == "angry">>
+There's a lot going on. More than you'd like. You're managing it. You don't need to talk about it.
+	<<elseif $personality == "kind">>
+There is more on your shoulders than you let on. You smile anyway, because what else is there to do? But some nights it catches up with you.
+	<<elseif $personality == "funny">>
+Things are fine! Busy. A little chaotic. Nothing you can't handle. Probably.
+	<<else>>
+There is more on your shoulders than you let on. You are managing but only just.
+<</if>>
+<<else>>
+	<<if $personality == "quiet">>
+The ground feels steady enough, for now. You'll take it.
+	<<elseif $personality == "angry">>
+Things could be worse. They've been worse. You're alright.
+	<<elseif $personality == "kind">>
+All things considered, you are doing alright. There is still goodness in the world, and you are still able to see it.
+	<<elseif $personality == "funny">>
+You are, against all odds, doing reasonably well. Don't jinx it.
+	<<else>>
+All things considered, you are doing alright. The ground feels steady enough beneath your feet, for now.
+<</if>>
+<</if>>
+
+--
+
+<<if $tellher == "You want to tell her but you can't">>
+	<<if $personality == "quiet">>
+You wish you could tell her. The words exist. You've found them, in the dark, alone. You just can't seem to make them leave your mouth.
+	<<elseif $personality == "angry">>
+You hate this. Keeping things from her. It makes you feel dishonest, and you hate feeling dishonest, and you hate that you hate it because what's the alternative.
+	<<elseif $personality == "kind">>
+You wish you could be honest, about who you are, what you feel, what you carry. Some nights you ache with it. She deserves to know you wholly. You're just not brave enough yet.
+	<<elseif $personality == "funny">>
+Ah yes. The secret. The werewolf secret. The secret that would get you killed. That secret. The big one. Very fun to have. Very easy to live with.
+	<<else>>
+You wish you could be honest. But wanting and daring are two very different things.
+<</if>>
+<<elseif $tellher == "You're too scared to even think about this conversation.">>
+	<<if $personality == "quiet">>
+You know what honesty would cost you. So you stay quiet. It's what you do best, after all.
+	<<elseif $personality == "angry">>
+Honesty is a luxury you can't afford. Simple as that. You're not bitter about it. Much.
+	<<elseif $personality == "kind">>
+You know what honesty would cost you. And so you carry it alone, even on the days when the weight of it is almost unbearable. Because losing her would be worse.
+	<<elseif $personality == "funny">>
+Tell her? Sure. Right after you figure out how to explain the whole "turns into a wolf once a month" situation in a way that doesn't end with you getting reported to the Church. Eh. You'll workshop it.
+<<else>>
+You know what honesty would cost you. Better to keep the door shut, even when the silence gets  heavy.
+<</if>>
+<</if>>
+
+--
 
 <<link 'Change your pronouns.'>>
     <<pronouns>>
 <</link>>
-(If you do change your pronouns mid story, you need to quit the character stat menu and re-enter it for it to update)
+//(If you do change your pronouns mid story, you need to quit the character stat menu and re-enter it for it to update)//
 
 <<link "Return to Story">>
 	<<goto $return>>
@@ -375,7 +457,7 @@ $mc
  <<if $hasNickname and $nickname != "">>
     $nickname
 <<else>>
-    $characterName
+    $mc
 <</if>>
  
 ?they 
@@ -388,8 +470,8 @@ $mc
 <<verb "has" "have">>
 <<verb "goes" "go">>
 
-lou_r romance
-lou_f friendship
+lou_r
+lou_f
 alexis_r
 alexis_f
 hyacinthe_r
@@ -539,7 +621,7 @@ One Last thing, Tell me Wolkin, what is your name?
 [[Sasha|nickname][$mc to "Sasha"]]
 [[Placide|nickname][$mc to "Placide"]]
 
-Or, insert your name: <<set $mc to " ">>
+Or, insert your name: 
 <<textbox "$mc" " ">>
 
 [[Next|nickname]]
@@ -624,6 +706,41 @@ Romance: $hyacinthe_r
 </div>
 
 
+:: StoryInit {"position":"125,600","size":"100,100"}
+<<set $mc to "">>
+<<set $nickname to "">>
+<<set $skin to "">>
+<<set $fur to "">>
+<<set $job to "">>
+<<set $quiet to 0>>
+<<set $funny to 0>>
+<<set $kind to 0>>
+<<set $angry to 0>>
+<<set $stress to 0>>
+<<set $warmbath to false>>
+<<set $topSurgery to false>>
+<<set $spendingStyle to "">>
+<<set $dominantPersonality to "">>
+<<set $personality to "">>
+<<set $grandma to "">>
+<<set $origin to "">>
+<<set $clothes to "">>
+<<set $smell to "">>
+<<set $soap to "">>
+<<set $shampoo to "">>
+<<set $perfume to "">>
+<<set $skincare to "">>
+<<set $chest  to "">>
+<<set $lou_f to 0>>
+<<set $lou_r to 0>>
+<<set $camille_f to 0>>
+<<set $camille_r to 0>>
+<<set $alexis_f to 0>>
+<<set $alexis_r to 0>>
+<<set $hyacinthe_f to 0>>
+<<set $hyacinthe_r to 0>>
+
+
 :: StoryMenu [menu] {"position":"175,175","size":"100,100"}
 [[Character Stats]]
 [[Relationships]] 
@@ -665,7 +782,7 @@ After serving Charles and Pierre, she heads straight to your table.
 
 :: Welcome {"position":"125,750","size":"100,100"}
 <span class="typed-text"><<type 90ms>>Welcome to the Land of the Beast, Wolfkin.<</type>></span>
-	For nearly three years, a mysterious creature has terrorised the region of Gévaudan. Described by survivors as wolf-like and relentless, it kills without pattern, taking men, women and children alike, leaving behind only what the strongest could stomach. Many have taken up arms, from simple farmers and hunters to soldiers and even nobles hungry for glory. None have succeeded.
+	For nearly three years, a mysterious creature has terrorised the region of Gévaudan. Described by survivors as wolf-like and relentless, it kills indiscriminately, taking men, women and children alike, leaving behind only what the strongest could stomach. Many have taken up arms, from simple farmers and hunters to soldiers and even nobles hungry for glory. None have succeeded.
     
     To this day the mystery remains. Is it a wolf? A hyena? A werewolf? A wizard or even just a human murderer? Somewhere between folklore and nightmare, between cautionary tale and genuine terror, the Beast of Gévaudan still eludes all.
 	Only one person knows the truth.
@@ -1574,7 +1691,7 @@ By afternoon, You walk back to the Boulet's barn. Augustin is working with his s
 
 
 :: nickname {"position":"2700,550","size":"100,100"}
-<<set $nickname = "">>
+
 Does $mc get shortened sometimes?
 
 [[Yes|nickname2]]
@@ -1583,7 +1700,6 @@ Does $mc get shortened sometimes?
 
 :: nickname2 {"position":"2850,625","size":"100,100"}
 Insert your nickname:
-<<set $nickname to " ">>
 <<textbox "$nickname" " ">>
 
 [[Next.|pronouns1]]
@@ -1601,7 +1717,7 @@ Insert your nickname:
 
 :: origin_africa {"position":"375,875","size":"100,100"}
 You traveled a lot, You were born in Africa, the Deep-South across many lands and seas. You grew up with your parents until your grandma adopted you. She passed away a few years ago, hence why you decided to move here after her death. Staying behind was too painful and brought back too many memories. You needed a new beginning. The long travel by Sea, new culture and language barrier certainly helped with that.
-<<set $origin to "African">><<set $grandma to " ">>
+<<set $origin to "African">>
 You called your grandma: 
 <<textbox "$grandma" "gogo wami">>
 
@@ -1618,7 +1734,7 @@ Is that right?
 
 :: origin_asia {"position":"525,625","size":"100,100"}
 You traveled a lot, You were born in Asia, in the Far East across many lands and seas. You grew up with your parents until your grandma adopted you. She passed away a few years ago, hence why you decided to move here after her death. Staying behind was too painful and brought back too many memories. You needed a new beginning. The long travel by Sea, new culture and language barrier certainly helped with that.
-<<set $origin to "Asian">> <<set $grandma to " ">>
+<<set $origin to "Asian">>
 You called your grandma: 
 <<textbox "$grandma" "Ah Ma">>
 
@@ -1635,7 +1751,7 @@ Is that right?
 
 :: origin_breton {"position":"500,875","size":"100,100"}
 You traveled a bit. You were born in the North of France, in Bretagne to be more exact. You grew up with your parents until your grandma adopted you. She passed away a few years ago, hence why you decided to move here after her death. Staying behind was too painful and brought back too many memories. You needed a new beginning.
-<<set $origin to "Breton">><<set $grandma to " ">>
+<<set $origin to "Breton">>
 You call your grandma: 
 <<textbox "$grandma" "Menina">>
 
@@ -1652,7 +1768,7 @@ Is that right?
 
 :: origin_marseille {"position":"400,625","size":"100,100"}
 You weren’t born far, Born in the South of France, in Provence to be more exact. You grew up with your parents until your grandma adopted you. She passed away a few years ago, hence why you decided to move here after her death. Staying behind was too painful and brought back too many memories. You needed a new beginning.
-<<set $origin to "Marseillais">> <<set $grandma to " ">>
+<<set $origin to "Marseillais">>
 You called your grandma: 
 <<textbox "$grandma" "Manou">>
 
@@ -1669,7 +1785,7 @@ Is that right?
 
 :: origin_middle_east {"position":"450,750","size":"100,100"}
 You traveled a lot, You were born in the Middle-East, South-East across the sea. You grew up with your parents until your grandma adopted you. She passed away a few years ago, hence why you decided to move here after her death. Staying behind was too painful and brought back too many memories. You needed a new beginning. The long travel by Sea, new culture and language barrier certainly helped with that.
-<<set $origin to "Eastern">> <<set $grandma to " ">>
+<<set $origin to "Eastern">>
 You called your grandma: 
 <<textbox "$grandma" "Anane">>
 
@@ -1937,7 +2053,6 @@ Alcohol makes you queasy. It's a werewolf thing that you know for sure, cause gr
 <<set $lou_r = 0>> <<set $lou_f = 5>>
 “Got it” She winks before heading and welcoming the travelers.
 
-
 You don't mind people watching while Lou tends to the Inn. You do realize now it's been a while since you've last seen the bard, you note as other regulars enter the Inn to drink and play dice.
 You try to listen to what people are saying but after the rumors Lou shared, it really pales in comparison. So instead you chose to look at Lou while she works.
 
@@ -2035,10 +2150,13 @@ She laughs, and the tension goes out of her shoulders. "Fine, fine -" A pause. S
 <<if $lou_r == 3>>
 [[You do know, because you are only attracted to women|tavern10lour][$sexuality to "w"]]
 [[You do know because while you like men, you also like women.|tavern10lour][$sexuality to "bi"]]
+<span style="color:gray;">You're not sure, because you only like men anyway.</span>
+<span style="color:gray;">You’re not sure, because you don’t really like people that way.</span>
 <<else>>
 [[You do know, because you are only attracted to women|tavern10louf][$sexuality to "w"]]
 [[You do know because while you like men, you also like women.|tavern10louf][$sexuality to "bi"]]
 [[You're not sure, because you only like men anyway.|tavern10louf][$sexuality to "m"]]
+[[You’re not sure, because you don’t really like people that way.|tavern10louf][$sexuality to “aroace”]]
 <</if>>
 
 
